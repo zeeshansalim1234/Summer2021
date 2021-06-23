@@ -1,0 +1,1852 @@
+1,App695, Fixing lint warnings , 2020-02-14,7,9,10
+2,App695, Updating dependencies , 2020-02-14,1,11,11
+3,App695, Add support for importing bookmarks from backups in the netscape bookmark format , 2019-11-24,5,160,43
+4,App695, Improving formatting , 2019-10-18,1,5,7
+5,App695, Don't use mutable data structure in InMemoryHostsRepository , 2019-10-18,1,6,4
+6,App695, FIxing concurrency bug by making bookmark list immutable and just swapping out the old list with the new list , 2019-10-18,1,2,3
+7,App695, Utilize android Uri instead of java URI for better character set handling , 2019-10-02,1,2,2
+8,App695, Use 'url' as the primary key in the HostsDatabase for improved performance , 2019-10-02,1,4,6
+9,App695, Log hosts count for better debugging , 2019-10-02,1,1,0
+10,App695, Update Simplified Chinese translations , 2019-10-01,1,7,2
+11,App695, Fixing typo in change log , 2019-09-30,1,1,1
+12,App695, Prepare for 5.1.0 release , 2019-09-30,2,11,3
+13,App695, Allow multiple windows in incognito and support for storage capabilities for full incognito capable API versions , 2019-09-28,1,6,8
+14,App695, Simplify rx observable declarations , 2019-09-28,1,2,4
+15,App695, Deduplicate interceptor creation , 2019-09-28,1,8,20
+16,App695, Making query more correct , 2019-09-28,2,3,2
+17,App695, Simplifying domain parsing logic , 2019-09-27,1,19,36
+18,App695, Renaming function to be more clear in its usage , 2019-09-27,3,3,3
+19,App695, Simplifying interpolator implementation , 2019-09-27,1,4,8
+20,App695, Move backpressure strategy declaration up to avoid processing strings we can't receive , 2019-09-27,1,1,1
+21,App695, Simplifying code , 2019-09-27,3,8,4
+22,App695, Removing static app component state in favor of Injector , 2019-09-27,7,66,62
+23,App695, Allow the suggestion insert button for all suggestions , 2019-09-25,2,9,11
+24,App695, Add button to search suggestions that inserts the query into the search box , 2019-09-25,6,51,4
+25,App695, Adding tab freezing feature that only loads the latest tab and delays initializing the others until the view is attached. , 2019-09-24,5,73,10
+26,App695, Replace ApiUtils with Capabilities , 2019-09-24,4,17,40
+27,App695, Rename functions to represent their functionality , 2019-09-24,1,10,10
+28,App695, Adding support for fully functional and more secure incognito mode , 2019-09-24,13,197,31
+29,App695, Fixing bug where the search bar could be focused through the drawers , 2019-09-22,2,4,0
+30,App695, removing i2p submodule in favor of newly published artifacts , 2019-09-22,4,2,16
+31,App695, Update Simplified Chinese translations , 2019-09-14,1,6,0
+32,App695, Upgrading gradle version , 2019-09-12,1,1,1
+33,App695, Use template instead of concatenation , 2019-09-12,1,2,2
+34,App695, Adding copy action to incognito since we already have share option , 2019-09-09,3,12,3
+35,App695, Removing unnecessary padding and setting contentDescription , 2019-09-09,2,2,3
+36,App695, Version 5.0.2 , 2019-09-07,2,10,3
+37,App695, Don't directly reference appcompat ImageView , 2019-09-07,1,2,2
+38,App695, Extracting StyleRemovingTextWatcher from BrowserActivity for reduced complexity , 2019-09-07,2,22,12
+39,App695, Fixing status bar color when desktop tabs are used , 2019-09-07,2,1,5
+40,App695, Removing unnecessary framelayout , 2019-09-07,2,6,15
+41,App695, Reduce number of views by unwrapping imageview buttons , 2019-09-07,2,27,64
+42,App695, Reduce number of views by unwrapping image views , 2019-09-07,2,29,76
+43,App695, Avoiding kotlin android extensions , 2019-09-07,2,28,18
+44,App695, Use string to format search in page query , 2019-09-07,2,4,1
+45,App695, Using dimensions wherever possible , 2019-09-07,20,108,100
+46,App695, Use extension function to avoid deprecated API , 2019-09-07,3,20,7
+47,App695, Updating androidx and other dependencies , 2019-09-06,1,6,6
+48,App695, Fixing lint warnings , 2019-09-06,3,21,22
+49,App695, Removing unused style , 2019-09-06,1,0,13
+50,App695, Fixing content descriptions _  autofill _  and inputType warnings , 2019-09-06,8,43,44
+51,App695, Using lambda syntax , 2019-09-06,1,10,14
+52,App695, Show cName if oName is blank , 2019-09-06,1,1,1
+53,App695, Showing site's SSL certificate info when the SSL info icon is pressed and fixing visual bug where icon showed wrong state , 2019-09-06,10,186,36
+54,App695, Making SSL icon clickable for future feature , 2019-09-05,2,29,17
+55,App695, Adding missing documentation , 2019-09-05,1,4,0
+56,App695, Fix segfaults triggered by new windows that were being caused by header modification , 2019-09-04,1,6,1
+57,App695, Hardcode versionCode and versionName so that F-Droid can see the latest version , 2019-09-04,2,3,7
+58,App695, Use interface instead of abstract class for simplicity , 2019-09-04,1,10,10
+59,App695, Adding reusable annotation to mark dependencies that don't need to be singletons but can be reused for lower memory usage , 2019-09-03,14,32,2
+60,App695, Fixing build for I2P , 2019-09-03,1,2,0
+61,App695, Force incognito activity to dark theme , 2019-09-03,2,11,1
+62,App695, Updating user agents , 2019-09-03,1,2,2
+63,App695, Support for Android 10 , 2019-09-03,6,9,10
+64,App695, Replace usage of setDialogSize with resizeAndShow , 2019-09-02,4,23,25
+65,App695, Creating ProxyChoice enum , 2019-09-02,7,98,83
+66,App695, Creating AppTheme enum , 2019-09-02,6,49,30
+67,App695, Creating RenderingMode enum , 2019-09-02,4,45,44
+68,App695, Utilize enum preference for SearchBoxModel , 2019-09-02,6,71,60
+69,App695, Creating an enum preference delegate , 2019-09-02,2,53,0
+70,App695, Replacing setDialogSize with resizeAndShow , 2019-09-02,4,11,19
+71,App695, Use ReadingActivity.launch wherever possible , 2019-09-02,3,10,14
+72,App695, Unify custom view display logic , 2019-09-02,2,6,12
+73,App695, Inject javascript files , 2019-09-02,2,16,4
+74,App695, Exclude x86 architecture since there is no x86_64 library available _  preventing play deploy , 2019-09-01,2,5,1
+75,App695, Version 5.0.1 , 2019-09-01,2,7,3
+76,App695, Adding empty gradle file to fix i2p build , 2019-09-01,1,1,0
+77,App695, Adding i2p android base , 2019-09-01,1,1,0
+78,App695, Relying on I2P submodule until 0.9.41 is available on maven , 2019-09-01,4,21,2
+79,App695, Fixing minor filtering issue , 2019-09-01,1,3,3
+80,App695, Fixing release date , 2019-08-31,1,1,1
+81,App695, Fixing unescaped apostrophe , 2019-08-31,1,1,1
+82,App695, Updating changelog for version 5.0.0 , 2019-08-31,1,38,1
+83,App695, Update TR strings.xml , 2019-08-31,1,1,1
+84,App695, Update TR strings.xml , 2019-08-31,1,60,23
+85,App695, Don't install multidex on lollipop and above , 2019-08-31,1,1,1
+86,App695, Updating default bookmarks to add changelog and remove fb , 2019-08-31,1,6,5
+87,App695, Changing version to 5.0.0 since changelog is so large , 2019-08-31,1,1,1
+88,App695, Version bump for 4.6.0 , 2019-08-31,1,3,3
+89,App695, Fixing tests for OkHttp downgrade and updating kotlin , 2019-08-31,6,6,10
+90,App695, Reflectively install multidex to avoid loading the class during compilation on release , 2019-08-31,2,15,2
+91,App695, Fixing desktop layout new tab button size , 2019-08-31,1,1,1
+92,App695, Downgrading okhttp since I still want to support kitkat , 2019-08-31,5,10,12
+93,App695, Supporting debug on kitkat with conditional multidex , 2019-08-31,2,12,1
+94,App695, Close incognito notification if incognito activity is destroyed , 2019-08-31,1,8,3
+95,App695, Renaming test to match file name , 2019-08-30,1,1,1
+96,App695, Improving naming of some favicon related functions , 2019-08-30,4,14,12
+97,App695, Tests for WebPage , 2019-08-30,1,28,0
+98,App695, Improving packaging , 2019-08-30,15,20,20
+99,App695, Replacing BookmarksFragment with BookmarksView , 2019-08-30,6,91,169
+100,App695, Remove unnecessary drawable state jumping , 2019-08-29,2,0,4
+101,App695, Creating simplified TabViewState , 2019-08-29,5,32,31
+102,App695, Using merge as root tag of each tab view , 2019-08-29,6,31,33
+103,App695, Replace TabsFragment with individual views , 2019-08-29,12,471,426
+104,App695, Fix some inappropriate translations , 2019-08-29,1,9,9
+105,App695, Remove translations for open source licenses , 2019-08-29,1,0,3
+106,App695, Redone Simplified Chinese translations , 2019-08-28,1,322,287
+107,App695, Fixing test , 2019-08-27,1,5,5
+108,App695, Improve type safety by utilizing Host type instead of string for BloomFilter type , 2019-08-27,6,54,16
+109,App695, Pass back Host instead of String , 2019-08-26,4,21,19
+110,App695, Adding missing documentation , 2019-08-26,5,13,1
+111,App695, Adding documentation to UserPreferences , 2019-08-26,3,173,4
+112,App695, Adding missing documentation , 2019-08-26,2,23,0
+113,App695, Remove unnecessary webview initialization , 2019-08-25,1,0,3
+114,App695, Set property so that preferences are accounted for , 2019-08-25,1,3,3
+115,App695, Simplify navigation drawer adjusting logic , 2019-08-25,4,10,20
+116,App695, Inlining function call , 2019-08-24,1,3,12
+117,App695, Simplify search suggestion selection logic , 2019-08-24,1,11,16
+118,App695, Change suggestions icon for history to clock , 2019-08-24,1,1,1
+119,App695, Removing unused code , 2019-08-24,3,0,9
+120,App695, Fixing tab strip display issue caused by re-sizing the toolbar , 2019-08-24,2,4,2
+121,App695, Replace manual bitmap display for tab count with TabCountView , 2019-08-24,6,141,74
+122,App695, Updating gradle and android gradle plugin , 2019-08-23,2,3,3
+123,App695, Injecting schedulers wherever possible , 2019-08-21,3,11,12
+124,App695, Convert UrlUtils to extension functions , 2019-08-21,8,109,129
+125,App695, Utilize icon state color instead of manually setting color filter , 2019-08-21,5,8,11
+126,App695, Create component builder instead of manually injecting module dependencies , 2019-08-21,4,47,40
+127,App695, Replace stateful filtering of search _  bookmark _  and history suggestions with reactive flowable based approach , 2019-08-19,4,132,181
+128,App695, Setting the color state on the vector to fix theming issue , 2019-08-14,3,2,4
+129,App695, Removing unnecessary background color setting , 2019-08-14,1,0,19
+130,App695, Enable and disable back button in drawers _  theme menu item in XML , 2019-08-13,9,57,29
+131,App695, Make bookmark icon constant size , 2019-08-13,1,1,1
+132,App695, Removing unused method , 2019-08-12,1,0,21
+133,App695, Utilizing state selector to avoid manually setting resources , 2019-08-12,3,9,5
+134,App695, Fixing full screen video bug where orientation defaulted to user orientation instead of requesting landscape , 2019-08-11,1,2,2
+135,App695, Use XML styling instead of programatic styling of search box , 2019-08-11,6,17,23
+136,App695, Set color tint on vector drawables instead of programmatically setting it , 2019-08-11,38,201,312
+137,App695, Updating core-ktx and targetting jvm 1.8 bytecode , 2019-08-11,1,4,4
+138,App695, Properly theming the find in page tool bar , 2019-08-10,4,64,73
+139,App695, Replacing protected function with ScreenSize class , 2019-08-10,2,3,4
+140,App695, Fixing lint warnings and using lambda syntax in java code , 2019-08-10,12,222,300
+141,App695, Utilizing separate icon for refresh instead of compound drawable , 2019-08-10,3,47,55
+142,App695, Simplify bookmark icon urls , 2019-08-10,1,3,3
+143,App695, Fixing bug where local files could not be loaded when linked from other pages , 2019-08-10,1,5,1
+144,App695, Fixing lint warnings , 2019-08-06,5,26,23
+145,App695, Updating okHttp , 2019-08-06,10,35,24
+146,App695, Updating dependencies , 2019-08-06,1,6,6
+147,App695, Updating tests for lazy client initialization , 2019-08-06,4,8,4
+148,App695, Lazily loading File objects to not block main thread , 2019-08-06,11,114,98
+149,App695, Use constraint layout to reduce the size of the toolbar , 2019-08-06,3,32,26
+150,App695, Changing backgrounds of drawer buttons for better perceived responsiveness , 2019-08-06,4,33,26
+151,App695, Signal to system that the WebView is important for auto fill , 2019-08-05,1,4,0
+152,App695, Properly update enabled state of the refresh button after hosts source change , 2019-08-05,1,21,6
+153,App695, Returning preference in DSL for expanded usage , 2019-08-05,1,30,38
+154,App695, Properly handle unsuccessful remote requests , 2019-08-05,2,4,2
+155,App695, Support force refreshing of hosts file from a remote source , 2019-08-05,12,87,82
+156,App695, Update android build tools , 2019-08-05,1,1,1
+157,App695, remove some unused code in ArticleTextExtractor , 2019-07-14,1,8,55
+158,App695, Updating dependencies , 2019-05-11,2,6,6
+159,App695, Removing unnecessary DI annotations , 2019-05-11,1,1,4
+160,App695, Moving parser to separate package , 2019-05-11,5,5,4
+161,App695, Updating gradle plugin _  gradle version _  androidx _  and butterknife , 2019-05-10,7,65,9
+162,App695, Support refresh and self identification by a host , 2019-05-10,9,65,50
+163,App695, Encapsulate stream reading within the HostsFileParser simplifying consumption , 2019-05-10,5,39,41
+164,App695, Handle errors when making requests to the network URL or the local hosts , 2019-05-09,7,84,37
+165,App695, Don't grab all hosts from the repository every time the ad blocker is loaded , 2019-05-07,3,27,21
+166,App695, Rough implementation of the UrlHostsDataSource , 2019-05-04,5,105,10
+167,App695, Adding prompt to restart the app when switching to default , 2019-05-04,1,1,0
+168,App695, Support switching to local file data source by storing the identity hash of each source , 2019-05-04,8,162,9
+169,App695, UI Support for local file adblock source , 2019-05-04,5,117,14
+170,App695, Fixing lint warnings , 2019-05-02,8,21,27
+171,App695, Fixing crash caused by network connectivity problems , 2019-05-02,1,1,1
+172,App695, Fixing threading in TabsManager , 2019-05-02,1,1,1
+173,App695, Localizing suggestions better , 2019-04-13,6,24,8
+174,App695, Improving readability and consistency , 2019-04-13,3,7,9
+175,App695, Don't try to load non network URLs in the WebView , 2019-03-24,1,12,7
+176,App695, Show dialog when adding a bookmark , 2019-03-24,2,64,14
+177,App695, Allowing ad blocking on free and plus versions , 2019-03-23,3,45751,45751
+178,App695, Adding basic preference framework for changing ad block hosts source , 2019-03-23,15,299,39
+179,App695, Adding nullable string preference , 2019-03-23,1,30,0
+180,App695, Creating HostsDatabase for disk backed HostsRepository , 2019-03-07,3,135,5
+181,App695, Update Chinese (Taiwan) Translation. , 2019-02-27,1,237,228
+182,App695, Don't convert to lambda to avoid loading instance before we need it , 2019-02-24,1,5,3
+183,App695, Fixing bug in inlineTrim , 2019-02-24,1,1,1
+184,App695, Only initialize the HostsRepository with data if it is empty _  only read from hosts data source if repository is uninitialized , 2019-02-24,3,30,13
+185,App695, Improve adblocker loading by serializing bloom filter to storage instead of recreating it every time , 2019-02-24,7,131,17
+186,App695, Updating tests for new robolectric , 2019-02-24,7,11,18
+187,App695, Updating okhttp , 2019-02-24,1,1,1
+188,App695, Updating test and build dependencies , 2019-02-24,2,8,8
+189,App695, Removing explicit okio declaration as it was not needed , 2019-02-24,1,0,2
+190,App695, Replace Guava BloomFilter with custom BloomFilter implementation backed by Murmur hashing algorithm , 2019-02-24,10,435,14
+191,App695, Update strings.xml , 2019-02-05,1,137,109
+192,App695, Add option to enable Save-Data header , 2019-01-09,5,22,0
+193,App695, Inject assets instead of application _  add missing documentation , 2018-12-26,4,15,5
+194,App695, Updating guava and annotation lib , 2018-12-23,1,2,2
+195,App695, Use extension to get services , 2018-12-23,1,8,7
+196,App695, Remove unnecessary space in docs , 2018-12-15,1,0,3
+197,App695, Fixing test for parsing refactor , 2018-11-16,1,3,2
+198,App695, Update okio to the latest version , 2018-11-15,1,2,0
+199,App695, Improve performance of parser with char replace and simpler substring _  extract parser into class , 2018-11-15,3,89,64
+200,App695, Remove unused constant , 2018-11-14,1,0,1
+201,App695, Improve performance of hosts parsing by creating indexOfChar and containsChar , 2018-11-14,2,24,7
+202,App695, Simplify starts with , 2018-11-14,1,2,1
+203,App695, Improving performance by reducing allocation triggered by trim and equals , 2018-11-13,1,27,6
+204,App695, Don't do unnecessary replacement , 2018-11-13,2,9,5
+205,App695, Make blocking function naming more clear , 2018-11-13,1,3,5
+206,App695, Make url param non null , 2018-11-13,4,6,11
+207,App695, Use UTF8 as charset , 2018-11-13,1,2,1
+208,App695, Make repository containsHost synchronous , 2018-11-13,3,4,12
+209,App695, Decrease false positive rate on filter to 1% , 2018-11-13,2,4,3
+210,App695, Using bloom filter to determine if URL is not blocked , 2018-11-12,11,215,74
+211,App695, Renamed WhiteListItem -> Entry and url property to domain , 2018-11-12,5,29,29
+212,App695, Updating docs for allow list rename , 2018-11-12,1,1,1
+213,App695, Updating core and appcompat dependencies , 2018-11-12,1,2,2
+214,App695, Cleaning up usage of subject , 2018-11-10,1,4,4
+215,App695, renaming constant arrays , 2018-11-10,1,7,5
+216,App695, Rename logger _  add domain , 2018-11-10,2,4,3
+217,App695, Updating hosts file , 2018-11-10,1,45750,48026
+218,App695, Fixing settings initialization crash , 2018-11-10,1,1,1
+219,App695, Increasing size of small icon , 2018-11-10,1,0,0
+220,App695, Making icon larger , 2018-11-10,1,0,0
+221,App695, New browser icon , 2018-11-10,20,12,1
+222,App695, Rename Whitelist to AllowList , 2018-11-10,12,234,234
+223,App695, Adding ability to add or remove a URL from the adblock whitelist , 2018-11-06,11,217,27
+224,App695, Use recycler view in list dialog to support complex DialogItem , 2018-11-05,12,142,58
+225,App695, Create extension function that only calls pop if the stack is not empty , 2018-11-05,2,17,1
+226,App695, Inject BuildInfo instead of referencing static BuildConfig , 2018-11-04,5,49,15
+227,App695, Replacing android log with custom logger , 2018-11-04,8,29,32
+228,App695, Replacing usage of android log in suggestions , 2018-11-03,11,46,29
+229,App695, Make LightningView listen to connectivity itself , 2018-11-01,3,11,26
+230,App695, Improve LightningView API by moving findInPage result functions to an interface , 2018-10-31,4,53,36
+231,App695, Injecting logger instead of always invoking android logger , 2018-10-31,15,173,74
+232,App695, Fixing lint warnings , 2018-10-31,2,8,13
+233,App695, Enabling inline classes and progressive mode , 2018-10-30,1,13,0
+234,App695, Update to kotlin 1.3 , 2018-10-30,1,1,1
+235,App695, Utilize stack instead of queue for proper ordering of closed tabs , 2018-10-30,1,3,3
+236,App695, Using same request code for pre and post lollipop , 2018-10-23,1,20,18
+237,App695, Using Jsoup dsl for home page , 2018-10-21,2,18,11
+238,App695, Using jsoup dsl for history page , 2018-10-21,4,25,22
+239,App695, Using jsoup dsl for download page , 2018-10-21,1,11,12
+240,App695, Using Jsoup DSL for bookmark page construction , 2018-10-21,2,69,11
+241,App695, Add missing documentation , 2018-10-20,1,7,0
+242,App695, Allowing reopening recent tab in incognito and make it disk independent , 2018-10-20,24,67,45
+243,App695, Extracting viewholder , 2018-10-19,2,18,12
+244,App695, Breaking out data model class , 2018-10-18,3,8,4
+245,App695, Reformatting files according to new formatting settings , 2018-10-17,28,215,217
+246,App695, Updating build tools , 2018-10-15,2,3,3
+247,App695, Fix bug where spaces in queries were incorrectly encoded , 2018-10-15,4,4,4
+248,App695, Formatting , 2018-10-15,2,35,27
+249,App695, Removing unnecessary function parameters , 2018-10-15,4,14,26
+250,App695, Inject the main handler , 2018-10-11,4,45,57
+251,App695, Including gradle.properties , 2018-10-10,2,3,1
+252,App695, Updating dependencies , 2018-10-10,1,1,2
+253,App695, Refactoring to use androidx instead of support library , 2018-10-10,70,199,194
+254,App695, Update to support library 28 , 2018-10-10,2,12,2
+255,App695, Updating dependencies , 2018-10-10,2,4,4
+256,App695, Fix bug where last created tab was not selected , 2018-10-03,1,1,1
+257,App695, Fix nullability problem with palette API , 2018-10-02,1,1,2
+258,App695, Extract injector off context instead of referencing a static property , 2018-10-02,17,62,41
+259,App695, Cleaning up copying to clipboard , 2018-10-02,3,31,27
+260,App695, Inlining functions and cleaning up nullability warnings , 2018-09-30,7,18,17
+261,App695, Fixing nullability problems with permissions model , 2018-09-30,1,5,8
+262,App695, Cleaning up warnings and interop , 2018-09-25,6,9,12
+263,App695, Simplifying initialization of tabs , 2018-09-24,3,94,134
+264,App695, Refactor usage of initializers to use dependency injection , 2018-09-23,3,69,68
+265,App695, Replacing DownloadPageBuilder and DownloadsPage with DownloadPageFactory , 2018-09-23,13,99,129
+266,App695, Convert BookmarkPage and BookmarkPageBuilder to BookmarkPageFactory , 2018-09-23,19,265,301
+267,App695, Refactorying StartPage and HomePageBuilder into HomePageFactory , 2018-09-23,13,106,117
+268,App695, Convert HistoryPageBuilder to HistoryPageFactory , 2018-09-22,10,113,129
+269,App695, Injecting the presenter and tabs manager , 2018-09-20,5,29,48
+270,App695, Using separate qualifiers instead of Named , 2018-09-20,3,13,13
+271,App695, Inject main thread instead of referencing it directly , 2018-09-20,8,108,98
+272,App695, Replacing usage of Named with specific qualifiers , 2018-09-20,17,73,50
+273,App695, Fix bug where current tab wasn't being set because of change to onTabChanged instead of tabChanged , 2018-09-18,2,5,5
+274,App695, Refactoring tab manager code to be more readable and simplifying the logic , 2018-09-18,5,172,122
+275,App695, Order downloads by primary key , 2018-09-16,2,4,4
+276,App695, Replace DownloadItem with DownloadEntry , 2018-09-16,8,65,141
+277,App695, Fix broken Kdoc , 2018-09-16,1,1,3
+278,App695, Renaming parameters to match refactored classes , 2018-09-16,11,63,63
+279,App695, Make SearchSuggestion a data class , 2018-09-16,1,1,1
+280,App695, Replace HistoryItem with WebPage sealed class , 2018-09-16,32,575,651
+281,App695, Fix adapter formatting , 2018-09-16,1,90,90
+282,App695, Unit tests for GOogleSuggestionsModel , 2018-09-15,1,36,0
+283,App695, Unit tests for DuckSuggestionsModel , 2018-09-15,1,36,0
+284,App695, Tests for BaiduSuggestionsModel , 2018-09-15,1,36,0
+285,App695, Unit tests for NaverSuggestionsModel , 2018-09-15,2,46,0
+286,App695, Passing headers with every initialization , 2018-09-15,2,17,16
+287,App695, Making suggestions models testable , 2018-09-15,14,173,95
+288,App695, Updating NaverSearch to fit the new system , 2018-09-14,2,31,22
+289,App695, Cleaning up code , 2018-09-14,2,2,4
+290,App695, Simplifying settings setup , 2018-09-13,2,8,18
+291,App695, Update kotlin version , 2018-09-13,3,8,9
+292,App695, rename ResultMsgInitializer , 2018-09-12,2,2,2
+293,App695, Creating TabInitializer visitor to standardize initial URL loading. , 2018-09-12,6,289,168
+294,App695, Remove unnecessary synchronization , 2018-09-09,2,0,2
+295,App695, Simplifying tabmanager implementation , 2018-09-09,2,12,13
+296,App695, Remove unused memory management , 2018-09-09,3,6,28
+297,App695, Fixing formatting , 2018-09-09,3,258,258
+298,App695, Removing unnecessary synchronized on LightningView functions , 2018-09-08,1,0,15
+299,App695, Fixing bug where history wouldn't reload after deleting an item , 2018-09-08,1,2,2
+300,App695, Improving database implementations , 2018-09-08,5,47,62
+301,App695, Fixing formatting and utilizing useMap , 2018-09-08,5,206,64
+302,App695, Cleaning up datatbase code , 2018-09-08,3,41,56
+303,App695, Making code more idiomatic , 2018-09-08,1,22,36
+304,App695, Fix indentation , 2018-09-08,1,29,29
+305,App695, Improving readability of BookmarkDatabase , 2018-09-05,2,45,65
+306,App695, Fixing bug where bookmark icon is not displayed correctly , 2018-09-05,1,3,3
+307,App695, Make JSONArray extension inline , 2018-09-05,1,1,1
+308,App695, Cleaning up suggestions , 2018-09-05,3,8,13
+309,App695, Replacing readStringFromStream with usage of ResponseBody.string , 2018-09-04,5,12,32
+310,App695, Using builder instead of parser to eliminate nullability , 2018-09-03,4,27,16
+311,App695, Improving search suggestions API , 2018-09-03,5,62,62
+312,App695, Replacing Utils function with better kotlin extensions , 2018-09-03,9,75,92
+313,App695, Utilizing toast extension , 2018-09-03,2,6,4
+314,App695, Converting toValidUri to extension on Uri , 2018-09-03,4,15,13
+315,App695, Simplifying click listener implementation , 2018-09-03,1,34,46
+316,App695, Convert drawTrapezoid to canvas extension function , 2018-09-03,3,54,49
+317,App695, Utilizing extension function to desaturate bitmap , 2018-09-03,2,35,34
+318,App695, Bumping build tools and fixing CI build , 2018-09-03,2,4,4
+319,App695, Utilizing existing theme chooser function , 2018-09-03,5,81,90
+320,App695, Utilizing toUri where possible _  converting toValidUri to use data class , 2018-09-02,9,48,156
+321,App695, Removing dead code with minSdk bump , 2018-09-02,16,263,445
+322,App695, Simplifying upload logic , 2018-09-02,2,34,44
+323,App695, Targetting Android 28 , 2018-09-02,2,3,2
+324,App695, Updating build to use gradle 4.10 , 2018-09-02,1,1,1
+325,App695, Bumping min sdk to 19 , 2018-09-02,1,1,1
+326,App695, Updating kotlin version , 2018-09-02,1,1,1
+327,App695, Fixing indentation , 2018-08-31,1,130,130
+328,App695, Inject preferences instead of application , 2018-08-29,3,42,19
+329,App695, Swap out domainForUrl for existing string extension , 2018-08-29,6,41,85
+330,App695, Improve preference delegate API , 2018-08-29,10,145,142
+331,App695, Hiding implementation details of DatabaseDelegate via function , 2018-08-29,5,15,9
+332,App695, Replacing LazyDatabase with DatabaseDelegate , 2018-08-25,6,29,50
+333,App695, Injecting services instead of grabbing them from the context , 2018-08-25,6,57,32
+334,App695, Converting uri util to uri extensions , 2018-08-25,8,166,136
+335,App695, Using better factory methods for collection creation , 2018-08-25,5,7,7
+336,App695, Make factory method more idiomatic , 2018-08-15,1,19,20
+337,App695, Improving Rx observable streams , 2018-08-15,4,37,31
+338,App695, switching to diskScheduler for observing page , 2018-08-14,1,1,2
+339,App695, Update gradle build tools , 2018-08-14,1,1,1
+340,App695, Cleaning up kotlin and fixing rx streams , 2018-08-14,17,50,42
+341,App695, Replacing usage of bonsai with rxjava , 2018-08-12,9,122,99
+342,App695, Using rx stream to import bookmarks from assets , 2018-08-12,1,9,8
+343,App695, Switch initialization to use Rx , 2018-08-11,2,89,92
+344,App695, Renaming observable classes , 2018-08-11,5,14,14
+345,App695, Updating dependencies , 2018-08-04,2,9,9
+346,App695, Add Naver search engine and suggestions , 2018-06-26,10,71,3
+347,App695, Update Korean translations , 2018-06-26,1,91,16
+348,App695, Filter on a single thread to prevent concurrent modification , 2018-04-24,1,2,1
+349,App695, Don't re-subscribe if previous query is not complete , 2018-04-24,1,9,6
+350,App695, Converting reading activity to use rxjava , 2018-04-24,1,44,47
+351,App695, Converting HistoryPage to use Rx , 2018-04-23,1,7,10
+352,App695, Switching adapter to use rx for threading , 2018-04-23,2,58,82
+353,App695, Using Rx for the FaviconModel , 2018-04-23,6,79,96
+354,App695, Updating kotlin and build tools dependencies , 2018-04-23,2,3,3
+355,App695, Functional tests for ObservableBroadcastReceiver , 2018-04-23,1,78,0
+356,App695, Convert NetworkConnectivityModle to use ObservableBroadcastReceiver , 2018-04-22,2,42,19
+357,App695, Updating dependencies , 2018-04-18,1,6,6
+358,App695, Updating build tools , 2018-04-18,1,1,1
+359,App695, Updating gradle plugin , 2018-04-18,1,1,1
+360,App695, Fixing lint warnings , 2018-04-18,26,72,68
+361,App695, Update mezzanine version , 2018-04-18,1,1,1
+362,App695, Cleaning up activity , 2018-04-18,1,42,34
+363,App695, Updating gradle plugin _  gradle version _  and kotlin version , 2018-04-04,2,5,5
+364,App695, fix , 2018-04-03,1,1,1
+365,App695, fix , 2018-04-03,1,1,1
+366,App695, fix , 2018-04-03,1,2,2
+367,App695, New translations , 2018-04-03,1,200,163
+368,App695, fix , 2018-04-03,1,1,1
+369,App695, fix , 2018-04-03,1,3,3
+370,App695, Fix the zh_TW translation of Lightning Browser. 修正翻譯 Lightning Browser 的正體中文 (zh_TW) 字串。 , 2018-04-02,1,30,30
+371,App695, fix , 2018-04-02,1,14,14
+372,App695, fix , 2018-04-02,1,4,4
+373,App695, fix , 2018-04-02,1,1,1
+374,App695, New translations , 2018-04-02,1,16,16
+375,App695, New translations , 2018-04-02,1,138,138
+376,App695, New translations , 2018-04-02,1,63,63
+377,App695, Updated to v4.5.1 (untranslated) , 2018-04-02,1,93,54
+378,App695, Updating support library version , 2018-02-27,3,3,3
+379,App695, Updating dependencies , 2018-02-27,1,7,7
+380,App695, Adding dependencyUpdates plugin , 2018-02-27,2,2,0
+381,App695, Fix naming , 2018-02-27,1,2,2
+382,App695, Update kotlin version , 2018-02-27,1,1,1
+383,App695, Forcing base branch to dev for code coverage , 2018-02-25,1,2,0
+384,App695, Fixing default setting , 2018-02-19,1,1,1
+385,App695, Fix build , 2018-02-19,1,1,0
+386,App695, Removing preference manager , 2018-02-19,21,56,159
+387,App695, Moving proxy checks , 2018-02-19,3,19,23
+388,App695, Moving proxy host and port , 2018-02-19,4,18,30
+389,App695, Moving proxy choice , 2018-02-19,4,24,47
+390,App695, Remove unnecessary preference , 2018-02-19,2,5,10
+391,App695, Moving leak canary preferences out to separate preferences class , 2018-02-19,8,37,29
+392,App695, Moving preferences to userpreferences , 2018-02-19,6,22,37
+393,App695, Moving screen size preference to UserPreferences , 2018-02-19,6,30,15
+394,App695, Converting more preferences to kotlin , 2018-02-11,13,65,88
+395,App695, Converting more preferences to kotlin , 2018-02-11,14,159,243
+396,App695, Moving more preferences , 2018-02-09,9,37,59
+397,App695, Moving settings to user preferences , 2018-02-09,13,63,88
+398,App695, Fixing preference reference , 2018-02-09,1,3,1
+399,App695, Moving adblock preference to UserPreferences , 2018-02-04,5,13,16
+400,App695, String preference implementation , 2018-01-21,1,18,0
+401,App695, IntPreference implementation , 2018-01-21,1,18,0
+402,App695, New delegate approach to preferences , 2018-01-21,7,80,12
+403,App695, Convert settings activity to kotlin , 2018-01-17,2,74,90
+404,App695, Update mezzanine version , 2018-01-17,1,7,1
+405,App695, Update kotlin version , 2018-01-17,1,1,1
+406,App695, Updated de (German) translation , 2018-01-10,1,92,71
+407,App695, Converting general settings to kotlin , 2018-01-05,5,509,697
+408,App695, Updating testing dependencies , 2018-01-03,1,2,2
+409,App695, Updating dependencies , 2018-01-02,1,5,5
+410,App695, Update build tools version , 2018-01-02,2,2,2
+411,App695, Update kotlin version , 2018-01-02,1,1,1
+412,App695, Update French translation , 2017-12-18,1,2,1
+413,App695, Update strings.xml , 2017-12-07,1,1,1
+414,App695, German translation: Add new strings _  fix typos _  few nitpicks , 2017-12-04,1,9,4
+415,App695, Converting UrlUtils to kotlin , 2017-12-03,2,130,141
+416,App695, Removed erroneous addPreferencesFromResources call , 2017-12-03,1,0,1
+417,App695, Renaming method , 2017-12-02,7,10,10
+418,App695, Replacing java collection with kotlin version , 2017-12-02,1,1,3
+419,App695, Cleaning up lambda , 2017-12-02,1,1,3
+420,App695, Adding documentation to AbstractSettingsFragment and renaming dynamic preference creator method , 2017-12-02,4,67,23
+421,App695, Rewrite the advanced settings fragment , 2017-12-02,2,179,223
+422,App695, Removing old bookmark manager since it's been so long since it was decommissioned , 2017-12-02,2,1,121
+423,App695, Removing unnecessary layer of inheritence , 2017-12-01,4,15,30
+424,App695, Updating mockito and support lib versions , 2017-11-29,1,2,2
+425,App695, Update kotlin version , 2017-11-28,1,1,1
+426,App695, Removing uneeded utils , 2017-11-25,2,0,61
+427,App695, Converting bonsai observables to rx _  adding rxkotlin , 2017-11-25,3,64,87
+428,App695, Updating kotlin version , 2017-11-24,1,1,1
+429,App695, Converting debug settings fragment to kotlin , 2017-11-24,3,38,61
+430,App695, converting bookmark settings to kotlin , 2017-11-23,2,258,346
+431,App695, Converting display fragment to kotlin , 2017-11-23,3,196,255
+432,App695, Converting about fragment to kotlin , 2017-11-23,3,27,46
+433,App695, Creating an abstract settings fragment to increase readability , 2017-11-22,7,312,277
+434,App695, Updating readme for new permissions , 2017-11-22,1,13,16
+435,App695, Removing unnecessary permissions , 2017-11-22,1,0,2
+436,App695, Breaking out permissions handling into its own model/view layer , 2017-11-22,5,355,44
+437,App695, Only request permissions we need , 2017-11-22,1,11,6
+438,App695, Adding preference to allow turning WebRTC on and off , 2017-11-22,8,66,17
+439,App695, Bumping rxjava version , 2017-11-21,1,1,1
+440,App695, Update gradle version , 2017-11-21,1,1,1
+441,App695, Update travis build , 2017-11-18,1,1,1
+442,App695, Cleaning up observables _  switching to rx , 2017-11-17,4,52,63
+443,App695, Update build tools version , 2017-11-17,1,1,1
+444,App695, Replacing stacktrace print with actual logging , 2017-11-17,4,7,6
+445,App695, Cleaning up dependency injection code , 2017-11-14,3,9,11
+446,App695, Adding support for WebRTC , 2017-11-13,5,106,5
+447,App695, Cleaning up dialog builder class , 2017-11-13,1,8,12
+448,App695, Cleaning up search box model , 2017-11-13,1,7,13
+449,App695, Bumping support library version , 2017-11-13,1,1,1
+450,App695, Bump kotlin version , 2017-11-13,1,1,1
+451,App695, Internalizing right drawable click detection to SearchView , 2017-11-09,2,24,26
+452,App695, Cleaning up code , 2017-11-09,3,8,23
+453,App695, Unit tests for part of ViewExtensions , 2017-11-09,2,48,1
+454,App695, Unit tests for JSONArrayExtensions , 2017-11-09,1,27,0
+455,App695, unit tests for FaviconUtils , 2017-11-09,1,83,0
+456,App695, Unit test for DialogItem , 2017-11-08,1,24,0
+457,App695, Adding tests for disposable broadcast receiver , 2017-11-08,1,55,0
+458,App695, Fixing build script , 2017-11-08,1,1,1
+459,App695, Fixing coverage , 2017-11-08,2,21,2
+460,App695, scoping the test coverage , 2017-11-08,1,1,1
+461,App695, Adding codecov to build script , 2017-11-08,1,3,0
+462,App695, Enable jacoco test coverage , 2017-11-08,2,20,1
+463,App695, Convert AppCompatPreferenceActivity to kotlin , 2017-11-08,3,100,132
+464,App695, Updating dagger , 2017-11-07,1,1,1
+465,App695, Add ability to handle web search intents , 2017-11-07,6,37,20
+466,App695, Update strings.xml , 2017-11-06,1,2,2
+467,App695, Update strings.xml , 2017-11-06,1,16,16
+468,App695, Update strings.xml , 2017-11-06,1,29,28
+469,App695, Update strings.xml , 2017-11-06,1,0,1
+470,App695, Update strings.xml , 2017-11-06,1,6,6
+471,App695, Update German translation , 2017-11-06,1,107,60
+472,App695, Bumping mezzanine version , 2017-11-05,1,1,1
+473,App695, Removing now unnecessary butterknife proguard rules , 2017-11-02,1,0,12
+474,App695, Update Polish translation , 2017-11-02,1,261,207
+475,App695, improving proguard rules to reduce apk size , 2017-11-01,1,0,29
+476,App695, Updating rx version , 2017-11-01,1,1,1
+477,App695, Update robolectric version and test target version , 2017-11-01,2,2,2
+478,App695, Don't allow search suggestions in incognito , 2017-10-30,1,5,1
+479,App695, Don't close activity when closing new tab since it deletes all tabs in incognito , 2017-10-29,1,1,1
+480,App695, Allow urls to be opened in incognito if it's already open , 2017-10-29,6,21,34
+481,App695, Fix bug where new tab long press wasn't opening the old tab , 2017-10-29,3,8,4
+482,App695, Fix bug where pasting text into search bar could result in style and alignment change , 2017-10-29,1,21,1
+483,App695, Removing unused class , 2017-10-28,1,0,47
+484,App695, Adding history disposable , 2017-10-28,1,13,9
+485,App695, Convert to apply , 2017-10-28,1,5,8
+486,App695, Updating search suggestions to utilize rx observables , 2017-10-28,4,85,36
+487,App695, Converting suggestions model to be reactive , 2017-10-27,3,12,11
+488,App695, Unit tests for UriUtils , 2017-10-27,2,61,1
+489,App695, Get rid of custom getters , 2017-10-27,3,19,22
+490,App695, Keep robolectric version on api 26 for the time being , 2017-10-27,4,12,3
+491,App695, Updating to handle glorious new nullability annotations in fragment _  thanks jw , 2017-10-27,2,35,22
+492,App695, Bumping target version to 27 , 2017-10-27,3,5,5
+493,App695, Replacing support-v4 with support-compat and support-fragment , 2017-10-27,1,2,1
+494,App695, Undoing problematic changes , 2017-10-27,2,120,121
+495,App695, Removing deprecated code in animators , 2017-10-25,2,119,118
+496,App695, Fixing kdoc , 2017-10-25,1,5,13
+497,App695, Enable wideColorGamut mode on supported devices , 2017-10-25,1,4,0
+498,App695, Remove unnecessary repos from travis config , 2017-10-25,1,0,2
+499,App695, Updating to android gradle plugin 3.0 , 2017-10-25,3,39,34
+500,App695, Converting resource utils to context extensions , 2017-10-24,3,14,27
+501,App695, Converting utils to kotlin , 2017-10-24,3,47,36
+502,App695, Removing explicit close drawer method in favor of generic back press method , 2017-10-24,3,20,14
+503,App695, Removing unnecessary synchronization on the UI thread , 2017-10-23,1,5,6
+504,App695, Adding documentation to controller interface , 2017-10-23,2,142,18
+505,App695," Add miss item ""action_downloads"" in values-zh-rCN ", 2017-10-23,1,1,0
+506,App695, Cleanup , 2017-10-21,7,124,126
+507,App695, removing log , 2017-10-21,1,0,1
+508,App695, Documenting connectivity model , 2017-10-21,1,7,3
+509,App695, Moving network observable from observer pattern to reactive pattern , 2017-10-21,5,85,143
+510,App695, Removing unnecessary trim , 2017-10-21,3,3,3
+511,App695, Removing unused function , 2017-10-21,1,1,4
+512,App695, Simplifying logic , 2017-10-21,1,92,122
+513,App695, Don't close the drawers when opening tab in background , 2017-10-20,1,1,1
+514,App695, Convert startpage to use rx , 2017-10-20,3,18,29
+515,App695, Converting bonsai code to rx , 2017-10-20,8,81,94
+516,App695, Cleaning up network requests , 2017-10-18,2,7,13
+517,App695, Improving suggestions readability and performance , 2017-10-17,6,44,48
+518,App695, Exposing error as property , 2017-10-17,1,1,1
+519,App695, Unit tests for BookmarkUiModel , 2017-10-17,3,26,5
+520,App695, Renaming tests , 2017-10-17,2,3,3
+521,App695, Reusing empty byte array , 2017-10-16,1,3,2
+522,App695, Cleaning up declaration , 2017-10-16,1,1,2
+523,App695, Changing SSL icons , 2017-10-16,2,2,2
+524,App695, Don't show ssl icon when in edit mode , 2017-10-16,1,1,1
+525,App695, Overlaying ssl icon on a white background so that its always visible , 2017-10-16,3,53,17
+526,App695, Fixing color reference , 2017-10-16,1,2,3
+527,App695, Supporting incognito notification on pre lollipop , 2017-10-16,5,1,1
+528,App695, Fixing bug where javascript was getting wrongly escaped , 2017-10-16,2,10,6
+529,App695, Making code more readable , 2017-10-15,1,19,29
+530,App695, More efficient DI using binding module , 2017-10-14,3,43,37
+531,App695, Cleaning up method declarations , 2017-10-11,3,12,16
+532,App695, Fixing tests , 2017-10-10,4,11,3
+533,App695, updating build tools , 2017-10-10,2,2,2
+534,App695, Updating dagger dependency , 2017-10-10,1,1,1
+535,App695, Updating io thread , 2017-10-10,1,9,1
+536,App695, Injecting database scheduler , 2017-10-10,13,68,58
+537,App695, Cleaning up di , 2017-10-10,2,9,8
+538,App695, renaming test , 2017-10-09,1,1,1
+539,App695, Unit tests for closeable extensions , 2017-10-09,2,47,1
+540,App695, Getting rid of unnecessary extension , 2017-10-09,2,6,16
+541,App695, Renaming from model to repository , 2017-10-09,24,67,67
+542,App695, Unit tests for no-op ad blocker , 2017-10-08,1,18,0
+543,App695, Simplifying domainForUrl , 2017-10-08,1,1,1
+544,App695, Unit tests for ssl warning preferences , 2017-10-08,2,47,1
+545,App695, Using new url instead of current url , 2017-10-08,1,1,1
+546,App695, Update ssl state on tab switch , 2017-10-08,1,2,0
+547,App695, Fixing threading problems with accessing the view on the wrong thread , 2017-10-08,2,7,4
+548,App695, Unit tests for SessionWhitelistModel , 2017-10-08,9,171,33
+549,App695, Getting rid of redundant method , 2017-10-08,2,1,11
+550,App695, Cleaning up databases and documentation , 2017-10-08,3,32,49
+551,App695, Groundwork for whitelist feature , 2017-10-08,8,266,2
+552,App695, Properly setting ssl state , 2017-10-08,1,20,2
+553,App695, Cleaning up injection , 2017-10-08,2,2,5
+554,App695, adding private constructor , 2017-10-07,1,2,0
+555,App695, Fixing interop problems , 2017-10-07,2,2,2
+556,App695, Adding lock icon to display ssl status , 2017-10-07,11,105,5
+557,App695, Adding feature for ignoring Ssl warnings until the browser is closed , 2017-10-07,6,100,2
+558,App695, Converting history database to rx , 2017-10-07,8,45,55
+559,App695, Converting download database to use Rx , 2017-10-07,5,57,75
+560,App695, Close databases upon table deletion , 2017-10-07,3,12,4
+561,App695, Auto closing cursors , 2017-10-07,3,47,72
+562,App695, Renaming variable , 2017-10-06,1,4,4
+563,App695, Removing unnecessary !! , 2017-10-06,3,3,6
+564,App695, Breaking out utils into view extensions , 2017-10-06,2,42,34
+565,App695, removing unnecessary use of utils , 2017-10-06,1,3,4
+566,App695, Cleaning up final problems , 2017-10-06,4,8,4
+567,App695, remove utils which didn't let lint work , 2017-10-06,2,1,10
+568,App695, Converting StringBuilderUtils to extensions , 2017-10-06,5,140,260
+569,App695, Unit tests for AssetsAdBlocker , 2017-10-06,2,48,5
+570,App695, Cleaning up gradle _  adding assertj test dependency , 2017-10-06,1,12,10
+571,App695, Making utils final , 2017-10-06,1,4,1
+572,App695, Fixing field names , 2017-10-06,1,9,9
+573,App695, Making code more idomatic _  fixing utils classes , 2017-10-06,13,34,44
+574,App695, Adding documentation , 2017-10-05,1,3,0
+575,App695, moving extensions , 2017-10-05,11,11,8
+576,App695, fixing bug with database opening , 2017-10-05,1,1,1
+577,App695, Updating lint rules _  cleaning up code , 2017-10-05,15,22,30
+578,App695, Show incognito icon in incognito mode to distinguish from dark mode , 2017-10-05,1,6,2
+579,App695, Convert proxy annotation to kotlin , 2017-10-05,2,13,15
+580,App695, Removing unnecessary close method , 2017-10-05,3,34,70
+581,App695, Adding ongoing incognito notification feature , 2017-10-04,10,193,78
+582,App695, Cleaning up code , 2017-10-03,6,56,62
+583,App695, Fixing shortcut addition in Android O , 2017-10-02,3,33,13
+584,App695, Cleaning up code , 2017-09-30,2,2,4
+585,App695, Cleaning up dialogs , 2017-09-30,5,90,89
+586,App695, Removing disfunctional bookmark import from browser , 2017-09-30,22,2,422
+587,App695, Converting from bonsai to rx , 2017-09-30,13,314,349
+588,App695, Updating leak canary , 2017-09-30,1,1,1
+589,App695, Inlining constants for clarity , 2017-09-29,12,12,33
+590,App695, Cleaning up method declarations , 2017-09-28,22,578,708
+591,App695, Updating to latest kotlin version , 2017-09-28,1,1,1
+592,App695, Converting LightningView to kotlin , 2017-09-28,5,1052,1264
+593,App695, Fixing bug where the search bar was not hidden when scrolling , 2017-09-27,1,7,6
+594,App695, renaming incorrectly named variables , 2017-09-26,3,6,6
+595,App695, Cleaning imports , 2017-09-25,1,9,13
+596,App695, Cleaning up resource closing , 2017-09-25,2,21,10
+597,App695, Updating okhttp , 2017-09-25,1,1,1
+598,App695, Cleaning up , 2017-09-24,1,2,2
+599,App695, Cleaning up naming and crash , 2017-09-24,1,19,25
+600,App695, Converting BrowserActivity to kotlin , 2017-09-24,5,2087,2348
+601,App695, Converting tabsfragment to kotlin , 2017-09-24,2,398,503
+602,App695, Updating kotlin plugin , 2017-09-22,1,1,1
+603,App695, Remove manual view cache clearing call which was unnecessary , 2017-09-22,1,0,2
+604,App695, Converting bookmark drawer to kotlin , 2017-09-21,3,483,576
+605,App695, Fixing potential color bugs , 2017-09-21,4,4,4
+606,App695, Converting dialog utils to kotlin , 2017-09-21,3,152,169
+607,App695, Converting dialog builder to kotlin , 2017-09-20,5,376,484
+608,App695, Converting base activity to kotlin , 2017-09-20,2,61,61
+609,App695, Converting activity to kotlin , 2017-09-20,6,92,95
+610,App695, Converting top level activities to kotlin , 2017-09-20,4,123,171
+611,App695, Converting handlers to kotlin , 2017-09-20,2,20,24
+612,App695, Converting title holder to kotlin , 2017-09-20,3,96,109
+613,App695, Converting webview client to kotlin , 2017-09-20,2,331,411
+614,App695, Converting chrome client to kotlin , 2017-09-20,3,177,217
+615,App695, Converting application class to kotlin , 2017-09-19,12,131,151
+616,App695, Converting tabs manager to kotlin , 2017-09-19,3,494,617
+617,App695, Formatting docs , 2017-09-19,1,18,36
+618,App695, Converting presenter to kotlin , 2017-09-19,5,344,385
+619,App695, Updating to eap kotlin version , 2017-09-18,1,3,1
+620,App695, Converting TabViewModel to TabViewState , 2017-09-18,3,37,55
+621,App695, Converting TabsView to kotlin , 2017-09-18,1,6,6
+622,App695, Converting browser view to kotlin , 2017-09-17,3,40,43
+623,App695, Converting bookmark database to kotlin , 2017-09-17,3,396,504
+624,App695, Converting downloads database to kotlin , 2017-09-17,2,201,263
+625,App695, Converting constants to kotlin , 2017-09-17,25,120,115
+626,App695, Convert history database to kotlin _  create lazy database loader , 2017-09-16,3,225,243
+627,App695, Fixing search view styling , 2017-09-16,1,5,14
+628,App695,  Converting to kotlin , 2017-09-16,19,507,632
+629,App695, Converting model to kotlin , 2017-09-16,3,187,223
+630,App695, Converting utils to kotlin , 2017-09-16,3,33,33
+631,App695, Fixing naming , 2017-09-15,1,2,3
+632,App695, Converting page files to kotlin , 2017-09-15,11,322,430
+633,App695, Moving html page files to a different package , 2017-09-14,15,32,32
+634,App695, Converting download page to utilize mezzanine , 2017-09-14,2,58,52
+635,App695, Fixing page title , 2017-09-14,1,1,1
+636,App695, Converting history page to use mezzanine , 2017-09-14,5,138,47
+637,App695, Converting homepage generation to utilize mezzanine , 2017-09-14,8,299,134
+638,App695, Cleaning up kotlin code , 2017-09-14,15,146,213
+639,App695, Fix bug where invalidating the data set when it hadn't changed caused bugs with the dropdown , 2017-09-14,2,7,4
+640,App695, Updating the support library and butterknife , 2017-09-14,1,6,2
+641,App695, Updating jsoup , 2017-09-14,1,1,1
+642,App695, Updating kotlin , 2017-09-14,1,1,1
+643,App695, Switching to better file generation for bookmarks page , 2017-09-14,5,216,81
+644,App695, Converting BookmarkUiModel to Kotlin , 2017-09-14,2,25,48
+645,App695, Russian translation. , 2017-08-25,1,39,1
+646,App695, Moving js files to src folder , 2017-08-13,6,3,3
+647,App695, Removing unnecessary countdown timer to hide toast , 2017-08-06,1,1,9
+648,App695, added the time period in the toast message ....updating Utils.showtoast method , 2017-08-06,1,10,2
+649,App695, Toast message showing whenever add bookmark is clicked...changed as directed , 2017-08-06,1,1,1
+650,App695, adding bookmarks value added into string.xml , 2017-08-06,1,1,0
+651,App695, Fix visibility , 2017-08-05,1,6,6
+652,App695, Fixing lint warnings , 2017-08-05,3,10,12
+653,App695, Fixing null problems , 2017-08-05,2,8,13
+654,App695, Updating the ui color , 2017-08-05,1,5,2
+655,App695, Utilize mezzanine to use with javascript , 2017-08-05,9,114,26
+656,App695, Rename variable , 2017-08-05,1,3,3
+657,App695, Convert animation utils to kotlin , 2017-08-05,2,48,52
+658,App695, Getting rid of reliance on tab manager from adapter , 2017-08-05,3,154,42
+659,App695, Add non null annotation , 2017-08-05,1,1,1
+660,App695, Adding more nullability annotations , 2017-08-05,9,215,191
+661,App695, Adding nullability annotations where possible , 2017-08-05,19,196,112
+662,App695, Convert interface to kotlin , 2017-08-05,2,13,15
+663,App695, A toast message will appear whenever a bookmark is added to a url , 2017-08-05,1,2,0
+664,App695, Converting adblocker to kotlin _  creating common interface , 2017-08-04,7,217,202
+665,App695, moving activity _  updating butterknife , 2017-08-04,4,15,16
+666,App695, Changing from val to function , 2017-08-04,1,6,6
+667,App695, Update strings.xml , 2017-08-02,1,10,8
+668,App695, Convert controller to kotlin , 2017-07-27,2,94,97
+669,App695, Build fix , 2017-07-24,2,3,3
+670,App695, Converting search box model to kotlin , 2017-07-23,2,79,71
+671,App695, Converting tests to kotlin , 2017-07-20,6,176,178
+672,App695, Converting interpolator to kotlin , 2017-07-20,2,21,25
+673,App695, Creating a network observable that notifies consumers of network change events , 2017-07-20,4,145,46
+674,App695, Getting rid of properties with custom getters and replacing with functions , 2017-07-20,1,30,33
+675,App695, Converting provider class to kotlin , 2017-07-19,2,84,112
+676,App695, Converting adapter to kotlin _  adding kotlin android extensions , 2017-07-18,3,345,427
+677,App695, Properly closing cursors , 2017-07-12,2,8,0
+678,App695, Converting the rest of the suggestions code to kotlin , 2017-07-12,9,288,340
+679,App695, Javadoc for tabs view , 2017-07-11,1,19,0
+680,App695, Fixing potential null pointer , 2017-07-10,1,3,5
+681,App695, Fixing broken translation , 2017-07-09,1,1,1
+682,App695, Open History page in new tab , 2017-07-08,1,8,3
+683,App695, Update strings.xml , 2017-07-08,1,29,4
+684,App695, Adding 4.5.1 release info , 2017-06-28,1,12,0
+685,App695, Bump for bugfix , 2017-06-28,1,3,3
+686,App695, Breaking out parsing code into different method , 2017-06-27,1,44,31
+687,App695, GoogleSuggestions: Switch to UTF-8 encoding , 2017-06-27,1,2,2
+688,App695, Converting search engines to kotlin , 2017-06-26,24,174,233
+689,App695, Cleaning up settings , 2017-06-26,2,13,13
+690,App695, Cleaning up the ResourcesUtils , 2017-06-26,1,11,1
+691,App695, Improving packaging structure , 2017-06-26,47,122,113
+692,App695, Clean up code , 2017-06-26,2,6,3
+693,App695, Added Kotlin to project and converted SearchSuggestionManager to Kotlin , 2017-06-26,5,52,73
+694,App695, Updating formatting , 2017-06-25,1,1,3
+695,App695, Changing download options , 2017-06-25,1,6,7
+696,App695, Cleaning up redundant initializers , 2017-06-24,2,3,3
+697,App695, Cleaning up code , 2017-06-24,5,17,23
+698,App695, Cleaning up documentation , 2017-06-23,4,30,4
+699,App695, Moving search suggestions into their own package , 2017-06-23,5,43,31
+700,App695, Improving the way search engine preferences are handled , 2017-06-18,33,174,76
+701,App695, Fixing javadocs , 2017-06-18,1,5,5
+702,App695, Improving the way search engines are handled , 2017-06-18,16,305,135
+703,App695, Breaking out search box display logic into a ui model , 2017-06-18,7,90,35
+704,App695, Enhanced keyboard shortcuts.  Added Ctrl+f to find in page _  Alt+<number> to switch to a specific tab _  and Ctrl+Shift+p to open a new private window.  Ctrl+p was left reserved for printing. , 2017-06-18,2,75,39
+705,App695, Unit tests for StringBuilderUtils _  fixing trim method in StringBuilderUtils , 2017-06-17,2,121,3
+706,App695, Updating bookmark database to handle optional trailing slashes , 2017-06-17,1,106,5
+707,App695, Significantly improved multiwindow experience. , 2017-06-16,1,4,4
+708,App695, fix missing parameters , 2017-06-16,1,1,1
+709,App695, udpate downloads design , 2017-06-16,1,10,8
+710,App695, Fixing bug where last tab would be destroyed on exit in certain cases , 2017-06-15,3,21,4
+711,App695, Synchronizing access to database , 2017-06-14,3,3,3
+712,App695, Switching to IO scheduler and cleaning up cache method , 2017-06-14,3,20,26
+713,App695, Adding todo and switching to compat interpolator , 2017-06-14,2,3,9
+714,App695, Adding todo around bookmark long press bug , 2017-06-14,1,1,0
+715,App695, Naming dialog builder field correctly , 2017-06-14,1,21,21
+716,App695, Fixing twitter URL , 2017-06-14,1,1,1
+717,App695, Japanese translation update , 2017-06-14,1,12,14
+718,App695, Adding simple unit tests , 2017-06-13,4,63,1
+719,App695, Getting rid of google favicon fetching and using generated favicon as fallbacks , 2017-06-13,5,62,159
+720,App695, Switching to URLUtil where possible , 2017-06-13,7,25,21
+721,App695, Fixing bug where folders didn't show up on the bookmarks page , 2017-06-13,3,69,47
+722,App695, Reducing usage of file names , 2017-06-13,6,33,18
+723,App695, Referencing controller instead of browser activity , 2017-06-13,1,15,15
+724,App695, Nice color default icons for bookmarks , 2017-06-11,7,109,17
+725,App695, Fixing history and download item sorting , 2017-06-10,2,2,2
+726,App695, inject DownloadHandler , 2017-06-10,9,158,180
+727,App695, downloads - show message if file doesn't exist , 2017-06-10,3,7,4
+728,App695, Adding favicons read off disk to memory cache , 2017-06-10,1,4,1
+729,App695, Fixing equals and dashcode for download and history items , 2017-06-09,2,23,19
+730,App695, Cleaning up History and Download Items , 2017-06-09,2,10,17
+731,App695, Switching HistoryDatabase to implement reactive interface , 2017-06-09,9,148,142
+732,App695, Updating travis build components , 2017-06-08,1,2,2
+733,App695, Modifying language around disabled settings , 2017-06-08,3,8,3
+734,App695, Updating support library , 2017-06-08,2,2,1
+735,App695, Updating hosts file , 2017-06-08,1,85,36
+736,App695, Getting rid of unnecessary casts in findViewById!!! , 2017-06-08,13,32,34
+737,App695, Bumping target to API 26 , 2017-06-08,2,6,6
+738,App695, Updating gradle version , 2017-06-08,1,1,1
+739,App695, Added missing change log items , 2017-06-08,1,2,0
+740,App695, Adding change log , 2017-06-08,1,72,0
+741,App695, Updating bookmark page and history page with changes from @ByteHamster , 2017-06-07,2,14,6
+742,App695, Bumping version for beta , 2017-06-07,1,2,2
+743,App695, Fixing exception thrown due to observable using the wrong thread , 2017-06-07,1,2,0
+744,App695, Bumping version codes for beta bugfix , 2017-06-06,1,2,2
+745,App695, Safeguarding against runtime exceptions when importing and exporting , 2017-06-06,1,42,5
+746,App695, Ensuring that bookmark export failures are handled , 2017-06-06,2,12,0
+747,App695, Fixing bugs resulting from not unsubscribing , 2017-06-06,2,79,21
+748,App695, Adding todo , 2017-06-05,1,1,0
+749,App695, Fix favicon retrieval from cache _  disable preemptive favicon fetching , 2017-06-05,1,13,12
+750,App695, Bumping version for beta , 2017-06-05,1,3,3
+751,App695, Catch fileuriexposedexception for now , 2017-06-05,1,4,2
+752,App695, Fixing problem with unsafe URIs , 2017-06-05,1,1,1
+753,App695, Fixing crashes resulting from fragment lifecycle mismanagement , 2017-06-05,3,43,18
+754,App695, Fixing bug where icon could be the wrong color , 2017-06-04,1,11,5
+755,App695, Adding proguard warning exemptions for okhttp , 2017-06-04,1,5,0
+756,App695, Bumping version for beta , 2017-06-04,2,7,3
+757,App695, Cleaning up lint , 2017-06-04,8,7,9
+758,App695, Fixing strings , 2017-06-04,2,2,2
+759,App695, Cleaning up recent merge problems , 2017-06-04,3,10,12
+760,App695, Fixing potential null pointers , 2017-06-03,4,54,29
+761,App695, Fixing Greek and Lithuanian languages , 2017-06-03,2,5,4
+762,App695, Updating build tools and okhttp , 2017-06-03,2,6,5
+763,App695, Fixed problems with German translation file , 2017-06-03,1,6,9
+764,App695, Fixing Brazilian translations , 2017-06-03,2,201,403
+765,App695, minor changes , 2017-06-03,5,15,10
+766,App695, New: Baidu search suggestion , 2017-06-03,1,0,4
+767,App695, Add Baidu searc suggestion , 2017-06-03,8,90,2
+768,App695, Removing unused imports , 2017-06-01,7,0,14
+769,App695, Updating dagger , 2017-06-01,1,1,1
+770,App695, Updating butterknife , 2017-06-01,1,2,2
+771,App695, fixes for downloads page , 2017-05-31,9,99,59
+772,App695, fix refreshing page after deleting all bookmarks , 2017-05-29,1,1,1
+773,App695, slightly improved history and downloads html , 2017-05-29,2,21,17
+774,App695, add delete downloads dialog , 2017-05-28,7,87,4
+775,App695, add DownloadsPage , 2017-05-28,14,667,0
+776,App695, Fix logic where only start pages should be excluded from close , 2017-05-27,1,1,1
+777,App695, Fixing ridiculous switches , 2017-05-27,1,12,12
+778,App695, Fixing errant capital letter , 2017-05-27,1,1,1
+779,App695, Fixing dialog padding for seekbar dialogs , 2017-05-27,3,7,6
+780,App695, Moving to use sentence case , 2017-05-27,1,69,85
+781,App695, Cleaning up dialogs throughout the app , 2017-05-27,7,174,160
+782,App695, Removing unnecessary executor , 2017-05-26,2,3,8
+783,App695, Setting compat vector usage for all versions <= KitKat , 2017-05-25,2,6,7
+784,App695, Improving http auth dialog ui , 2017-05-25,2,48,23
+785,App695, Update strings.xml , 2017-05-24,1,106,15
+786,App695, It crash when it starts in KitKat(API level 19). , 2017-05-22,1,7,0
+787,App695, Fixing arabic formatting , 2017-05-21,1,1,1
+788,App695, Adding file size to download dialog thanks to @alinux78 , 2017-05-21,18,28,19
+789,App695, Applying changes from @Mishiranu PR , 2017-05-21,2,95,23
+790,App695, Adding share option to context menu , 2017-05-21,3,49,7
+791,App695, Forcibly opt out of any metrics google may collect within the web view , 2017-05-18,1,3,0
+792,App695, Documentation for favicon model , 2017-05-15,1,49,2
+793,App695, Utilizing LRUCache for in memory bitmap caching , 2017-05-14,2,30,3
+794,App695, Increase the max supported aspect ratio , 2017-05-13,1,5,1
+795,App695, Documentation for HistoryModel , 2017-05-13,1,41,0
+796,App695, Switching to lazy database for history , 2017-05-13,2,14,31
+797,App695, Changing full screen to be enabled by default , 2017-05-13,1,1,1
+798,App695, Add sorting back to bookmarks , 2017-05-12,4,12,8
+799,App695, Fixing bug where add/remove bookmark button didn't work , 2017-05-12,1,2,2
+800,App695, Using diffutil to simplify updating the list , 2017-05-12,1,62,24
+801,App695, Fixing inconsistency between browser and settings activities , 2017-05-12,2,5,5
+802,App695, Updating grade plugin , 2017-05-12,1,1,1
+803,App695, Adding documentation for ThemeUtils , 2017-05-11,2,96,1
+804,App695, Darkening the status bar , 2017-05-11,2,2,2
+805,App695, Adding setting for black status bar , 2017-05-11,10,91,39
+806,App695, Avoid constant condition by changing full_version declaration , 2017-05-09,5,9,8
+807,App695, Updating leakcanary , 2017-05-08,1,2,2
+808,App695, Update and rename Mozilla Public License v. 2.0 to LICENSE , 2017-05-08,2,373,362
+809,App695, Removing incomplete license file , 2017-05-08,1,0,10
+810,App695, Removing no longer necessary gitmodules file , 2017-05-08,1,0,0
+811,App695, Removing unnecessary iml file , 2017-05-08,1,0,19
+812,App695, Add documentation for BookmarkUiModel , 2017-05-07,1,18,0
+813,App695, Documentation for BookmarkExporter , 2017-05-07,5,48,11
+814,App695, Japanese translation update (#565) , 2017-05-07,1,164,88
+815,App695, Cleaning up bookmark initialization logic , 2017-05-07,1,5,5
+816,App695, Import bookmarks from assets if the database is empty , 2017-05-07,4,22,2
+817,App695, Moving old bookmark manager to LegacyBookmarkManager , 2017-05-07,3,114,558
+818,App695, Documentation for the bookmark model , 2017-05-07,2,96,0
+819,App695, Moving bookmarks storage from flat file to database , 2017-05-07,22,1006,199
+820,App695, Removing unnecessary comments , 2017-05-06,2,11,14
+821,App695, Making history page method static , 2017-05-06,3,47,39
+822,App695, Break out rotation animation into animation utils , 2017-05-06,2,55,46
+823,App695, Switching from getSimpleName to hardcoded tag , 2017-05-06,16,18,16
+824,App695, Setting the background of the item , 2017-05-05,2,7,6
+825,App695, Switching to recycler view , 2017-05-05,2,107,53
+826,App695, Making the tab object tag more specific for its use case , 2017-05-05,2,24,22
+827,App695, Deleting unused code , 2017-05-05,6,0,27
+828,App695, Japanese translation update , 2017-05-04,1,164,88
+829,App695, Removing unused class , 2017-05-03,1,0,67
+830,App695, Simplifying shouldOverrideUrlLoading , 2017-05-03,1,26,36
+831,App695, Using observables instead of executors , 2017-05-02,4,94,86
+832,App695, Fix bug with background tabs opening urls , 2017-05-02,4,100,75
+833,App695, Removing unnecessary long click listener , 2017-04-30,1,1,16
+834,App695, Removing event buss , 2017-04-30,15,277,392
+835,App695, Ensure that published items aren't null , 2017-04-29,2,2,4
+836,App695, Inferring nullity , 2017-04-29,7,9,5
+837,App695, Inferring nullity , 2017-04-29,9,30,20
+838,App695, Cleaning up unused code , 2017-04-28,13,17,132
+839,App695, Better stringbuilder comparison , 2017-04-27,2,13,5
+840,App695, Localizing log tags , 2017-04-26,12,154,145
+841,App695, Getting rid of BrowserApp.get method , 2017-04-26,3,3,9
+842,App695, Injecting application where possible , 2017-04-26,5,9,20
+843,App695, More injection , 2017-04-26,5,28,29
+844,App695, Constructor injection for HistoryDatabase , 2017-04-26,3,37,24
+845,App695, Constructor injection > field injection , 2017-04-26,2,10,10
+846,App695, Improving memory performance in case with multiple hosts per line , 2017-04-25,2,43,41
+847,App695, Moving string utils methods to a utils class , 2017-04-24,2,110,45
+848,App695, Prevent URL-box resetting on cursor movement , 2017-04-24,1,4,4
+849,App695, Improving performance of adblocking code by utilizing stringbuilder , 2017-04-23,1,63,14
+850,App695, Fixing fragment lifecycle for tab and bookmark drawers , 2017-04-22,3,188,112
+851,App695, Updating dagger 2 , 2017-04-22,1,1,1
+852,App695, Updating to butterknife v8 , 2017-04-22,6,36,30
+853,App695, Using butterknife to bind views in fragments , 2017-04-22,3,51,41
+854,App695, Removing unused resources , 2017-04-22,3,2,24
+855,App695, Cleaning up potential NPEs and other lint warnings , 2017-04-22,14,29,36
+856,App695, Making encoding a constructor parameter , 2017-04-22,3,7,20
+857,App695, Use built in OkHttpCache instead of manual cache , 2017-04-22,5,54,78
+858,App695, Cleaning up suggestions model code , 2017-04-22,6,73,110
+859,App695, Switching from task thread to IO thread where appropriate , 2017-04-20,2,6,10
+860,App695, Renaming task method , 2017-04-19,3,14,14
+861,App695, Keeping connectivity manager around rather than getting it every time , 2017-04-19,1,8,10
+862,App695, Annotating suggestions methods with nullable annotations , 2017-04-18,3,8,3
+863,App695, Fixed and removed the languages strings , 2017-04-18,1,0,21
+864,App695, Fixed , 2017-04-18,1,1,1
+865,App695, Using okhttpclient for suggestions downloads , 2017-04-17,2,23,16
+866,App695, Use OkHttp to download images , 2017-04-17,4,40,24
+867,App695, I forgot the languages strings! Updated. , 2017-04-16,1,21,0
+868,App695, Fixed some old typos and re-worked some strings , 2017-04-16,1,11,11
+869,App695, [Spanish l10n] Update strings , 2017-04-15,1,61,21
+870,App695, Cleaning up image request logic , 2017-04-14,9,314,224
+871,App695, Reducing code duplication in image downloader , 2017-04-12,1,67,77
+872,App695, Dropping async task for bonsai in image downloading , 2017-04-11,5,108,129
+873,App695, Making html page generation reactive , 2017-04-09,7,249,217
+874,App695, Moving to asynchronous consumption of the HistoryDatabase , 2017-04-09,12,577,499
+875,App695, Updating grade , 2017-04-07,1,1,1
+876,App695, Moving away from raw query and cleaned up query code , 2017-04-07,1,70,79
+877,App695, Fixing crash on restore caused by bonsai upgrade , 2017-03-26,1,10,7
+878,App695, Fixing nullable problems , 2017-03-26,2,2,2
+879,App695, Cleaning up lint warnings caused by appcompat upgrade , 2017-03-26,5,44,14
+880,App695, Removing bit about submodules , 2017-03-21,1,0,7
+881,App695, Update support library version (#542) , 2017-03-21,1,1,1
+882,App695, Fix formatting of redme , 2017-03-20,1,18,19
+883,App695, removing bonsai submodule , 2017-03-20,4,2,9
+884,App695, removing animated progress bar submodule , 2017-03-20,4,2,8
+885,App695, Giving gradlew proper privileges , 2017-03-19,1,0,0
+886,App695, Updating travis build configuration , 2017-03-19,1,2,6
+887,App695, removed netcipher submodule correctly , 2017-03-18,1,0,1
+888,App695, Updating jsoup and leak canary , 2017-03-18,1,16,12
+889,App695, Moving new Chinese translations to correct folder , 2017-03-18,4,498,767
+890,App695, Moving to net cipher 2.0.0-alpha away from submodule , 2017-03-18,4,4,11
+891,App695, Updating bonsai , 2017-03-18,14,179,176
+892,App695, Update to latest progress bar library code , 2017-03-18,1,1,1
+893,App695, Updating gradle plugin _  updating sex count plugin _  upgrading target version _  updating support library versions , 2017-03-18,3,13,13
+894,App695, Add files via upload , 2017-01-22,1,202,0
+895,App695, [Spanish l10n] Update strings and add new ones , 2017-01-20,1,68,37
+896,App695, German Translations updated. , 2017-01-16,3,42,12
+897,App695, Show realm in HTTP auth dialog , 2016-12-23,2,5,0
+898,App695, Added basic keyboard shortcut support. , 2016-12-18,1,44,0
+899,App695, Lithuanian language added , 2016-12-18,1,42,0
+900,App695, Added new strings to the French translation. , 2016-12-06,1,38,6
+901,App695, Minor bugfix bump , 2016-11-29,1,3,3
+902,App695, Update hosts file , 2016-11-29,1,76,3
+903,App695, Fixed bug where startpage logo wasn't showing up , 2016-11-29,1,2,2
+904,App695, Portuguese update , 2016-11-14,1,73,15
+905,App695, Fixed a memory leak , 2016-11-13,1,4,2
+906,App695, Add files via upload , 2016-11-10,1,19,0
+907,App695, Italian translation update #2 , 2016-11-09,1,116,77
+908,App695, Update AnimatedProgressBar library , 2016-11-06,1,1,1
+909,App695, Update Bonsai library to latest , 2016-11-06,1,1,1
+910,App695, 4.4.1 hotfix version update , 2016-11-05,1,3,3
+911,App695, Fixed bug where links wouldn't open correctly in the browser , 2016-11-03,1,5,1
+912,App695, Fixed threading issue with all bookmarks list , 2016-11-03,1,17,10
+913,App695, Update strings.xml , 2016-11-02,1,58,3
+914,App695, Fix null pointer exception caused by activity not being ready , 2016-11-01,2,20,6
+915,App695, Update version numbers for next release , 2016-10-29,1,3,3
+916,App695, Update to hosts file , 2016-10-29,1,90,15
+917,App695, Updated to latest gradle version , 2016-10-27,1,1,1
+918,App695, Fix bug where certain apps wouldn't be considered to handle intents _  cleaned up imports , 2016-10-27,9,23,28
+919,App695, improve image dialog handling , 2016-10-27,3,24,14
+920,App695, Inform people about flash player support , 2016-10-27,3,11,1
+921,App695, BrowserActivity: close drawers on back/forward btns , 2016-10-27,2,3,0
+922,App695, strings.xml: update italian translations , 2016-10-27,1,26,22
+923,App695, Remove snackbar event bus message , 2016-10-14,7,24,48
+924,App695, Cleaning up some event bus related code , 2016-10-14,7,79,84
+925,App695, update gradle plugin , 2016-10-10,1,1,1
+926,App695, Include correct version of build tools , 2016-10-10,1,1,1
+927,App695, refactoring search suggestions adapter , 2016-10-09,7,31,30
+928,App695, pulling out event bus in more places , 2016-10-09,9,97,212
+929,App695, Use interface instead of event bus _  moving some stuff out of activity and into presenter , 2016-10-07,10,116,207
+930,App695, Better interpolators for decelerate animations , 2016-09-29,11,53,9
+931,App695, Fix bug on nougat where the background is black while the activity is displaying , 2016-09-26,1,6,1
+932,App695, Fixing deprecated API usage and lint warnings , 2016-09-19,16,115,171
+933,App695, Upgrade to latest gradle plugin , 2016-09-19,1,1,1
+934,App695, Append Chinese translations , 2016-09-19,2,498,0
+935,App695, Create PROXY IntDef to enforce values , 2016-09-18,4,60,33
+936,App695, Allow the app to be moved to external storage , 2016-09-16,1,2,1
+937,App695, Formatting manifest , 2016-09-16,1,72,71
+938,App695, Fixed bug on Android Nougat where long press of the back button didn't work as before , 2016-09-16,2,43,9
+939,App695, Update to latest leak canary version , 2016-09-13,1,2,2
+940,App695, tell travis we need java 8 , 2016-09-13,1,2,0
+941,App695, target sdk 24 , 2016-09-13,3,81,79
+942,App695, Don't save a tab if the url is empty (e.g. a tab that was opened to trigger a download) , 2016-09-12,1,4,0
+943,App695, Fixed bugs in downloading preventing some files from being properly opened , 2016-09-12,4,79,61
+944,App695, Removing some unused code _  breaking out strings into constants _  improving network receiver , 2016-09-12,12,68,80
+945,App695, Create common suggestions task that is extended by Duck and Google suggestions , 2016-09-11,3,94,406
+946,App695, Correctly handle logic affected by swapped drawers , 2016-09-11,1,14,6
+947,App695, Don't manually encode spaces , 2016-09-10,3,1,7
+948,App695, Add support for duck suggestions to preference manager , 2016-09-10,22,283,179
+949,App695, Add support for DuckDuckGo search suggestions _  make improvements to google suggestions , 2016-09-10,5,290,41
+950,App695, Remove old search suggestions adapter , 2016-09-10,6,2,347
+951,App695, Support swapping tabs and bookmarks drawers , 2016-09-10,8,90,46
+952,App695, Correctly size dialogs across the app , 2016-08-30,16,122,49
+953,App695, Augmented dialogs _  added options to dialogs _  improved dialog UI , 2016-08-28,11,287,64
+954,App695, Use normal thickness font , 2016-08-28,4,11,6
+955,App695, Update to correct commit of netcipher , 2016-08-27,1,1,1
+956,App695, update to latest Bonsai code , 2016-08-27,2,2,2
+957,App695, Fade in selected state on tabs when they are in the drawer , 2016-08-27,7,103,47
+958,App695, Add support background setting , 2016-08-27,1,32,4
+959,App695, Improve text reflow , 2016-08-27,1,10,6
+960,App695, Removed duplicate background , 2016-08-27,1,0,1
+961,App695, Fix threading issue in download code , 2016-08-27,3,30,12
+962,App695, Fixed a threading bug in ImageDownloadTask , 2016-08-27,1,8,11
+963,App695, Fixed crash in history , 2016-08-27,1,7,1
+964,App695, Portuguese-Brazilian translation , 2016-08-27,1,202,0
+965,App695, Update gradle version , 2016-08-15,2,3,3
+966,App695, Fix potential bug accepting invalid certificates in reader mode , 2016-08-07,1,16,7
+967,App695, Remove unused imports , 2016-08-07,10,0,18
+968,App695, Updating ad server list _  removing unnecessary code in adblock , 2016-08-06,2,356,35
+969,App695, Cleaning up new suggestions class , 2016-08-06,1,11,16
+970,App695, Cleaned up styles and themes , 2016-08-06,2,68,158
+971,App695, Improved layout of search suggestions _  added breathing room , 2016-08-02,1,16,13
+972,App695, Add workaround for occasionally buggy header loading code , 2016-08-02,1,94,64
+973,App695, Theme dialogs correctly with accent color , 2016-08-01,2,27,0
+974,App695, Fixed bugs with opening file:// urls in the browser via intent , 2016-07-31,2,42,19
+975,App695, Print crashes to external storage on debug builds for in the field testing , 2016-07-31,2,44,0
+976,App695, Change dialog UI to be list based instead of button based to allow for more options , 2016-07-31,4,309,231
+977,App695, Switch from png to vector , 2016-07-31,91,259,50
+978,App695, Fixed bug with recyclerview , 2016-07-30,6,27,9
+979,App695, Fixed bug where recyclerview got out of sync , 2016-07-30,2,13,12
+980,App695, Performance improvments _  fixed bug with find in page in full-screen mode , 2016-07-30,6,103,134
+981,App695, Fixed a bug where sometimes opening browser from recents opened recent tab _  removed extra view , 2016-07-30,2,8,15
+982,App695, Fixed build error , 2016-07-23,1,1,1
+983,App695, Properly escape query strings _  fixed crash , 2016-07-22,1,13,9
+984,App695, Switch to progress bar library , 2016-07-21,8,12,233
+985,App695, Speed up animations slightly , 2016-07-11,7,13,9
+986,App695, Move from internal observable classes to bonsai _  fix threading problems with suggestions , 2016-07-11,26,820,588
+987,App695, moving to bonsai , 2016-07-11,4,8,0
+988,App695, Fix memory leaks caused by the android framework , 2016-06-01,2,93,0
+989,App695, Fix bug where AutoCompleteTextView selected text but didn't delete it when typing , 2016-05-25,7,130,37
+990,App695, Updated to gradle wrapper 2.10 _  updated to android gradle plugin 2.1 , 2016-05-19,2,3,3
+991,App695, Updating gradle dependencies , 2016-05-19,1,8,8
+992,App695, Add debug settings so that you can toggle LeakCanary (and other settings in the future) in debug , 2016-05-09,8,121,5
+993,App695, Fix CI build , 2016-04-23,1,1,1
+994,App695, release bump and update tools version , 2016-04-22,1,4,4
+995,App695, Fixed bug where onComplete would throw an error if onError was called before , 2016-04-22,2,9,5
+996,App695, Fixed bug with WebView onResume _  improved Observable _  fixed some other stuff , 2016-04-21,6,90,33
+997,App695, Fixed bug with state restoration _  fixed weird tab closing behavior _  added some missing annotations , 2016-04-21,7,113,50
+998,App695, added some missing nullable annotation additions _  switched to compat implementations of some methods _  fixed some lint warnings , 2016-04-18,11,25,38
+999,App695, Updated dependencies , 2016-04-18,1,2,2
+1000,App695, More suggestions cleanup , 2016-04-17,1,25,28
+1001,App695, Cleaned up search suggestions code _  fixed potential memory leaks , 2016-04-17,5,256,184
+1002,App695, document BrowserPresenter _  fix some things with it , 2016-04-16,2,73,9
+1003,App695, Update to latest support library , 2016-04-16,1,5,5
+1004,App695, fixed bug with event bus _  moved adapter , 2016-04-16,5,50,46
+1005,App695, Fix bug where keyboard would hide text boxes in incognito , 2016-04-07,1,1,1
+1006,App695, Fixed null pointer exception _  fixed threading bug on ICS _  upgraded leak canary version , 2016-04-04,6,25,11
+1007,App695, Bugfix bump... hopefully last one before merge to master and full release , 2016-03-28,1,3,3
+1008,App695, Fixed null pointer exception , 2016-03-28,1,7,3
+1009,App695, Revert to previous support library version until they fix the menu bug , 2016-03-28,1,2,2
+1010,App695, Added FAQ to settings , 2016-03-24,2,21,7
+1011,App695, Only Kitkat and up supports changing headers _  disable on lower API versions , 2016-03-24,3,14,9
+1012,App695, Fixed bug where bookmarks as homepage changes what bookmarks are shown in bookmark drawer , 2016-03-24,2,32,2
+1013,App695, bugfix bump , 2016-03-23,1,3,3
+1014,App695, Fixed bug where keyboard would cover text input on the webview , 2016-03-23,4,109,9
+1015,App695, Don't enable useless autocomplete box to popup on the embedded search form , 2016-03-23,1,1,1
+1016,App695, Fixed threading bug in bookmark setting fragment _  changed default bookmark title , 2016-03-23,2,10,4
+1017,App695, Fixed bugs related restore tabs option , 2016-03-23,4,62,7
+1018,App695, Update strings.xml , 2016-03-23,1,56,9
+1019,App695, Update version code in prep for release _  enable color mode by default , 2016-03-22,2,7,8
+1020,App695, Remove unnecessary imports _  make methods static , 2016-03-22,8,3,11
+1021,App695, Fixed bug where fragments wouldn't update their preferences if they changed , 2016-03-22,3,52,4
+1022,App695, Fixed null pointer exception by properly replacing the fragment , 2016-03-21,2,3,3
+1023,App695, Fix bug where certain devices had different toolbar heights , 2016-03-20,2,10,2
+1024,App695, Fixed bug where multiple processes caused incognito to nor respond to preference changes. , 2016-03-20,8,30,18
+1025,App695, Color the search bar appropriately for the various theme/color mode _  fixed bug when restarting activity , 2016-03-19,5,62,26
+1026,App695, Fixed some bugs with restoring/initializing tabs when new intents were received and browser was killed by background , 2016-03-18,3,16,9
+1027,App695, Fixed bug where changing theme resulted in default tab icons being incorrectly themed , 2016-03-16,2,25,16
+1028,App695, Fixed bug when switching between hiding status bar on/off , 2016-03-16,1,23,3
+1029,App695, Update Serbian language , 2016-03-16,1,11,2
+1030,App695, Fixed layout bug in full screen mode , 2016-03-14,3,31,36
+1031,App695, updated hosts file , 2016-03-13,1,1994,22
+1032,App695, Fixed crashes , 2016-03-13,2,24,16
+1033,App695, Update to latest support library _  improve drawer closing experience , 2016-03-10,2,44,50
+1034,App695, Roll back support library until fragment backgrounds are fixed , 2016-03-09,2,49,49
+1035,App695, Fixed another IO not closed resource leak , 2016-03-09,1,1,0
+1036,App695, Fixed bug with fragment background , 2016-03-09,3,12,9
+1037,App695, Fixed leaked io connection , 2016-03-09,1,1,0
+1038,App695, Fixed layout bug _  fixed bug slowing down recyclerview animations , 2016-03-06,3,15,12
+1039,App695, New duckduckgo image , 2016-03-05,1,0,0
+1040,App695, Dutch translations , 2016-03-05,1,237,0
+1041,App695, Fixing some animation bugs , 2016-03-04,4,57,22
+1042,App695, Temporarily revert v4 support until its fixed _  add some documentation , 2016-03-03,2,32,3
+1043,App695, Temporarily revert appcompat dependency until bugs are fixed , 2016-03-02,1,1,1
+1044,App695, Update gradle version _  fix crash on kitkat caused by old gradle plugin version , 2016-03-02,3,18,3
+1045,App695, fixed index out of bounds bug , 2016-03-01,1,1,1
+1046,App695, Smoothly close browser by closing the activity after the drawers are closed _  removed bus event , 2016-03-01,5,51,22
+1047,App695, Fixed bug where rotating device caused webview height to be incorrect , 2016-03-01,1,37,20
+1048,App695, Removed layer of overdraw , 2016-02-24,1,6,6
+1049,App695, Update to latest support libs _  get rid of pointless hardware layers , 2016-02-24,3,29,9
+1050,App695, Fixed potential memory leak _  moved variables , 2016-02-24,2,7,2
+1051,App695, Fixed bug where new intents wouldn't open in the browser if it had been killed by the OS , 2016-02-24,3,53,26
+1052,App695, Fixed memory leak _  removed useless log statement , 2016-02-21,2,5,7
+1053,App695, Animate vertical and horizontal tabs correctly , 2016-02-21,4,1335,13
+1054,App695, Fixed bug where searching text in page the arrows did the opposite of what you thought , 2016-02-21,1,2,2
+1055,App695, Animate tab addition/deletion in recyclerview _  change full screen implementation to be simpler , 2016-02-21,13,167,129
+1056,App695, fix rotation bug , 2016-02-12,1,6,0
+1057,App695, Fixed toolbar size bug on rotation , 2016-02-12,3,28,10
+1058,App695, Added back/forward icon enable/disabling on tablet devices , 2016-02-12,6,54,6
+1059,App695, Moved icon in drawer _  removed unnecessary view in tab_list_item , 2016-02-12,2,67,75
+1060,App695, Fixed NPE in bookmarks fragment... ugh , 2016-02-12,1,3,1
+1061,App695, Add support for guardian project panic/ripple app , 2016-02-12,6,78,11
+1062,App695, Fixed bug where tab icon showed in desktop tab mode , 2016-02-11,1,1,1
+1063,App695, fix leaked tab listener , 2016-02-10,1,1,0
+1064,App695, Just log an error instead of crashing when view state is messed up , 2016-02-09,1,2,1
+1065,App695, Temporarily fix bug where tabs created outside the presenter class (in manager) cause the tab number to be mismatched , 2016-02-09,2,28,0
+1066,App695, Change thickness and font of tab number , 2016-02-08,2,4,2
+1067,App695, Change out arrow drawable for an icon that displays current number of tabs , 2016-02-08,6,98,73
+1068,App695, Support bookmark importing from chrome variants and stock browser _  lint fixes , 2016-02-07,11,270,122
+1069,App695, Add new tab button to desktop tabs view , 2016-02-06,4,36,4
+1070,App695, Add accessors to get Chrome dev and beta bookmarks _  also fix potential bugs , 2016-02-06,1,39,4
+1071,App695, Workaround for travis not having enough memory :-/ guess we'll just build debug versions , 2016-02-05,1,1,1
+1072,App695, Allow close dialog to be shown when tabs icon is pressed , 2016-02-05,3,7,1
+1073,App695, Add ability to close all tabs except current tab , 2016-02-05,3,21,4
+1074,App695, Renamed OnSubscribe/Subscriber _  moved anonymous class to static class _  added --stacktrace to gradle build to capture build crash , 2016-02-05,11,149,151
+1075,App695, Reactive code for reading activity , 2016-02-04,11,269,195
+1076,App695, Add support for onStart and onError , 2016-02-04,3,81,3
+1077,App695, Fix build problem _  make class static and fix some generics problems , 2016-02-03,2,9,11
+1078,App695, Prevent observers from sending events out of order _  add documentation _  annotations , 2016-02-02,9,117,14
+1079,App695, Show the last created tab after initialization , 2016-02-01,2,10,1
+1080,App695, Add missing annotations _  clean up reactive code _  simplify methods , 2016-02-01,5,62,61
+1081,App695, Added missing annotations to react , 2016-02-01,3,9,4
+1082,App695, Fixed StrictMode problems _  created a reactive implementation class _  fixed potential NPEs _  fixed memory leak , 2016-02-01,19,472,110
+1083,App695, get rid of listener between tab manager and presenter. invert the dependency between them. , 2016-01-31,3,34,63
+1084,App695, mostly move delete tab and new tab and handle new intent to presenter , 2016-01-31,6,204,252
+1085,App695, Use Executor thread pool instead of creating my own threads on the fly , 2016-01-30,8,54,46
+1086,App695, Lint fixes _  change nullable annotation in preference manager , 2016-01-30,2,2,3
+1087,App695, Initial slow move toward MVP pattern , 2016-01-29,7,270,9
+1088,App695, Add missing annotation , 2016-01-28,1,1,1
+1089,App695, Null annotations for rest of classes , 2016-01-28,4,29,23
+1090,App695, Add null annotations for fragments , 2016-01-28,7,76,56
+1091,App695, Fix nullable problem in ThemeUtils , 2016-01-27,1,1,3
+1092,App695, Fix null annotations _  issues in various classes , 2016-01-27,8,102,76
+1093,App695, Annotate networkreceiver , 2016-01-27,1,2,1
+1094,App695, Add missing annotation , 2016-01-27,1,1,0
+1095,App695, Fix null issues with bitmap , 2016-01-27,1,21,6
+1096,App695, Non null annotations in LightningWebClient/ChromeClient , 2016-01-27,3,53,33
+1097,App695, Infer nullity , 2016-01-27,19,97,66
+1098,App695, Annotate method parameters _  lint fixes , 2016-01-26,2,5,3
+1099,App695, Add missing method documentation , 2016-01-25,1,14,1
+1100,App695, Update , 2016-01-25,1,2,0
+1101,App695, add ability to add shortcuts to the homescreen _  more work still needed , 2016-01-24,7,52,12
+1102,App695, Cleanup unused methods , 2016-01-24,2,5,41
+1103,App695, Documentation _  cleanup of TabsManager , 2016-01-24,1,99,55
+1104,App695, Save tab back/forward state _  not just current site when saving/restoring state , 2016-01-24,5,129,30
+1105,App695, Use Application object instead of explicit Context , 2016-01-24,1,5,5
+1106,App695, Remove unused imports , 2016-01-24,5,0,13
+1107,App695, Variable renaming _  moving fields around _  more injection _  move ProxyUtils out of flavor specific code , 2016-01-23,17,42,280
+1108,App695, Inject Bus _  HistoryDatabase _  and PreferenceManager rather than using BrowserApp to access instances , 2016-01-23,17,123,85
+1109,App695, Remove static context getter from BrowserApp , 2016-01-23,1,0,5
+1110,App695, Add missing changes for history page changes , 2016-01-23,2,4,1
+1111,App695, Make HistoryPage an AsyncTask to be easier to use , 2016-01-23,5,72,39
+1112,App695, Make StartPage an AsyncTask _  makes it simpler to use , 2016-01-23,2,48,28
+1113,App695, Make BookmarkPage an AsyncTask to simplify its use _  change recursion to iteration in DownloadHandler , 2016-01-23,3,91,70
+1114,App695, Remove more uses of the static context from BrowserApp , 2016-01-22,4,30,22
+1115,App695, Utilize IconCacheTask _  add Application.get because maybe storing the application context is bad???? , 2016-01-22,4,19,30
+1116,App695, No need to inject BookmarkPage _  make it a utility class for right now , 2016-01-22,5,8,23
+1117,App695, Fixed Lite build error , 2016-01-22,1,14,24
+1118,App695, Fixed crash when opening browser from intent , 2016-01-22,3,6,4
+1119,App695, Dependency injection for ReadingActivity , 2016-01-21,3,18,13
+1120,App695, Make ProxyUtils a proper dagger singleton _  inject more member variables where possible , 2016-01-21,7,40,46
+1121,App695, Properly use AppComponent to only inject classes into dagger _  inject static dependencies into BrowserApp class , 2016-01-21,4,20,25
+1122,App695, Protect incognito activity from intents _  clean up some code analysis warnings _  simplify LightningView settings methods , 2016-01-20,6,38,53
+1123,App695, Correctly remove WebView from layout before destroying it. throw exception if destroy is called without remove , 2016-01-19,2,8,2
+1124,App695, Fixed memory leak caused by incorrectly destroying the WebView before it was removed from its parent , 2016-01-18,1,14,5
+1125,App695, Documentation for Utils class , 2016-01-17,1,58,8
+1126,App695, Revert change to leak canary version _  add todo for bug , 2016-01-16,2,4,2
+1127,App695, Fix lint issues with color ints , 2016-01-16,3,5,3
+1128,App695, Update to stable leak canary release , 2016-01-16,1,2,2
+1129,App695, Documentation for LightningViewTitle. , 2016-01-15,1,27,10
+1130,App695, Comment formatting , 2016-01-15,1,7,7
+1131,App695, Finish LightningView documentation _  add nullable/nonnull annotations to some methods , 2016-01-15,2,208,24
+1132,App695, start documentation in LightningView _  remove direct field access and replace with getters , 2016-01-14,3,122,19
+1133,App695, Attempt to fix build error by pulling latest tools , 2016-01-13,1,1,0
+1134,App695, Fixed CI build error due to missing build tools , 2016-01-12,1,1,1
+1135,App695, added content URIs for Chrome dev and beta and debug methods , 2016-01-11,1,26,0
+1136,App695, Potential javascript to extract theme meta tag (currently no-op) , 2016-01-11,1,16,0
+1137,App695, Update gradle dependencies _  fix a number of lint errors , 2016-01-11,20,37,46
+1138,App695, Fixed broken gradle build , 2016-01-11,1,1,1
+1139,App695, Async loading of homepage _  delegate IOThread responsibility to BrowserApp class , 2016-01-10,5,66,38
+1140,App695, Run UI operations on correct thread , 2016-01-10,1,8,2
+1141,App695, Mirror AppComponent getters in BrowserApp so that classes are less reliant on AppComponent _  refactored getAppContext to getContext , 2016-01-10,20,63,50
+1142,App695, Start using a single thread executor for any database access to eliminate unnecessary thread creation , 2016-01-10,4,27,32
+1143,App695, Fixed memory leak in IncognitoActivity , 2016-01-10,2,2,3
+1144,App695, Update gradle to use LeakCanary snapshot so that leak detection works on marshmallow , 2016-01-10,2,5,2
+1145,App695, Add increase contrast filter , 2016-01-05,4,23,1
+1146,App695, french translation up to date , 2015-12-05,1,129,19
+1147,App695, [WIP] updated french translation , 2015-12-04,1,97,13
+1148,App695, Add japanese translation , 2015-12-01,1,2,1
+1149,App695, Add japanese translation , 2015-12-01,1,15,2
+1150,App695, perform exit cleanup when browser is closed regardless of whether last tab is deleted or not , 2015-11-22,3,3,1
+1151,App695, Fixed close tab behavior _  fixed UI corner case bug , 2015-11-22,1,17,17
+1152,App695, Fix bug with navigation drawer _  update gradle dependencies , 2015-11-21,3,7,5
+1153,App695, Catch non 2xx responses and don't try to open an input stream , 2015-11-21,1,7,0
+1154,App695, Move language initialization to constructor , 2015-11-21,1,7,6
+1155,App695, Update to search suggestions API that supports HTTPS , 2015-11-21,1,4,2
+1156,App695, Translation of new and old strings. , 2015-11-18,1,18,13
+1157,App695, Update hosts file with latest version from hosts-file.net , 2015-11-05,1,563,17
+1158,App695, Reformatted manifest file , 2015-11-05,1,61,60
+1159,App695, Make the workaround more obvious , 2015-11-05,2,14,14
+1160,App695, Workaround for bug in the appcompat support library , 2015-11-05,2,13,7
+1161,App695, Fix crash that could occur pre API 16 , 2015-11-04,1,22,2
+1162,App695, Better handling of bookmarks _  some responsability moved back to BrowserActivity , 2015-11-04,4,56,56
+1163,App695, Fix checks to allow both HTTP and HTTPS URLs , 2015-11-03,1,2,2
+1164,App695, Fix methods from SHelper , 2015-11-03,1,4,4
+1165,App695, Migrate all trafic to Google services to HTTPS , 2015-11-03,3,3,3
+1166,App695, Changed the scope of removeTab to private , 2015-11-03,1,1,1
+1167,App695, moved the deleting logic to TabsManager , 2015-11-03,2,50,35
+1168,App695, Add support for multiple languages in search suggestions , 2015-11-01,1,6,1
+1169,App695, Fixed bug where you could add generated html pages as bookmarks , 2015-11-01,1,9,6
+1170,App695, Remove headers in case the setting is disabled after being enabled , 2015-10-30,1,3,0
+1171,App695, Corrected variable names. , 2015-10-30,2,6,6
+1172,App695, Add support to remove identifying headers _  add support for DNT header requests , 2015-10-30,7,114,47
+1173,App695, Fix bug where you couldn't turn flash on on supported devices , 2015-10-30,1,20,24
+1174,App695, Fix issue where warning dialog was not shown for local files in some cases , 2015-10-30,2,95,66
+1175,App695, Fixed bug where the homepage file url was showing , 2015-10-29,7,23,17
+1176,App695, Add clear_cookies string to fix context inconsistencies , 2015-10-26,17,17,1
+1177,App695, Update Serbian , 2015-10-26,1,45,4
+1178,App695, Properly destroy WebView , 2015-10-24,1,4,1
+1179,App695, Disabled scaling on bookmarks page , 2015-10-22,1,1,1
+1180,App695, Workaround for #270 , 2015-10-22,4,53,15
+1181,App695, Fixed memory leak , 2015-10-21,1,1,0
+1182,App695, Switch to grant library for permissions handling , 2015-10-21,9,24,244
+1183,App695, Update to latest support libraries _  move permissions stuff to separate package , 2015-10-18,10,253,183
+1184,App695, Mistakenly removed build tools 22 that netcipher relies on , 2015-10-17,1,2,0
+1185,App695, Switched to correct build tools , 2015-10-17,1,1,1
+1186,App695, Tryin 2 fix travis ci. local builds aren't failing with lint errors :( , 2015-10-17,2,4,2
+1187,App695, Removed redundant character escapes to fix lint errors. , 2015-10-17,6,9,9
+1188,App695, Fixed bugs in showTab _  attempt to improve full-screen video handling. , 2015-10-17,5,86,76
+1189,App695, Fixed bug where opening a URL in the browser wouldn't work _  refactored the ui controller _  fixed bad database practices. , 2015-10-17,10,128,114
+1190,App695, Fixed new bug where browser wouldn't close on new intent. Fixed potential vuln in downloading code. Formatted some code. , 2015-10-15,4,55,44
+1191,App695, Fixed recently introduced UI bug in desktop tab mode. , 2015-10-15,8,70,100
+1192,App695, Fixed security vulnerability in the intent selector , 2015-10-15,2,12,2
+1193,App695, Add back SSL error detection that was removed _  fixed static analysis warnings. , 2015-10-15,23,98,92
+1194,App695, Fixed more bugs recently introduced. Hardened asynctasks against memory leaks. Fixed some other stuff , 2015-10-15,6,130,82
+1195,App695, Fixed number of UI bugs recently introduced in Tabs changes merge from S. Pacifici , 2015-10-14,4,31,9
+1196,App695, Document the PermissionsManager , 2015-10-14,5,79,36
+1197,App695, Preliminary fix for permissions _  fixed a new crash _  formatted some code , 2015-10-14,10,247,133
+1198,App695, Add dex counter _  fixed new bugs in bookmarks _  fixed bug in bookmark sync _  todo fix downloading bug , 2015-10-14,8,17,2138
+1199,App695, Improving the #296 pull request , 2015-10-09,13,112,138
+1200,App695, Be more clear on code style , 2015-10-08,1,3,2
+1201,App695, Removed commented out line that was being compiled... , 2015-10-07,2,3,4
+1202,App695, Updated German translation , 2015-10-06,1,32,0
+1203,App695, Added 'home' button to tab drawer , 2015-10-06,2,23,1
+1204,App695, Added trello board info , 2015-10-05,1,1,0
+1205,App695, Added more download options , 2015-10-03,1,5,1
+1206,App695, Translated from scratch , 2015-10-02,1,119,114
+1207,App695, Update Polish translations , 2015-10-02,1,65,12
+1208,App695, last changes for 4.2 update , 2015-09-30,1,4,4
+1209,App695, Fixes #297: properly implement onReceivedSslError() method , 2015-09-30,15,50,25
+1210,App695, Restore activity restart when tab mode changes , 2015-09-29,4,21,12
+1211,App695, Fix UI bug caused by obfuscation , 2015-09-29,2,15,3
+1212,App695, Up version number _  fix build error. , 2015-09-28,2,4,4
+1213,App695, iml files removed. They are generated during gradle sync by Android Studio. , 2015-09-28,2,2,139
+1214,App695, Solve problems with colors when tabs are switched , 2015-09-28,2,85,15
+1215,App695, Reduce visibility of members and methods where possible _  and more (see description) , 2015-09-27,27,210,288
+1216,App695, Begin adding documentation _  remove unnecessary controller method , 2015-09-27,4,139,53
+1217,App695, Lint fixes _  save scroll position in bookmarks list , 2015-09-27,8,38,59
+1218,App695, Fixed bug where tab and toolbar colors were not in sync when color mode got switched on , 2015-09-27,1,2,0
+1219,App695, Use executorservice instead of plain executor to facilitate shutdown , 2015-09-27,1,3,1
+1220,App695, Add back importing from stock browser and an attempt to add import from chrome , 2015-09-27,6,211,11
+1221,App695, Better asynchronous image loading for BookmarksFragment , 2015-09-27,3,90,32
+1222,App695, Updated download handler , 2015-09-26,1,4,3
+1223,App695, Fixed bugs in downloading code _  Added butterknife _  Added back proxying to lite , 2015-09-26,5,269,134
+1224,App695, Simplified LightningView with externalized XXXClients , 2015-09-22,15,833,767
+1225,App695, Added support for downloading files to directories not lying in the directory returned by getExternalStorage , 2015-09-20,8,193,54
+1226,App695, ClickHandler removed _  avoid call loop duirng long press on a webview between BrowserActivity and LightningView , 2015-09-17,6,82,113
+1227,App695, Trying to remove BrowserController interface , 2015-09-17,7,70,32
+1228,App695, Change variables to project naming convention , 2015-09-16,1,17,17
+1229,App695, Remove unused resources _  make methods static , 2015-09-16,3,2,3
+1230,App695, Fixed bugs in the BookmarksFragment and BookmarkManager , 2015-09-16,2,51,39
+1231,App695, Bookmark page generation moved to LightningView to avoid call loop between BrowserActivity and LightningView through BrowserController , 2015-09-16,6,46,44
+1232,App695, PreferenceManager injected , 2015-09-16,22,194,163
+1233,App695, Properly close I/O streams that were not being properly closed , 2015-09-15,2,7,4
+1234,App695, Made inner classes static to discourage access within of enclosing class , 2015-09-15,4,5,5
+1235,App695, Reduce unnecessary public visibility on internally used variables , 2015-09-15,5,18,18
+1236,App695, Equalized padding on autocomplete layout , 2015-09-15,1,2,1
+1237,App695, Back _  Forward and Plus rewired , 2015-09-15,6,84,40
+1238,App695, In the middle of events rewiring (back/forward) , 2015-09-15,7,127,47
+1239,App695," remove redundant calls to ""showTab"" ", 2015-09-14,1,3,6
+1240,App695, Remove unnecessary ClickListener classes , 2015-09-14,1,3,21
+1241,App695, Fixed static analysis warnings , 2015-09-14,7,21,19
+1242,App695, Extract anonymous caching class to its own inner class , 2015-09-14,1,28,18
+1243,App695, TabsFragment extracted , 2015-09-14,10,447,237
+1244,App695, mWebView reference removed from BrowserActivity , 2015-09-14,2,51,32
+1245,App695, CurrentTab reference removed from BrowserActivity , 2015-09-14,2,157,114
+1246,App695, TabsManager created , 2015-09-14,2,213,62
+1247,App695, iml files removed. They are generated during gradle sync by Android Studio. , 2015-09-14,2,2,138
+1248,App695, Fixed bug in release builds where event bus events were not being fired , 2015-09-13,1,6,0
+1249,App695, Initialize ui color variable , 2015-09-12,1,7,8
+1250,App695, Fixed ColorMode on the desktop tab UI by caching the backing Bitmap rather than immutable BitmapDrawable , 2015-09-12,2,29,17
+1251,App695, Update to faster jsoup library version , 2015-09-11,2,2,2
+1252,App695, Use thread pool executors on AsyncTasks to increase performance , 2015-09-11,3,19,12
+1253,App695, Cache icons on a background thread , 2015-09-11,1,29,15
+1254,App695, Updated to latest Google logo , 2015-09-11,1,0,0
+1255,App695, Refactored ProxyUtils for lite version , 2015-09-10,1,7,5
+1256,App695, Fix broken icon downloading _  handle edge cases where url parameter is bad , 2015-09-09,1,11,5
+1257,App695, Removed need for passing a Context to the ProxyUtils singleton , 2015-09-09,2,3,3
+1258,App695, Don't clear the HashMap _  instead just change the reference , 2015-09-09,1,3,5
+1259,App695, Add LeakCanary library _  fix a few memory leaks , 2015-09-08,6,30,15
+1260,App695, Fixed a number of lint warnings , 2015-09-08,8,10,15
+1261,App695, Fixed compile bug in LightningLite , 2015-09-08,1,1,1
+1262,App695, Fixed bug with WebView background being transparent _  fixed some deprecated API usage _  made HistoryDatabase a true singleton , 2015-09-08,9,123,102
+1263,App695, formatting change in browseractivity , 2015-09-07,1,5,8
+1264,App695, Remove pointless assertions: @ NonNull removes need for assertions , 2015-09-07,1,0,3
+1265,App695, Cleaning up lint warnings and making some performance improvements on string builders , 2015-09-07,17,35,46
+1266,App695, Add a transition when entering and exiting the Reading mode , 2015-09-07,1,9,0
+1267,App695, Use support library DrawerArrowDrawable instead of using our own version , 2015-09-07,2,1,187
+1268,App695, Lint fixes _  remove use of assert from code _  update to latest support library , 2015-09-07,5,27,21
+1269,App695, Update README.md , 2015-09-07,1,5,7
+1270,App695, Fix removing the BookmarksEvent.Deleted instead of the actual bookmark , 2015-09-07,1,1,1
+1271,App695, Fix bookmarks drawer background problems , 2015-09-03,2,1,1
+1272,App695, BookmarkPage restored and proper dependency injection , 2015-09-03,21,591,457
+1273,App695, Add clear button to the search bar instead of go button , 2015-08-30,1,6,11
+1274,App695, Animations for activity transitions , 2015-08-27,8,95,0
+1275,App695, Updated netchiper submodule , 2015-08-27,1,1,1
+1276,App695, Refactoring: Bookmarks as Fragment , 2015-08-27,19,1001,594
+1277,App695, method could be static , 2015-08-25,1,2,2
+1278,App695, Improved reading mode thanks to changes from snacktory fork by skyshard , 2015-08-25,6,1050,356
+1279,App695, Added option for empty user agent if the user sets an empty string to work around webview limitations , 2015-08-25,2,9,3
+1280,App695, Fixed some deprecation problems and code analysis warnings , 2015-08-23,1,18,11
+1281,App695, Switched to RecyclerView _  cleaned up some HTML generator methods , 2015-08-23,12,375,302
+1282,App695, Added permission handling and support for API 23 , 2015-08-23,7,128,18
+1283,App695, Changed padding on toolbar for consistency _  updated build tools , 2015-08-22,5,9,5
+1284,App695, Try to fix problem with netcipher library , 2015-08-22,1,2,0
+1285,App695, Added back sdk 22 necessary for orbot library , 2015-08-22,1,1,0
+1286,App695, First step toward Android M support _  compile with sdk 23 _  fix errors caused by upgrade , 2015-08-22,16,138,300
+1287,App695, Better URL validation _  thanks AOSP , 2015-08-21,2,153,34
+1288,App695, Added homepage button _  altered tab UI slightly _  fixed URL validation , 2015-08-21,12,15035,29
+1289,App695, Fixed many code analysis warnings , 2015-08-21,20,53,54
+1290,App695, Fixed bug where history wasn't being deleted until the app was restarted , 2015-08-21,2,8,2
+1291,App695, removed unused strings , 2015-08-21,1,0,20
+1292,App695, another attempt to fix travis , 2015-08-21,1,5,16
+1293,App695, added info about contributing , 2015-08-21,1,5,0
+1294,App695, Attempt to fix continuous integration build error , 2015-08-21,1,15,0
+1295,App695, Update travis CI settings to support containers for faster building , 2015-08-21,1,1,0
+1296,App695, Fixed a couple code warnings , 2015-08-21,2,8,6
+1297,App695, Renamed folders to fix build error , 2015-08-21,2,0,0
+1298,App695, Miscellaneous code analysis warning fixes , 2015-08-20,8,7,13
+1299,App695, Initial support for tabs on the top instead of in the navigation drawer , 2015-08-20,17,319,67
+1300,App695, fix: about scheme , 2015-08-20,1,1,1
+1301,App695, Same as branch master _  every string is updated. , 2015-08-19,1,26,11
+1302,App695, Changed a few old strings and added new. , 2015-08-18,1,26,11
+1303,App695, Further generify Adblock host loading , 2015-08-17,1,28,3
+1304,App695, Update hosts file _  create versatile hosts loading method to make way for users to load from any hosts file , 2015-08-16,3,30040,44931
+1305,App695, Fixed a setting _  lowered priority on a thread , 2015-08-12,2,6,2
+1306,App695, Implement javascript close window method in the browser , 2015-08-11,3,14,2
+1307,App695, Make incognito mode safer _  fix crash in search adapter _  , 2015-08-10,4,156,103
+1308,App695, Updated with latest changes from NetCipher library , 2015-08-06,1,1,1
+1309,App695, Added korean translation , 2015-08-05,2,175,2
+1310,App695, Fix RuntimeException on Android M Preview , 2015-08-05,4,10,6
+1311,App695, Use single WebkitProxy reset method , 2015-08-05,1,5,12
+1312,App695, Update netcipher library to latest version , 2015-08-05,1,1,1
+1313,App695, Fixed some bugs , 2015-08-05,4,27,13
+1314,App695, Add option to clear Web Storage , 2015-08-04,6,130,103
+1315,App695, Update strings.xml , 2015-08-04,1,1,1
+1316,App695, Update strings.xml , 2015-08-04,1,2,2
+1317,App695, Update strings.xml , 2015-08-04,1,21,38
+1318,App695, Added text encoding setting _  updated support libraries , 2015-08-03,8,78,34
+1319,App695, Update strings.xml , 2015-08-03,1,111,6
+1320,App695, fixed full-screen mode when watching a video in full-screen , 2015-08-02,2,37,22
+1321,App695, Add suggestions to naming a folder in edit bookmark dialog , 2015-07-31,2,35,1
+1322,App695, Updated hosts file , 2015-07-30,2,18140,21
+1323,App695, fixed bug in search adapter , 2015-07-29,2,2,2
+1324,App695, Fixed bug when long pressing bookmarks _  removed unused strings , 2015-07-29,2,14,14
+1325,App695, More clear and understandable suggestions filtering algorithm , 2015-07-29,2,74,36
+1326,App695, long-press on a folder on the bookmarks page works correctly now + other cleanup , 2015-07-27,6,57,51
+1327,App695, Sort bookmarks so folders are at the end of the list _  updated bookmarks page to better utilize space , 2015-07-26,3,38,50
+1328,App695, Renaming and Deleting bookmark folders is now available yay , 2015-07-26,7,179,145
+1329,App695, Fixed forgotten escaping , 2015-07-26,1,1,2
+1330,App695, Fixed typo , 2015-07-26,1,1,2
+1331,App695, French translations _  first batch , 2015-07-26,1,23,1
+1332,App695, Simplify and improve long press handling for links on the bookmark page and history page , 2015-07-25,7,218,170
+1333,App695, Added Bookmark folders _  Added actions to the bookmark drawer _  + other , 2015-07-25,141,987,506
+1334,App695, Down with Toast _  all hail Snackbar , 2015-07-19,6,12,26
+1335,App695, Snackbar >>>>>>> Toast , 2015-07-19,7,37,42
+1336,App695, Removed use of tabs and replaced with 4 spaces , 2015-07-19,26,3379,3379
+1337,App695, Updated ProxyUtils to automatically start TOR when needed _  more abstraction of BrowserActivity _  other cleanup , 2015-07-19,10,270,239
+1338,App695, Fixed errors with ProxyUtils , 2015-07-18,3,24,19
+1339,App695, updated to latest netcipher submodule , 2015-07-18,1,1,1
+1340,App695, Convert BrowserActivity to an abstract class _  remove unused resources , 2015-07-18,33,39,528
+1341,App695, New Full-screen mode works better and doesn't hide the top of the WebView _  +other , 2015-07-18,38,5199,5055
+1342,App695," 1. Use the "" \ "" character to escape the "" ' "" character 2. lose the </string-arrary> ", 2015-07-06,1,2,1
+1343,App695, remove LicenseActivity intent , 2015-06-16,1,0,5
+1344,App695, create PreferenceCategory for licenses , 2015-06-15,4,44,283
+1345,App695, Toolbar fix , 2015-06-14,3,32,23
+1346,App695, small fix , 2015-06-13,1,0,6
+1347,App695, clean manifest , 2015-06-12,1,0,33
+1348,App695, new Settings 3/3 , 2015-06-12,11,779,2130
+1349,App695, new Settings 2/3 , 2015-06-12,11,275,538
+1350,App695, new Settings 1/3 , 2015-06-12,22,506,572
+1351,App695, rebase test for main settings screen , 2015-06-11,5,367,848
+1352,App695, Portuguese update , 2015-06-09,1,15,2
+1353,App695, Moved proxy code to utility class _  remove proxy from lite version to reduce apk size , 2015-06-05,21,775,662
+1354,App695, Fixed bug , 2015-06-03,1,1,1
+1355,App695, Fix error in strings , 2015-06-03,1,1,0
+1356,App695, Code cleanup , 2015-06-03,15,120,99
+1357,App695, Add manual proxy picker , 2015-06-03,5,87,1
+1358,App695, Corrections. , 2015-05-30,1,0,5
+1359,App695, Update strings.xml , 2015-05-29,1,1,1
+1360,App695, Update. , 2015-05-29,1,35,15
+1361,App695, Use constants for proxy choices _  part 2 , 2015-05-26,2,11,5
+1362,App695, Use constants for proxy choices , 2015-05-26,3,14,9
+1363,App695, Notify user if proxy is not ready when they try to load a URL , 2015-05-26,4,36,0
+1364,App695, Fix for I2PAndroidHelper.isI2PAndroidRunning() always returning false , 2015-05-26,3,19,6
+1365,App695, remove unnecessary files , 2015-05-25,11,20,212
+1366,App695, Utilize gradle product flavors to produce free and plus versions , 2015-05-25,6,26829,26814
+1367,App695, Use I2P if configured , 2015-05-25,4,187,66
+1368,App695, Change Orbot checkbox to an HTTP proxy choice list (None _  Orbot _  I2P) , 2015-05-24,4,96,46
+1369,App695, Add I2P client library to dependencies , 2015-05-24,2,6,0
+1370,App695, [Spanish l10n] Fixed duplicated string , 2015-05-24,1,5,6
+1371,App695, [Spanish l10n] Added new strings , 2015-05-23,1,86,0
+1372,App695, [Spanish l10n] Fixed some strings and updated untranslated ones , 2015-05-22,1,27,27
+1373,App695, Added an AMOLED Black theme _  changed from tabs to spaces for some files , 2015-05-13,15,424,246
+1374,App695, Complete S.Chinese. , 2015-05-13,1,27,2
+1375,App695, Portuguese update , 2015-05-12,1,5,5
+1376,App695, compile jsoup from jcenter instead of embedding jar in code , 2015-05-11,2,1,1
+1377,App695, Updated to latest gradle plugin , 2015-05-10,2,1,2
+1378,App695, updated to latest netcipher library , 2015-05-10,1,1,1
+1379,App695, Remove unused resources _  code cleanup , 2015-05-05,10,10,28
+1380,App695, Remove unused resources on build , 2015-05-04,1,2,0
+1381,App695, Lint fixes and code cleanup , 2015-05-04,31,235,261
+1382,App695, improvements for android studio , 2015-05-04,11,49,223
+1383,App695, Fix BrowserApp class not being found by webkitproxy , 2015-05-03,1,7,7
+1384,App695, Fix missing strings error _  remove unused icon , 2015-05-02,4,4,1
+1385,App695, Serbian translation thanks to @pekjam , 2015-05-02,1,22,4
+1386,App695, Update Serbian translation , 2015-05-03,1,21,0
+1387,App695, Move java files to sub-packages for better organization , 2015-05-02,43,391,367
+1388,App695, Exclude support jars from netcipher build , 2015-05-02,1,5,1
+1389,App695, add m2repository , 2015-05-02,1,1,2
+1390,App695, Update build to search for latest support repos , 2015-05-02,1,2,0
+1391,App695, Update to latest sdk , 2015-05-02,1,2,2
+1392,App695, Fix travis yml , 2015-05-02,1,1,0
+1393,App695, Try to fix line end bug , 2015-05-02,1,1,1
+1394,App695, Dummy change to gradleq , 2015-05-02,1,1,1
+1395,App695, Fixing travis , 2015-05-02,1,1,2
+1396,App695, Add in appropriate .idea files , 2015-05-02,9,91,0
+1397,App695, Remove unnecessary iml file , 2015-05-02,1,0,19
+1398,App695, Remove old iml file , 2015-05-02,1,0,98
+1399,App695, Switch to gradle!!! , 2015-05-02,242,638,125
+1400,App695, Clear webdata when the cookies are cleared , 2015-05-01,3,12,2
+1401,App695, Update strings.xml , 2015-04-29,1,1,1
+1402,App695, Update strings.xml , 2015-04-29,1,1,1
+1403,App695, Update strings.xml , 2015-04-29,1,3,3
+1404,App695, Update strings.xml , 2015-04-29,1,5,5
+1405,App695, Add Portuguese language , 2015-04-29,1,217,0
+1406,App695, Use boolean constant to make free/plus builds easier to generate , 2015-04-28,5,12,3
+1407,App695, Fixed bug that crashed dialogs , 2015-04-28,2,8,8
+1408,App695, Update strings.xml , 2015-04-28,1,1,1
+1409,App695, Update strings.xml , 2015-04-28,1,1,1
+1410,App695, Update strings.xml , 2015-04-28,1,1,1
+1411,App695, Update strings.xml , 2015-04-28,1,1,1
+1412,App695, Update strings.xml , 2015-04-28,1,3,3
+1413,App695, Update strings.xml , 2015-04-28,1,1,1
+1414,App695, Fixed bug where incognito tabs are rememebered , 2015-04-27,1,2,1
+1415,App695, Workaround for a bug in LG devices , 2015-04-25,1,15,0
+1416,App695, Update strings.xml , 2015-04-25,1,1,1
+1417,App695, Create strings.xml , 2015-04-25,1,217,0
+1418,App695, Last updates for public release 4.0.8a. Updated adblocking hosts and added some default bookmarks for better UX , 2015-04-25,5,1319,1653
+1419,App695, Refactored/Cleaned up some settings activities , 2015-04-25,5,131,246
+1420,App695, Update strings.xml , 2015-04-25,1,5,5
+1421,App695, Made some corrections and translated one more string , 2015-04-24,1,6,6
+1422,App695, Fixed scrolling sensitivity in full-screen _  fixed http auth dialog issue , 2015-04-22,1,10,7
+1423,App695, update submodules from netcipher , 2015-04-21,1,1,1
+1424,App695, Fix file uploading on Lollipop _  clean up the code , 2015-04-21,4,142,45
+1425,App695, Optimize webpage builders _  fixed bug in bookmark activity , 2015-04-18,6,69,61
+1426,App695, Organize PreferenceManager , 2015-04-18,1,201,200
+1427,App695, Use a PreferenceManager to handle SharedPreferences among classes , 2015-04-18,19,573,425
+1428,App695, Spring Cleaning , 2015-04-17,4,87,82
+1429,App695, Remove unused class , 2015-04-17,1,0,360
+1430,App695," Revert ""Revert ""Fixed bug in dark mode where search suggestions wouldn't show up. Sped up app startup by using singleton in BookmarkManager."""" ", 2015-04-17,8,406,32
+1431,App695," Revert ""Fixed bug in dark mode where search suggestions wouldn't show up. Sped up app startup by using singleton in BookmarkManager."" ", 2015-04-17,8,32,406
+1432,App695, Fixed bug in dark mode where search suggestions wouldn't show up. Sped up app startup by using singleton in BookmarkManager. , 2015-04-17,8,406,32
+1433,App695, Update strings.xml , 2015-04-10,1,3,3
+1434,App695, Update strings.xml , 2015-04-07,1,2,2
+1435,App695, Update strings.xml , 2015-04-05,1,1,1
+1436,App695, Update strings.xml , 2015-04-05,1,6,6
+1437,App695, Update strings.xml , 2015-04-04,1,2,2
+1438,App695, Update strings.xml , 2015-04-04,1,43,43
+1439,App695, strings.xml , 2015-04-04,1,196,0
+1440,App695, Delete values-hu , 2015-04-04,1,0,1
+1441,App695, Create values-hu , 2015-04-04,1,1,0
+1442,App695, Bugfixes _  code clean up , 2015-04-04,2,35,23
+1443,App695, Few new strings added and updated a pair. , 2015-04-04,1,30,10
+1444,App695, Update strings.xml , 2015-04-03,1,22,22
+1445,App695, added new strings , 2015-04-03,1,5,0
+1446,App695, Fixed Russian translation , 2015-04-03,1,8,8
+1447,App695, Update strings.xml , 2015-04-03,1,3,3
+1448,App695, Create strings.xml , 2015-04-03,1,193,0
+1449,App695, Improved TextReflow on Kitkat and up , 2015-04-03,1,16,13
+1450,App695, Change Navigation Drawer layout slightly _  fix dark theme for drawer , 2015-04-02,19,122,98
+1451,App695, fix theme on BrowserActivity , 2015-04-01,11,60,22
+1452,App695, improve restart , 2015-04-01,2,12,2
+1453,App695, improve theming 2 , 2015-04-01,2,2,23
+1454,App695, improve theming 1 , 2015-04-01,9,58,99
+1455,App695, clean BrowserActivity , 2015-04-01,1,63,185
+1456,App695, Added preference changes due to theme changes. , 2015-03-31,1,3,0
+1457,App695, Added Dark Theme to browser. Added options to Reading Mode. , 2015-03-31,58,501,157
+1458,App695, Fix deprecation issues _  fix a couple rendering issues , 2015-03-29,6,32,30
+1459,App695, Update icon , 2015-03-29,3,1,1
+1460,App695, Lint fixes _  new icon _  fixes for SearchAdapter showing weird on ICS , 2015-03-29,8,25,22
+1461,App695, Add back/forward arrows for large devices _  change arrow colors to light for dark theme , 2015-03-29,3,106,2
+1462,App695, Update project for new API 22 _  remove another layer of overdraw on the WebView , 2015-03-28,3,44,112
+1463,App695, Remove overdraw and stop blocking DOM storage (breaks sites) in incognito mode , 2015-03-27,2,5,9
+1464,App695, Display shadow behind progress bar for non Lollipop devices , 2015-03-26,2,13,8
+1465,App695, Cache favicons when they are downloaded by the WebView for use by bookmarks , 2015-03-26,2,32,17
+1466,App695, Display back and forward buttons on tablets , 2015-03-26,4,105,73
+1467,App695, Cache search suggestions temporarily so that repeated searches to not waste data requests , 2015-03-26,1,99,21
+1468,App695, Rename HistoryDatabase and convert it to a singleton for easier usage. Improved database structure. , 2015-03-26,5,57,67
+1469,App695, Reduce overdraw on dropdown view , 2015-03-25,1,0,1
+1470,App695, Color mode dynamically lightens colors that are too dark to see , 2015-03-25,1,51,11
+1471,App695," Switch out ""Android Search"" for better known Ask.com search ", 2015-03-24,6,17,21
+1472,App695, Fixed bug where progress bar didn't fade out always , 2015-03-24,1,3,2
+1473,App695, Using a smoother progress bar , 2015-03-24,4,58,90
+1474,App695, complete german translation , 2015-03-14,1,18,6
+1475,App695, Update strings.xml , 2015-03-07,1,22,22
+1476,App695, added new strings , 2015-02-27,1,5,0
+1477,App695, Fixed Russian translation , 2015-02-27,1,8,8
+1478,App695, Added in option to change URL display (url _  domain _  title) _  and other minor changes , 2015-02-24,11,262,286
+1479,App695, Update strings.xml , 2015-02-22,1,3,3
+1480,App695, Create strings.xml , 2015-02-14,1,193,0
+1481,App695, fix ReadingActivity , 2015-02-12,1,5,0
+1482,App695, Change Reading mode package name to lower case , 2015-02-09,10,18,22
+1483,App695, Fix lint problems and other code style problems _  also fixed sluggish navigation drawer issues , 2015-02-09,11,105,123
+1484,App695, Add in proguard protection for Reading Mode (should keep it from crashing) , 2015-02-09,1,1,0
+1485,App695, Add in attribution to jsoup library , 2015-02-09,3,38,10
+1486,App695, Remove mdpi assets _  just rely on scaled down hdpi versions , 2015-02-09,19,0,0
+1487,App695, Fixed problem where progress bar didn't display on 4.0 and 4.1 , 2015-02-05,3,97,87
+1488,App695, Added a Reading Mode that can be accessed from the menu , 2015-02-05,20,2659,80
+1489,App695, Fixed bug where navigation drawers sometimes overlapped , 2015-02-05,1,33,0
+1490,App695, Attempt to fix bug where DrawerArrowDrawable animation gets stuck half way. , 2015-02-05,2,24,0
+1491,App695, Fixed bug with Palette API , 2015-02-04,1,6,7
+1492,App695, Fix spelling , 2015-02-04,1,2,2
+1493,App695, Update Polish translation in dev branch , 2015-02-04,1,5,0
+1494,App695, Port changes from setup-ant.sh to setup-ant.bat , 2015-02-01,1,10,0
+1495,App695, Change libraries to library projects , 2015-02-01,6,19,2
+1496,App695, Finish updating target to android-21 , 2015-02-01,2,2,2
+1497,App695, Update .travis.yml , 2015-01-31,1,1,1
+1498,App695, Update setup-ant.sh , 2015-01-31,1,1,1
+1499,App695, Changes to make Incognito mode more secure and less likely to leak data to websites. , 2015-01-31,1,23,7
+1500,App695, Bug Fixes for rouge Android versions/OEMs that don't behave correctly , 2015-01-31,4,29,13
+1501,App695, Update Travis build script , 2015-01-31,2,2,7
+1502,App695, update german string , 2015-01-31,1,10,0
+1503,App695, Change several search engine URLs to https , 2015-01-31,1,4,4
+1504,App695, Improve rendering , 2015-01-30,1,21,7
+1505,App695, Fixed occasional IllegalStateException , 2015-01-30,1,2,1
+1506,App695, Cache objects to use less memory , 2015-01-30,1,12,9
+1507,App695, Final updates for second Lollipop beta , 2015-01-30,4,38,117
+1508,App695, Search adapter shouldnt spawn new worker threads if current ones havent finished , 2015-01-29,1,5,2
+1509,App695, Add utility method to help finding favicons , 2015-01-29,1,5,0
+1510,App695," Revert ""Revert ""Fix miscellaneous lint errors"""" ", 2015-01-29,4,5,56
+1511,App695," Revert ""Fix miscellaneous lint errors"" ", 2015-01-29,4,56,5
+1512,App695, Fix miscellaneous lint errors , 2015-01-29,4,5,56
+1513,App695, Settings should utilize .apply() instead of .commit() , 2015-01-29,5,43,49
+1514,App695, Update with new hosts file , 2015-01-29,2,6553,385
+1515,App695, Simplified and improved filter algorithm , 2015-01-29,1,26,86
+1516,App695, Added option to enable/disable Color Mode , 2015-01-29,5,80,25
+1517,App695, Allow Sharing in Incognito Mode , 2015-01-29,2,2,0
+1518,App695, Added option to block third party cookies , 2015-01-29,8,117,14
+1519,App695, Complete Material Design for Settings , 2015-01-29,17,267,261
+1520,App695, Fixed potential NullPointerExceptions , 2015-01-29,2,4,6
+1521,App695, Fixed potential NullPointerExeptions , 2015-01-28,2,11,4
+1522,App695, Fixed styling issues with the toolbar , 2015-01-28,14,130,49
+1523,App695, material design for erveryone.. , 2015-01-28,20,1512,1590
+1524,App695, Update manifest to latest update , 2015-01-27,1,2,2
+1525,App695, Retrieve correct package name rather than hardcoding it , 2015-01-27,1,10,10
+1526,App695, Modified icon , 2015-01-27,5,0,0
+1527,App695, Simplify main activity layout file , 2015-01-27,2,8,6
+1528,App695, Animate toolbar hide/show , 2015-01-27,12,337,215
+1529,App695, Update README.md , 2015-01-26,1,5,2
+1530,App695, Add specific build information for each branch , 2015-01-26,1,2,0
+1531,App695, Initial changes for Material Design , 2015-01-26,109,1208,217
+1532,App695, Activities now return correct menus that can be utilized by the toolbar , 2015-01-26,2,10,0
+1533,App695, Add text reflow for Android versions >= Kitkat , 2015-01-26,1,1,13
+1534,App695, JavaScript for inverted rendering , 2015-01-26,1,3,1
+1535,App695, Added material design drop shadow to html pages , 2015-01-26,4,210,213
+1536,App695, Fixed URL Encoding for Search Suggestions so that special characters work , 2015-01-22,1,1,2
+1537,App695, Update strings.xml , 2015-01-15,1,5,5
+1538,App695, Cache some objects to speed up the query process. , 2015-01-05,1,42,28
+1539,App695, Speed up the retrieval of search suggestions from the database. , 2015-01-05,1,2,2
+1540,App695, add greek translation , 2015-01-05,1,180,0
+1541,App695, Fix a typo , 2015-01-03,1,1,1
+1542,App695, Delete a comment saying that it doesn't work , 2015-01-03,1,1,1
+1543,App695, Not allow to zoom in the internal pages. , 2015-01-03,3,3,3
+1544,App695, Add Polish translations , 2015-01-03,1,27,1
+1545,App695, Fix formating , 2015-01-02,1,2,2
+1546,App695, Fix bug with uploading files on KitKat , 2015-01-02,1,7,0
+1547,App695, Fixed Travis build errors with unused string resources , 2015-01-01,3,4,4
+1548,App695, Added link to git submodule info , 2015-01-01,1,1,1
+1549,App695, Update git submodule for Lollipop support , 2015-01-01,1,1,1
+1550,App695, Reversed search arrow direction to be more intuitive , 2014-12-31,3,39,38
+1551,App695, Merge pull request #154 from DF1E/add-searchbar , 2014-12-31,17,156,82
+1552,App695, Manual merge of Settings changes from @pejakm due to merge conflicts , 2014-12-31,23,2635,2045
+1553,App695, Merging Simplified and Traditional Chinese translations from @ageback master , 2014-12-31,2,69,7
+1554,App695, Added , 2014-12-29,1,1,1
+1555,App695, Fixed more syntax errors , 2014-12-29,1,1,4
+1556,App695, Fixed syntax error , 2014-12-29,1,1,1
+1557,App695, Fixes popup when zooming using only one finger. , 2014-12-02,1,30,1
+1558,App695, Update strings.xml , 2014-11-26,1,86,5
+1559,App695, Update Russian translation , 2014-11-13,1,64,0
+1560,App695, Turksih translation updated. , 2014-11-06,1,161,39
+1561,App695, make the agent picker remember the previous value , 2014-10-02,1,1,0
+1562,App695, Update German translation , 2014-09-19,1,14,1
+1563,App695, [Translations] Updated Serbian , 2014-09-12,1,8,0
+1564,App695, Refactored drawer variable to be inline with correct naming , 2014-09-04,1,31,31
+1565,App695, Formatting , 2014-09-04,1,4,5
+1566,App695, Fixed Italian translation , 2014-09-04,1,1,1
+1567,App695, Change to use Linux Desktop user-agent instead of windows , 2014-09-02,1,2,2
+1568,App695, Revert useless changes , 2014-09-01,2,6,6
+1569,App695, Add BookmarkActivity that allows centralized management of bookmarks , 2014-09-01,13,380,78
+1570,App695, Make history deletion more efficient , 2014-09-01,1,2,10
+1571,App695, Fixed: Stay inside incognito mode even when URL could be loaded externally , 2014-08-31,3,6,0
+1572,App695, Reduce file size , 2014-08-27,20,0,0
+1573,App695, Fixed crash on API < 16 , 2014-08-27,1,1,1
+1574,App695, Removed debug log from searchAdapter , 2014-08-27,1,2,3
+1575,App695, Rename id of left drawer to be consistent with right , 2014-08-27,2,4,4
+1576,App695, Changing style of actionbar in settings , 2014-08-27,2,66,51
+1577,App695, Add license for NetCipher , 2014-08-26,3,38,0
+1578,App695, Utilize new BookmarkManager class for bookmarks , 2014-08-22,6,58,211
+1579,App695, Utilize map in order to determine what bookmarks we have , 2014-08-22,1,36,31
+1580,App695, Add methods to BookmarkManager , 2014-08-21,1,77,10
+1581,App695, Add more methods to BookmarkManager , 2014-08-21,2,113,21
+1582,App695, Remove useless constants _  add folder constant , 2014-08-21,1,1,26
+1583,App695, BookmarkPage cleanup , 2014-08-21,1,10,7
+1584,App695, Moved history page creation to separate class , 2014-08-21,3,68,59
+1585,App695, Externalized String , 2014-08-21,1,1,0
+1586,App695, New class to handle bookmark storage (not utilized yet) , 2014-08-21,1,220,0
+1587,App695, removed useless setting , 2014-08-20,1,0,1
+1588,App695, Removed superfluous method , 2014-08-20,1,1,11
+1589,App695, Increased history query efficiency , 2014-08-20,1,5,3
+1590,App695, Removed useless setting , 2014-08-20,1,3,10
+1591,App695, Formatting , 2014-08-20,1,0,10
+1592,App695, Simplified History Logging , 2014-08-20,5,45,60
+1593,App695, Removed useless drawables , 2014-08-20,7,0,0
+1594,App695, Fixed bug with reopening old tab , 2014-08-19,1,2,2
+1595,App695, Added option to disable history sync with Google , 2014-08-19,5,145,82
+1596,App695, Added option to change rendering mode , 2014-08-19,4,534,422
+1597,App695, Open old tab when long pressing new tab button , 2014-08-19,2,22,32
+1598,App695, Fixed crash when deleting blank tab , 2014-08-16,1,1,1
+1599,App695, Match queries against bookmark urls as well as titles , 2014-08-14,1,4,0
+1600,App695, Moved bookmark and homepage file locations so they don't get destroyed when the cache gets cleared , 2014-08-14,2,9,55
+1601,App695, Formatting , 2014-08-14,1,0,9
+1602,App695, Changed homepage centering to be better , 2014-08-14,1,24,8
+1603,App695, Search suggestions from history now match the URL as well as title , 2014-08-14,1,1,1
+1604,App695, Added some code to allow inverted and grayscale modes in WebView , 2014-08-08,1,164,139
+1605,App695, stupid formatting ¯\_(ツ)_/¯ , 2014-08-08,12,548,756
+1606,App695, Fixed some tab deleting logic _  tab showing animation stuff _  and changed favicons to grayscale if the view isn't shown , 2014-08-08,1,57,25
+1607,App695, These layouts were misaligned. You won't believe what happened when I fixed them! , 2014-08-08,3,25,30
+1608,App695, Layout updates , 2014-08-02,2,18,12
+1609,App695, Update .travis.yml , 2014-07-31,1,1,1
+1610,App695, Update .travis.yml , 2014-07-31,1,1,0
+1611,App695, attempt to fix build failure , 2014-07-31,1,0,1
+1612,App695, added badge , 2014-07-31,1,1,1
+1613,App695, Update .travis.yml , 2014-07-31,1,1,0
+1614,App695, Update .travis.yml , 2014-07-31,1,0,1
+1615,App695, Update README.md , 2014-07-31,1,0,1
+1616,App695, Update README.md , 2014-07-31,1,2,1
+1617,App695, Update README.md , 2014-07-31,1,1,2
+1618,App695, Update README.md , 2014-07-30,1,1,1
+1619,App695, Update README.md , 2014-07-30,1,2,1
+1620,App695, Added travis-ci build badge , 2014-07-30,1,1,1
+1621,App695," Fixed issue where target=""_blank"" URLs wouldn't open correctly ", 2014-07-29,2,10,9
+1622,App695, Progress animation tweak , 2014-07-28,1,11,8
+1623,App695, Formatting , 2014-07-28,8,97,96
+1624,App695, Formatting , 2014-07-27,4,3138,3147
+1625,App695, Added new layout algorithm option and formatted code , 2014-07-27,1,864,902
+1626,App695, Smoothed ProgressBar animation , 2014-07-27,1,19,9
+1627,App695, Update BrowserActivity.java , 2014-07-25,1,0,1
+1628,App695, Smoothed progress bar , 2014-07-25,1,2255,2403
+1629,App695, Fix that NullPointerException should NEVER be thrown by programmer _  make exceptions more informative _  simplify code logic _  flip equals() on strings , 2014-07-25,1,48,51
+1630,App695, Make util class non-instantiatable and non-extendable _  flip equals() on strings _  remove redundant code , 2014-07-25,1,7,5
+1631,App695, Add missing 'private' and 'public' access' modifiers _  fix warnings , 2014-07-25,1,4,4
+1632,App695, Remove redundant variable initialization _  flip equals() on strings , 2014-07-25,1,3,3
+1633,App695, Add logging exception _  fix typo in comment , 2014-07-25,1,2,2
+1634,App695, Use interface instead of concrete class _  add missing @Override , 2014-07-25,1,5,2
+1635,App695, Make util class non-instantiatable and non-extendable , 2014-07-25,1,4,1
+1636,App695, Fix method names _  redundant initialization of variables _  typos in comments and other improvements , 2014-07-25,2,35,60
+1637,App695," Fix ""'handlers.size() == 0' can be replaced with 'handlers.isEmpty()'"" ", 2014-07-25,1,1,1
+1638,App695, Add missing equals() and hashCode() methods for class that implements Comparable<T> , 2014-07-25,1,43,0
+1639,App695, Add missing @Override annotation _  remove unnecessary code , 2014-07-25,1,2,1
+1640,App695, Make util class non-instantiatable and non-extendable. , 2014-07-25,1,2,3
+1641,App695, Remove unnecessary code , 2014-07-25,1,2,4
+1642,App695, Add missing @Override annotation , 2014-07-25,1,1,0
+1643,App695, [Translations] Update Serbian , 2014-07-23,1,11,0
+1644,App695, remove useless layouts , 2014-07-23,2,0,50
+1645,App695, Lint fixes , 2014-07-22,9,10,397
+1646,App695, Fixed Video full-screen not working , 2014-07-22,1,24,22
+1647,App695, Removed libs... apparently crashes the build , 2014-07-22,1,0,1
+1648,App695, Updated with lib addition , 2014-07-22,1,2,0
+1649,App695, Update target in properties and scripts to match value from AndroidManifest.xml; make exception for Travis , 2014-07-22,3,8,3
+1650,App695, Add logging , 2014-07-21,1,11,3
+1651,App695, Fix overwriting AdBlock instance by every new created LightningView object , 2014-07-21,1,1,1
+1652,App695, Fix AdBlock collection type and other problems , 2014-07-21,1,18,18
+1653,App695, fix spelling in german string , 2014-07-21,1,1,1
+1654,App695, Improved comment readability in IDE editor , 2014-07-20,1,25,21
+1655,App695, Note on intent utils , 2014-07-20,1,4,0
+1656,App695, removed useless layout params , 2014-07-20,1,0,2
+1657,App695, Add windows version of setup-ant.sh file , 2014-07-20,2,18,1
+1658,App695," Fix all lint errors 'Error: ""STRING"" is translated here but not found in default locale [ExtraTranslation]' ", 2014-07-20,8,3,25
+1659,App695, Fix lint error in settings activity layout , 2014-07-20,1,1,1
+1660,App695, Fix typo , 2014-07-20,1,1,1
+1661,App695, Fix lint errors and warnings in license activity layout , 2014-07-20,2,17,13
+1662,App695, Fix path to library , 2014-07-20,1,1,1
+1663,App695," Fix ""Error: No .class files were found in project ""."" _  so none of the classfile based checks could be run."" ", 2014-07-20,1,1,1
+1664,App695, Configure android lint , 2014-07-20,2,5,2
+1665,App695, Add empty missing file ant.properties , 2014-07-19,1,0,0
+1666,App695, Allow accepting any android-sdk-license in tests _  remove unused sysimg , 2014-07-19,1,1,2
+1667,App695, Simple Travis CI setup: test if project will compile to APK successfully , 2014-07-19,4,123,1
+1668,App695, Clean up SettingsActivity and AdvancedSettingsActivity , 2014-07-19,2,120,115
+1669,App695, Clean up AdBlock class , 2014-07-19,1,6,8
+1670,App695, Fix file name not matching class name , 2014-07-19,1,1,1
+1671,App695, Restore consistency in code formatting , 2014-07-19,27,1483,1359
+1672,App695, Update German translation , 2014-07-19,1,7,0
+1673,App695, update .gitignore for proguard and updated version code , 2014-07-18,2,2,1
+1674,App695, Update README.md , 2014-07-18,1,1,1
+1675,App695, Update README.md , 2014-07-18,1,1,1
+1676,App695, Delete BrowserActivity.apk , 2014-07-18,1,0,0
+1677,App695, Browser now handles all intents correctly , 2014-07-18,4,162,61
+1678,App695, Fixed some URL launching and the log tag , 2014-07-18,6,34,26
+1679,App695, Update setup-ant.sh , 2014-07-18,1,0,3
+1680,App695, Update submodule netcipher _  setup tracking branch 'master' , 2014-07-18,2,2,1
+1681,App695, Updated drawer UI and font , 2014-07-16,13,99,57
+1682,App695, Fix indentation , 2014-07-16,1,148,148
+1683,App695, Fix typo in translation , 2014-07-16,1,1,1
+1684,App695, Remove unnecessary right padding , 2014-07-16,1,0,6
+1685,App695," Make layout of ""Settings"" height-responsive _  add right padding for labels ", 2014-07-16,1,65,21
+1686,App695," Make layout of ""Advanced settings"" height-responsive _  add right padding for labels ", 2014-07-16,1,109,21
+1687,App695, Add polish translation , 2014-07-16,10,180,17
+1688,App695, Embolden text when a tab is selected for more contrast _  smoothed animation of drawer hide when tab is switched , 2014-07-15,3,40,3
+1689,App695, Small UI Changes , 2014-07-15,5,5,5
+1690,App695, Update README.md , 2014-07-15,1,5,1
+1691,App695, Updated with directions for setting up the project , 2014-07-15,1,2,2
+1692,App695, Added directions for setting up project , 2014-07-15,1,7,0
+1693,App695, Navigation Drawer UI update , 2014-07-14,1,9,11
+1694,App695, Navigation Drawer UI update , 2014-07-14,9,86,24
+1695,App695, Added shadows to navigation drawers , 2014-07-13,4,3,1
+1696,App695, Switched Incognito activity to pull cookie preference from different constant , 2014-07-12,1,1,1
+1697,App695, Added input encoding parameter to Google search string , 2014-07-11,1,1,1
+1698,App695, Removed unnecessary code , 2014-07-10,3,6,16
+1699,App695, Added support for clearing History and Cookies on exit , 2014-07-10,6,159,31
+1700,App695, updated hosts file , 2014-07-10,3,3603,120
+1701,App695, updated homepage and bookmarks page to be translatable , 2014-07-09,3,11,5
+1702,App695, make history item translatable , 2014-07-09,2,12,1
+1703,App695, Updated Orbot Preference Handling , 2014-07-08,5,76,11
+1704,App695, move option to enable Orbot to settings , 2014-07-07,4,181,113
+1705,App695, Activities Restructure - Incognito and Main now extend a single BrowserActivity , 2014-07-04,10,460,2496
+1706,App695, Optimize LicenseActivity , 2014-07-04,1,24,38
+1707,App695, Add array resources , 2014-07-04,3,33,23
+1708,App695, [Translations] Serbian translation , 2014-07-02,1,163,0
+1709,App695, Update hosts.txt , 2014-07-01,1,17582,4
+1710,App695, clean code , 2014-06-19,15,568,686
+1711,App695, initial support for preference based proxy settings and filtering to stop HTML5 media leakage , 2014-06-02,5,284,19
+1712,App695, setup for external modules and proguard to reduce size resulting APK is < 600kb , 2014-05-29,2,74,0
+1713,App695, add support for proxying over Orbot (Tor) proxying , 2014-05-29,7,74,6
+1714,App695, Update README.md , 2014-05-20,1,1,1
+1715,App695, Bugfix for intent strings , 2014-05-15,1,4,4
+1716,App695, Bugfixes , 2014-05-10,7,74,51
+1717,App695, Fixed search bug and deleteTab bug , 2014-05-09,1,27,8
+1718,App695, Fixed search bug and deleteTab bug , 2014-05-09,1,25,10
+1719,App695, Update README.md , 2014-05-06,1,8,5
+1720,App695, Update README.md , 2014-05-05,1,0,2
+1721,App695, Delete MainActivity.apk , 2014-05-05,1,0,0
+1722,App695, update gitignore , 2014-05-04,1,2,0
+1723,App695, German update for 3.1.0 , 2014-05-04,1,33,3
+1724,App695, removed some old info , 2014-04-30,1,2,4
+1725,App695, Update Constants.java , 2014-04-30,1,4,4
+1726,App695, Update README.md , 2014-04-29,1,2,2
+1727,App695, Update README.md , 2014-04-29,1,3,1
+1728,App695, Removed all hosts , 2014-04-29,1,4,18603
+1729,App695, Updated to 3.1.0 , 2014-04-28,199,28546,8020
+1730,App695, Update for spanish (es) translation. , 2014-04-16,1,90,16
+1731,App695, fixed zh_TW translations XML file. , 2014-04-11,1,1,1
+1732,App695, modified Traditional Chinese (zh_TW) translations. , 2014-04-10,1,118,42
+1733,App695, Create Mozilla Public License v. 2.0 , 2014-04-04,1,362,0
+1734,App695, Changed License to MPL v. 2.0 , 2014-04-04,1,10,14
+1735,App695, Update LICENSE , 2014-04-04,1,1,1
+1736,App695, Update LICENSE , 2014-04-04,1,5,1
+1737,App695, Relicensed under Mozilla Public License v. 2.0 , 2014-04-04,1,2,11
+1738,App695, Updated with visible License information , 2014-04-04,1,18,0
+1739,App695," New ""Custom URL"" option for search engine. Allow stuff like 'http://yubnub.org/parser/parse?command=' or 'http://mypersonalserver.net/woot.cgi?whatever='  * Pops up txt dialog when selected _  initial default same as builtin google url  * Default remains '1' (builtin google url) ", 2014-03-06,4,53,4
+1740,App695, Updated new UI APK , 2014-01-27,1,0,0
+1741,App695, Fixed broken download links , 2014-01-25,1,2,2
+1742,App695, Update Russian , 2014-01-22,1,2,1
+1743,App695, German update for 3.0.5 small fixes , 2014-01-22,1,4,4
+1744,App695, Update README.md , 2014-01-21,1,1,1
+1745,App695, 3.0.5 - Crash fixes , 2014-01-21,10,39,37
+1746,App695, Update strings.xml , 2014-01-21,1,87,15
+1747,App695, Update strings.xml , 2014-01-21,1,2,2
+1748,App695, 3.0.0 Sync for old version , 2014-01-20,30,699,529
+1749,App695, update german , 2014-01-19,1,7,7
+1750,App695, Update strings.xml , 2014-01-19,1,1,1
+1751,App695, Update strings.xml , 2014-01-19,1,1,1
+1752,App695, Update strings.xml , 2014-01-19,1,0,1
+1753,App695, 1st move , 2014-01-19,1,70,11
+1754,App695, Update strings.xml , 2014-01-18,1,1,1
+1755,App695, Update Simplified Chinese Translation , 2014-01-19,1,68,14
+1756,App695, added license , 2014-01-13,1,1,1
+1757,App695, Update README.md , 2014-01-13,1,1,1
+1758,App695, updated with license , 2014-01-13,1,13,0
+1759,App695, Update strings.xml , 2014-01-08,1,17,10
+1760,App695, Update strings.xml , 2013-11-24,1,46,14
+1761,App695, Update strings.xml , 2013-11-24,1,5,5
+1762,App695, Update strings.xml , 2013-11-06,1,29,29
+1763,App695, Update strings.xml , 2013-10-26,1,1,1
+1764,App695, Play Store sync , 2013-10-25,14,309,89
+1765,App695, Update strings.xml , 2013-10-25,1,17,14
+1766,App695, Update strings.xml , 2013-10-25,1,3,2
+1767,App695, Update strings.xml , 2013-10-09,1,1,4
+1768,App695, Sync with Play Store , 2013-10-08,22,3390,3301
+1769,App695, Update strings.xml , 2013-10-09,1,1,1
+1770,App695, Added Russian translation , 2013-10-09,1,55,0
+1771,App695, Update README.md , 2013-09-24,1,2,2
+1772,App695, Update strings.xml , 2013-09-15,1,39,37
+1773,App695, Updated according to the standard strings. , 2013-09-11,1,40,6
+1774,App695, Re-sync due to bad sync , 2013-09-07,1,0,2498
+1775,App695, new updated and shiny apk , 2013-09-06,1,0,0
+1776,App695, Assorted Bugfixes , 2013-09-06,17,1513,1278
+1777,App695, Update strings.xml , 2013-08-16,1,3,1
+1778,App695, Update README.md , 2013-08-13,1,1,1
+1779,App695, Updated APK Build , 2013-08-13,1,0,0
+1780,App695, 2.5.0.11 , 2013-08-13,33,4445,993
+1781,App695, Update README.md , 2013-08-11,1,2,2
+1782,App695, update zh-rCN strings.xml , 2013-08-11,1,5,5
+1783,App695, add baidu search engine , 2013-08-09,4,14,1
+1784,App695, Update strings.xml , 2013-08-07,1,46,17
+1785,App695, If you have responsiveness issues _  do not use ProGuard , 2013-08-06,1,1,0
+1786,App695, Fixed Download location , 2013-08-05,1,1,1
+1787,App695, Bugfixes , 2013-08-04,7,49,73
+1788,App695, Update strings.xml , 2013-08-04,1,6,2
+1789,App695, Bugfixes , 2013-08-03,5,10,15
+1790,App695, updated apk with 2.5.0.4 , 2013-08-03,1,0,0
+1791,App695, 2.5.0.4 Release Code , 2013-08-03,29,438,651
+1792,App695, Pre-release tweaks , 2013-08-02,16,359,42
+1793,App695, 2.5.0.3 , 2013-07-31,4,122,99
+1794,App695, added german translations , 2013-07-31,1,24,4
+1795,App695, Update menu.xml , 2013-07-31,1,2,2
+1796,App695, 2.5.0.2 tweaks , 2013-07-30,8,286,48
+1797,App695, Update README.md , 2013-07-30,1,1,1
+1798,App695, Update README.md , 2013-07-30,1,2,2
+1799,App695, Image Addition , 2013-07-30,1,0,0
+1800,App695, Update README.md , 2013-07-29,1,1,1
+1801,App695, Stupid Typo fixes , 2013-07-29,1,1,1
+1802,App695, Update README.md , 2013-07-29,1,1,1
+1803,App695, Fixed a bug , 2013-07-29,1,8,4
+1804,App695, YOLOHOLO , 2013-07-29,1,2,2
+1805,App695, IDK WHY THESE GOT COMMITTED , 2013-07-29,0,0,0
+1806,App695, Update strings.xml , 2013-07-18,1,2,2
+1807,App695, Update menu.xml , 2013-07-18,1,1,1
+1808,App695, Update strings.xml , 2013-07-18,1,1,1
+1809,App695, Update strings.xml , 2013-07-18,1,3,3
+1810,App695, Update menu.xml , 2013-07-18,1,1,0
+1811,App695, Update menu.xml , 2013-07-18,1,0,1
+1812,App695, Added Indonesian language , 2013-07-17,1,22,0
+1813,App695, Update menu.xml , 2013-07-17,1,2,2
+1814,App695, fixed italian transaltion , 2013-07-17,4,24,14
+1815,App695, Update strings.xml , 2013-07-16,1,1,1
+1816,App695, Update strings.xml , 2013-07-16,1,2,2
+1817,App695, Update strings.xml , 2013-07-16,1,6,6
+1818,App695, Update menu.xml , 2013-07-16,1,4,4
+1819,App695, Fixed crash for devices without AOSP browser , 2013-06-29,5,192,190
+1820,App695, Added binary for 2.5.0.1 , 2013-06-29,1,0,0
+1821,App695, forgot icon , 2013-06-29,2,0,0
+1822,App695, 2.5.0.1 , 2013-06-29,14,578,332
+1823,App695, 2.5.0.0 , 2013-06-22,32,3112,900
+1824,App695, Update strings.xml , 2013-06-13,1,2,2
+1825,App695, 4.2.3 , 2013-04-27,10,1847,1862
+1826,App695, Update strings.xml , 2013-04-24,1,2,4
+1827,App695, added new german translation , 2013-04-09,1,1,0
+1828,App695, added new german translation , 2013-04-09,1,1,1
+1829,App695," Revert ""added new translation"" ", 2013-04-09,1,0,1
+1830,App695, added new translation , 2013-04-09,1,1,0
+1831,App695, 2.4 , 2013-04-08,8,221,314
+1832,App695, better german translation , 2013-04-07,2,14,14
+1833,App695, 2.3.12 , 2013-04-06,3,479,489
+1834,App695, Bug fixes 2.3.11.1 , 2013-04-04,4,340,177
+1835,App695, 2.3.10 bugfix , 2013-04-02,2,50,35
+1836,App695, 2.3.10 , 2013-04-01,9,508,183
+1837,App695, Update README , 2013-04-01,1,3,1
+1838,App695, Update README , 2013-03-30,1,0,1
+1839,App695, 2.3.7 , 2013-03-28,17,301,205
+1840,App695, bugfixes 2.3.7 , 2013-03-27,6,191,68
+1841,App695, Hebrew translation , 2013-03-24,1,21,0
+1842,App695, 2.3.4 - reupload , 2013-03-14,7,65,65
+1843,App695, 2.3.4 update , 2013-03-14,3,140,98
+1844,App695, Update strings.xml , 2013-03-12,1,3,16
+1845,App695, 2.3.0 , 2013-03-12,1,2,6
+1846,App695, updated to 2.3.0 , 2013-03-12,27,1313,697
+1847,App695, French MENU.XML , 2013-02-26,1,7,7
+1848,App695, French STRINGS.XML , 2013-02-26,1,14,14
+1849,App695, Updated to 2.2.0 , 2013-02-19,6,109,84
+1850,App695, Create License , 2013-02-15,1,15,0
+1851,App695, PROJECT DESCRIPTION , 2013-02-15,1,12,0
+1852,App695, First push to github , 2013-02-15,54,2983,0
