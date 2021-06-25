@@ -1,0 +1,393 @@
+1,App944, Update CHANGELOG for v0.28 , 2020-03-09,1,7,0
+2,App944, Update for v0.28 , 2020-03-09,1,2,2
+3,App944, Update translations from Transifex , 2020-03-09,12,20,27
+4,App944, Delete .travis.yml , 2020-03-08,1,0,16
+5,App944, Create android.yml , 2020-03-08,1,27,0
+6,App944, Fix translation inconsistency breaking Travis build , 2020-03-08,2,3,5
+7,App944, Mention hiatus in README , 2020-02-24,1,3,3
+8,App944, Update translations from Weblate , 2020-02-01,1,37,47
+9,App944, Make linter happy , 2020-01-28,15,0,123
+10,App944, Choose export location , 2020-01-28,6,74,117
+11,App944, Fix barcode centering , 2020-01-28,1,6,0
+12,App944, Update for v0.27 , 2020-01-26,2,9,2
+13,App944, #308 Restore test check for barcode type , 2020-01-27,1,18,18
+14,App944, #308 Add missing cast from CharSequence to String , 2020-01-27,1,1,1
+15,App944, #308 Add new constructor for BarcodeImageWriterTask without associated TextView. Make barcode format selectable , 2020-01-27,4,12,5
+16,App944, #308 Hide barcode format on add loyalty card view , 2020-01-27,2,2,0
+17,App944," Revert ""#308 Display barcode format on display loyalty card view"" ", 2020-01-27,3,1,41
+18,App944, #308 Display barcode format on edit loyalty card view , 2020-01-27,3,93,31
+19,App944, #308 Display barcode format on select barcode view , 2020-01-27,5,158,45
+20,App944, #308 Display barcode format on display loyalty card view , 2020-01-27,3,41,1
+21,App944, Improve documentation , 2020-01-21,1,16,7
+22,App944, Robolectric crashes if activity recreates , 2020-01-19,1,0,15
+23,App944, Reset state on paused to prevent layout glitches , 2020-01-19,2,21,0
+24,App944, Add unit tests , 2020-01-19,1,65,1
+25,App944, Tap barcode to align to top , 2020-01-19,1,99,2
+26,App944, Fix swapped import buttons , 2020-01-18,2,12,14
+27,App944, Update CHANGELOG for v0.26.1 , 2020-01-09,1,5,0
+28,App944, Update app for v0.26.1 , 2020-01-09,1,2,2
+29,App944, Fix NPE when sharing cards without header values , 2020-01-09,2,47,4
+30,App944, Update CHANGELOG for v0.26 , 2020-01-05,1,18,0
+31,App944, Update app version to 0.26 , 2020-01-05,1,2,2
+32,App944, Update translations , 2020-01-05,13,113,85
+33,App944, Fix as reviewed and add test , 2020-01-02,4,69,11
+34,App944, Fix tests , 2020-01-01,2,15,3
+35,App944, Fix converting loyalty card to barcodeless , 2019-12-31,2,47,32
+36,App944, Up targetSdk to 29 , 2019-12-29,1,3,3
+37,App944, Fix last error Travis reported , 2019-12-28,1,2,0
+38,App944, Fix some of the errors Travis reported , 2019-12-28,2,6,0
+39,App944, Fix unit tests with Robolectric 4 , 2019-12-28,10,38,40
+40,App944, Update to AndroidX , 2019-12-28,28,106,107
+41,App944, Fix some warnings , 2019-12-27,1,9,10
+42,App944, Fix status bar being white , 2019-12-27,2,1,1
+43,App944, Update support libraries , 2019-12-27,1,3,3
+44,App944, Up targetSdk for Google Play , 2019-12-27,1,2,2
+45,App944, Make same text and header color at least slightly visible , 2019-12-16,1,3,1
+46,App944, Fix status bar icon colors , 2019-12-16,1,3,0
+47,App944, Use DrawableCompat tinting instead , 2019-12-15,30,28,82
+48,App944, Implement requested changes , 2019-12-15,2,13,6
+49,App944, Add test for empty barcode type , 2019-12-15,1,22,0
+50,App944," Revert ""Check for empty cardId in BarcodeSelectorActivity instead"" ", 2019-12-15,2,5,6
+51,App944, Use a const for luminance halfway point , 2019-12-15,1,2,1
+52,App944, Empty barcodeType is allowed now , 2019-12-14,1,0,4
+53,App944, Also add padding to edit activity , 2019-12-12,1,2,0
+54,App944, Fix white on white icons , 2019-12-11,26,96,5
+55,App944, Test button state , 2019-12-11,1,100,0
+56,App944, Fix comments , 2019-12-11,1,4,4
+57,App944, Check for empty cardId in BarcodeSelectorActivity instead , 2019-12-11,2,6,5
+58,App944, Add 10dp white padding around all QR codes , 2019-12-10,1,2,0
+59,App944, Allow multiline notes , 2019-12-09,2,3,2
+60,App944, Add test , 2019-12-09,1,17,0
+61,App944, Don't generate a barcode if id is empty , 2019-12-09,1,5,0
+62,App944, UI improvements , 2019-12-09,3,8,6
+63,App944, typo fix , 2019-12-09,1,1,1
+64,App944, Completely removed rectangle cleanup code _  1D codes seem to need this padding , 2019-12-08,1,0,17
+65,App944, Don't remove paddings smaller than 20 pixels , 2019-12-08,1,6,4
+66,App944, Fix code style , 2019-12-05,1,8,7
+67,App944, Remove useless null check , 2019-12-04,1,3,3
+68,App944, Allow barcodeless cards , 2019-12-04,7,58,35
+69,App944, Fix white border in dark theme , 2019-12-04,1,2,2
+70,App944, Don't draw more than the actual barcode , 2019-12-04,1,15,0
+71,App944, Fix card title colour issues , 2019-12-04,1,0,1
+72,App944, Fix GitHub pages , 2019-12-03,2,1,1
+73,App944, Fixes _  start with right theme , 2019-12-02,4,43,0
+74,App944, Style about dialog for dark mode , 2019-12-02,1,12,0
+75,App944, Remove another unneeded import , 2019-12-02,1,0,1
+76,App944, Cleanup , 2019-12-02,2,1,2
+77,App944, Allow switching theme , 2019-12-02,8,80,7
+78,App944, Start with dark mode , 2019-12-02,3,6,7
+79,App944, Use README as index page _  add share page with explanation , 2019-12-02,4,14,3
+80,App944, Fix function calls , 2019-12-02,2,2,2
+81,App944, Cleanup , 2019-12-02,2,14,19
+82,App944, Fix typo , 2019-12-01,1,1,1
+83,App944, Another import test , 2019-12-01,1,23,0
+84,App944, Fix linter warning , 2019-12-01,2,2,2
+85,App944, Fix typo , 2019-12-01,1,1,1
+86,App944, Tests , 2019-12-01,2,76,2
+87,App944, Add ability to share and receive loyalty cards , 2019-12-01,12,157,15
+88,App944, Address comments , 2019-11-28,2,50,46
+89,App944, Remove unneeded imports , 2019-11-24,1,0,1
+90,App944, Remove unneeded imports , 2019-11-24,1,0,3
+91,App944, Switch to SearchView , 2019-11-23,9,97,70
+92,App944, Add filtering test , 2019-11-23,2,117,0
+93,App944, Explain focusable change , 2019-11-23,1,10,0
+94,App944, Cleanup , 2019-11-23,7,29,23
+95,App944, Bump minSdk because of rawQuery usage , 2019-11-22,1,1,1
+96,App944, Remove default focus , 2019-11-22,1,3,1
+97,App944, Show warning when no matches , 2019-11-22,4,43,0
+98,App944, Fix tests , 2019-11-22,3,5,5
+99,App944, Cleanup , 2019-11-22,1,10,13
+100,App944, Add loyalty card filter , 2019-11-22,6,49,6
+101,App944, Improve note sizing , 2019-11-22,1,4,3
+102,App944, Update for 0.25.4 , 2019-10-04,2,8,2
+103,App944, Update translations , 2019-10-04,2,14,0
+104,App944, Allow backups of app data , 2019-10-04,1,1,1
+105,App944, Update CHANGELOG , 2019-03-02,1,5,0
+106,App944, Update for 0.25.3 , 2019-03-02,1,2,2
+107,App944, Update Russian translations , 2019-03-02,1,54,54
+108,App944, Update translation instructions in README , 2019-01-28,1,1,1
+109,App944, Update CHANGELOG , 2019-01-05,1,5,0
+110,App944, Update for v0.25.2 , 2019-01-05,1,2,2
+111,App944, Update translations , 2019-01-05,2,127,9
+112,App944," Added self-referencing ""about"" tag ", 2018-10-20,1,1,1
+113,App944, Norwegian Bokmål translation , 2018-10-19,1,126,0
+114,App944, Update for v0.25.1 , 2018-10-14,2,7,2
+115,App944, Update translations , 2018-10-14,1,1,0
+116,App944, Correct log statement when entering barcode manually , 2018-10-14,1,1,1
+117,App944," Revert ""Remove unneeded code"" ", 2018-10-14,1,8,0
+118,App944, Update class file location for FindBugs , 2018-10-14,1,1,1
+119,App944, Update gradle and android plugin , 2018-10-14,2,3,3
+120,App944, Update for v0.25 , 2018-10-07,2,8,2
+121,App944, Update translations , 2018-10-07,2,5,0
+122,App944, Add option to lock orientation state , 2018-10-06,5,56,0
+123,App944, Set rotation state in onCreate() , 2018-10-06,1,2,1
+124,App944, Move orientation locking code to separate method , 2018-10-06,1,18,6
+125,App944, Remove unneeded code , 2018-09-18,1,0,8
+126,App944, Update translations , 2018-09-17,3,49,3
+127,App944, Sort card list case insensitive , 2018-09-15,1,1,1
+128,App944, Update CHANGELOG , 2018-07-31,1,8,0
+129,App944, Update for v0.24 , 2018-07-31,1,2,2
+130,App944, Update translations , 2018-07-27,1,1,0
+131,App944, Add Slovenian translations , 2018-07-27,2,119,0
+132,App944, Configure brightening screen when display a barcode , 2018-07-25,4,17,2
+133,App944, Update privacy-policy , 2018-06-26,1,27,18
+134,App944, Update translations , 2018-06-16,14,124,101
+135,App944, Add Transifex config file , 2018-06-16,1,10,0
+136,App944, Add Greek translations , 2018-06-13,1,115,0
+137,App944, Update CHANGELOG , 2018-05-12,1,15,0
+138,App944, Update for v0.23.4 , 2018-05-12,1,2,2
+139,App944, Update translations , 2018-05-12,2,43,68
+140,App944, Fix Spanish translations , 2018-05-12,1,108,56
+141,App944, Update for v0.23.3 , 2018-05-05,1,2,2
+142,App944, Update translations , 2018-05-05,5,183,31
+143,App944, Add Polish translation , 2018-03-22,1,96,0
+144,App944, Update CHANGELOG for v0.23.2 , 2018-03-11,1,6,0
+145,App944, Update for v0.23.2 , 2018-03-11,1,2,2
+146,App944, Add additional layout options to support SDK<17 , 2018-03-11,3,21,7
+147,App944, Remove unnecessary apache legacy usage , 2018-03-11,1,0,3
+148,App944, Update CHANGELOG , 2018-03-07,1,5,0
+149,App944, Update for pre-v0.23.1 , 2018-03-07,1,2,2
+150,App944, Catch case where barcode rendering runs into an OOM , 2018-03-04,1,6,0
+151,App944, Update CHANGELOG , 2018-02-28,1,6,0
+152,App944, Disable beep upon successful barcode scan , 2018-02-28,1,1,0
+153,App944, Update for v0.23 , 2018-02-28,1,2,2
+154,App944, Reduce space used in header for card view , 2018-02-19,1,2,1
+155,App944, Update CHANGELOG , 2018-02-19,1,8,0
+156,App944, Update for v0.22 , 2018-02-18,1,2,2
+157,App944, Render 1D barcodes with a larger width , 2018-02-18,1,37,1
+158,App944, Redraw barcode when screen rotates , 2018-02-18,1,0,1
+159,App944, Update translations , 2018-02-17,5,64,3
+160,App944, Update CHANGELOG , 2018-02-17,1,7,0
+161,App944, Update for v0.21 , 2018-02-17,1,2,2
+162,App944, Fix imports with missing colors , 2018-02-17,2,63,4
+163,App944, Remove debug toast , 2018-02-17,1,0,2
+164,App944, Add settings for font sizes , 2018-02-17,14,325,6
+165,App944, Add config for text and background colors , 2018-02-17,19,494,59
+166,App944, Remove unused code handling adding a card , 2018-02-12,1,1,13
+167,App944, Remove views which are no longer used , 2018-02-12,2,0,29
+168,App944, Add quite space before and after barcode , 2018-02-10,1,2,0
+169,App944, Update CHANGELOG , 2018-02-10,1,5,0
+170,App944, Update for v0.20 , 2018-02-10,1,2,2
+171,App944, Disable MissingPrefix lint , 2018-02-10,1,1,0
+172,App944, Update screenshots and wizard images , 2018-02-10,7,0,0
+173,App944, Make card id and note text selectable , 2018-02-10,1,4,2
+174,App944, Replace letter icon with store name , 2018-02-10,2,12,5
+175,App944, Add note text to card view layout , 2018-02-10,3,44,0
+176,App944, Auto-size card id text on card view layout , 2018-02-10,3,7,5
+177,App944, Use ConstraintLayout for card view layout , 2018-02-10,2,21,8
+178,App944, add feature graphic to metadata , 2018-02-09,1,0,0
+179,App944, Update CHANGELOG , 2018-02-01,1,6,0
+180,App944, Update for v0.19 , 2018-02-01,1,2,2
+181,App944, Update intro and metadata graphics , 2018-01-31,12,0,0
+182,App944, Remove unnecessary casts from findViewById , 2018-01-31,8,38,38
+183,App944, Display note on separate line _  omit card id on card list , 2018-01-31,4,25,29
+184,App944, Move store name text size to dimens.xml , 2018-01-31,2,3,1
+185,App944, Change layout of single card view , 2018-01-31,12,658,391
+186,App944, Preserve float result from division , 2018-01-28,1,2,2
+187,App944, Support non-English letters for default card thumbnail , 2018-01-28,1,2,18
+188,App944, Add generated icon for cards in card list , 2018-01-27,6,173,0
+189,App944, Improve layout for card list , 2018-01-27,2,48,28
+190,App944, Update for v0.18.1 , 2018-01-24,1,2,2
+191,App944, Update CHANGELOG , 2018-01-24,1,5,0
+192,App944, Create CONTRIBUTING.md , 2018-01-24,1,91,0
+193,App944, Workaround install crash on Android 5 and below , 2018-01-24,1,6,1
+194,App944, Update Changelog , 2018-01-19,1,7,0
+195,App944, Update for v0.18 , 2018-01-19,1,2,2
+196,App944, Allow file paths when importing directly from filesystem , 2018-01-19,1,13,2
+197,App944, Report Uri after import , 2018-01-19,1,8,0
+198,App944, Do not bother to show file name after an import , 2018-01-19,1,0,40
+199,App944, Update how SDK 27 is acceptd on Travis-CI , 2018-01-17,1,1,1
+200,App944, Fix crash on some corruption when importing CSV , 2018-01-16,3,7,3
+201,App944, Update screenshots in README , 2018-01-11,1,6,6
+202,App944, Update CHANGELOG , 2018-01-11,1,6,0
+203,App944, Import translations from Transifex , 2018-01-11,7,181,154
+204,App944, Update for v0.17 , 2018-01-11,1,2,2
+205,App944, Update to Android SDK 27 , 2018-01-03,3,6,5
+206,App944, Update first start wizard images with new logo and colors , 2018-01-03,25,0,0
+207,App944, Add metadata in fastlane format , 2018-01-03,10,9,0
+208,App944, Update app icons and colors with new design , 2018-01-03,12,10,5
+209,App944, Remove file:// Uri from backup file picker , 2017-12-31,2,0,5
+210,App944, Update gradle and gradle android plugin , 2017-12-25,4,15,5
+211,App944, Quote FindBugs dependsOn target , 2017-12-25,1,1,1
+212,App944, Update CHANGELOG , 2017-11-29,1,6,0
+213,App944, Update for v0.16 , 2017-11-29,1,2,2
+214,App944, Remove support for adding shortcuts from within the app , 2017-11-29,6,1,187
+215,App944, Update strings around adding shortcuts , 2017-11-27,1,2,2
+216,App944, Add activity for handling shortcut add requests , 2017-11-26,3,95,0
+217,App944, Update for v0.15 , 2017-11-25,1,2,2
+218,App944, Update CHANGELOG for v0.15 , 2017-11-25,1,9,0
+219,App944, Redraw card info when launched by a shortcut , 2017-11-25,1,26,8
+220,App944, Start shortcuts with singleTop _  but not all launches , 2017-11-25,2,10,1
+221,App944, Remove unneeded local variables , 2017-11-25,1,0,7
+222,App944, Capture view items in onCreate , 2017-11-25,1,18,18
+223,App944," Revert ""Add widget for directly opening specific card"" ", 2017-11-25,7,1,257
+224,App944, Optionally add shortcut when creating/editing a card , 2017-11-25,6,191,3
+225,App944, Let insertLoyaltyCard return the new ID , 2017-11-25,3,12,7
+226,App944," Revert ""Only let one card viewing activity exist at a time"" ", 2017-11-25,1,0,1
+227,App944, Report the correct mime type for exported data , 2017-11-25,1,1,1
+228,App944, Remove unneeded imports , 2017-11-25,3,0,8
+229,App944, List correct file name on imports , 2017-11-21,1,40,3
+230,App944, Export backups using FileProvider , 2017-11-21,3,21,5
+231,App944, Flatten error handling when importing from an activity , 2017-11-21,1,18,21
+232,App944, Support importing content URIs and file URIs , 2017-11-21,3,64,31
+233,App944, Remove file arg from TaskCompleteListener , 2017-11-21,3,7,13
+234,App944, do not obfuscate using proguard , 2017-10-01,1,4,1
+235,App944, Only let one card viewing activity exist at a time , 2017-09-28,1,1,0
+236,App944, Capitalize first letter in store and note fields , 2017-09-28,1,2,0
+237,App944, Do not strip line number info with proguard , 2017-09-27,1,4,0
+238,App944, Update CHANGELOG , 2017-09-26,1,6,0
+239,App944, Update for v0.14 , 2017-09-26,1,2,2
+240,App944, Add card shortcuts for most recently used cards , 2017-09-26,5,159,1
+241,App944, Add widget for directly opening specific card , 2017-09-19,7,257,1
+242,App944, Remove missing translations stubbed to English , 2017-08-10,7,15,79
+243,App944, README: add translating info , 2017-08-10,1,4,0
+244,App944, Update CHANGELOG for v0.11.1 _  v0.12 _  v0.13 , 2017-07-26,1,19,0
+245,App944, Update for v0.13 , 2017-07-25,1,2,2
+246,App944, Bail if loyalty card could not be found , 2017-07-23,9,36,1
+247,App944, Add debugging when entering view activity , 2017-07-22,1,4,0
+248,App944, Change lock/unlock text to say block/unblock , 2017-07-18,7,13,13
+249,App944, Update strings.xml , 2017-07-17,1,3,3
+250,App944, Add menu option to lock screen when viewing card , 2017-07-16,20,67,1
+251,App944, Remove usage of depreated location of ActivityController , 2017-07-16,2,2,2
+252,App944, Remove container class for intro slides , 2017-07-16,11,140,55
+253,App944, Update for v0.12 , 2017-07-12,1,2,2
+254,App944, Scale height of barcode to match ratio when reducing width , 2017-07-11,1,13,5
+255,App944, Let BarcodeImageWriterTask's constructor be package private , 2017-07-11,1,1,1
+256,App944, French update , 2017-07-03,1,1,1
+257,App944, Update french translation , 2017-07-02,1,4,4
+258,App944, add missing and revise de translations , 2017-06-29,1,28,28
+259,App944, Update for v0.11.1 , 2017-06-28,1,2,2
+260,App944, handle orientation and resize config change for IntroActivity , 2017-06-28,1,1,0
+261,App944, Add credit for save icon in about dialog , 2017-06-26,8,22,1
+262,App944, Fix string format for copyright year , 2017-06-26,7,7,7
+263,App944, Update CHANGELOG for v0.11 , 2017-06-26,1,9,0
+264,App944, Update for v0.11 release , 2017-06-26,1,2,2
+265,App944, Add attribution for save icon in README , 2017-06-22,1,4,0
+266,App944, Update README with new screenshots , 2017-06-21,1,6,4
+267,App944, Escape ' in strings.xml , 2017-06-20,1,2,2
+268,App944, Update French translations , 2017-06-20,1,13,14
+269,App944, Update strings.xml , 2017-06-20,1,14,14
+270,App944, Update to Robolectric 3.3.2 , 2017-06-18,7,22,25
+271,App944, Add intro wizard for application , 2017-06-18,51,551,17
+272,App944, Move the ic_launcher.xcf file into a separate directory , 2017-06-18,1,0,0
+273,App944, Add missing card add menu , 2017-06-18,2,14,0
+274,App944, Update card view layout , 2017-06-18,6,260,180
+275,App944, Use save button in action bar , 2017-06-18,9,93,103
+276,App944, Add super call in onCreateOptionsMenu , 2017-06-18,1,1,1
+277,App944, Change menus names to focus where they are _  not what they contain , 2017-06-18,3,2,2
+278,App944, Change color palette to better match icon , 2017-06-18,1,3,3
+279,App944, Updated French strings.xml , 2017-06-18,1,2,1
+280,App944," Update ""Enter card"" button if card id exists ", 2017-06-11,8,16,0
+281,App944, Limit width of barcodes , 2017-06-11,1,5,1
+282,App944, Update to zxing 3.3.0 and zxing-android 3.5.0 , 2017-06-11,1,2,2
+283,App944, Create privacy-policy.md , 2017-06-10,1,61,0
+284,App944, Build only the release variant , 2017-05-20,1,1,1
+285,App944, do not emit xml results , 2017-05-20,1,0,1
+286,App944, Change about dialog info to use map instead of String[][] , 2017-03-05,1,12,9
+287,App944, Remove mention of Freepik icons from README , 2017-03-05,1,0,4
+288,App944, Add Google Play badge , 2017-03-03,1,4,2
+289,App944, Start with all barcode images visible , 2017-02-12,1,0,1
+290,App944, Pre-populate card id in Barcode Selector , 2017-02-12,2,17,0
+291,App944, Update changelog for v0.10 , 2017-02-12,1,7,0
+292,App944, Update for v0.10 release , 2017-02-12,1,2,2
+293,App944, Allow text to be selectable in view mode , 2017-02-11,1,6,3
+294,App944, Show card data in a TextView when viewing , 2017-02-11,3,145,95
+295,App944, Add log message when exporting data , 2017-01-28,1,3,1
+296,App944, Correct typo in comment , 2017-01-28,1,1,1
+297,App944," correct ""Use external application"" title ", 2017-01-28,7,7,7
+298,App944, Use string const for button , 2017-01-28,1,1,2
+299,App944, Remove downloading extras during travis build , 2017-01-17,1,0,3
+300,App944, Change default import/export file name , 2017-01-17,1,1,1
+301,App944, Update CHANGELOG for v0.9 , 2017-01-17,1,10,0
+302,App944, Update for release v0.9 , 2017-01-16,1,2,2
+303,App944," Update the ""Locker"" name to ""Keychain"" ", 2017-01-16,6,7,7
+304,App944, Allow sending newly exported data , 2017-01-16,8,32,2
+305,App944, Add ability to select file to import , 2017-01-16,13,718,117
+306,App944, Correct TAG name , 2017-01-16,1,1,1
+307,App944, update gradle and android plugin , 2017-01-16,2,3,3
+308,App944, Update strings.xml , 2016-12-10,1,0,1
+309,App944, Update french strings , 2016-12-10,1,5,5
+310,App944, Update strings.xml , 2016-12-10,1,1,1
+311,App944, Update strings.xml , 2016-12-10,1,1,1
+312,App944, Update strings.xml , 2016-12-10,1,9,9
+313,App944, Update strings.xml , 2016-12-10,1,64,0
+314,App944, Create strings.xml , 2016-12-10,1,1,0
+315,App944, Improved icon with keyring hole , 2016-12-05,6,0,0
+316,App944, New icon V2 , 2016-12-05,6,0,0
+317,App944, Remove string that did not need translating. , 2016-12-03,1,0,1
+318,App944, New Icon , 2016-12-02,6,0,0
+319,App944, Create CHANGELOG.md , 2016-11-22,1,69,0
+320,App944, Update for release v0.8 , 2016-11-22,1,2,2
+321,App944, Update strings.xml , 2016-11-05,1,1,1
+322,App944, proposing less confusing trnalsation fo r button , 2016-11-04,1,1,1
+323,App944, Lithuanian strings.xml , 2016-10-28,1,65,0
+324,App944, Simplify screenshots in README.md , 2016-09-11,1,4,15
+325,App944, Add screenshots to README.md , 2016-08-28,1,19,0
+326,App944, Update and rename  	strings.xml to strings.xml , 2016-08-27,1,0,1
+327,App944, Czech translation , 2016-08-27,1,65,0
+328,App944, Add a german translation. , 2016-08-25,1,51,0
+329,App944, Attempt to force travis builds on non-container infrastructure , 2016-07-22,1,1,0
+330,App944, Add a confirmation before deleting card , 2016-07-22,4,38,5
+331,App944, Adjust brightness to its maximum when displaying a card , 2016-07-19,1,16,0
+332,App944, Reduce the number of cards tested in import/export tests , 2016-07-19,1,3,3
+333,App944, Update for release v0.7 , 2016-07-14,1,2,2
+334,App944, Allow long-click of card to copy id to clipboard , 2016-07-14,5,57,0
+335,App944, Update Android gradle plugin to 2.1.2 , 2016-07-14,1,1,1
+336,App944, Let pushing back button in menu end import/export activity , 2016-05-24,1,15,0
+337,App944, Update for release v0.6 , 2016-05-23,1,2,2
+338,App944, Allow user to enter a barcode manually , 2016-05-23,8,469,35
+339,App944, Set barcode image visibility upon completion , 2016-05-21,1,13,0
+340,App944, Remove GlobalLayoutListener when no longer needed , 2016-05-21,1,10,0
+341,App944, Remove unused context , 2016-05-21,1,1,3
+342,App944, Protect against unexpected failures when encoding barcodes , 2016-05-21,1,13,3
+343,App944, Allow home button to back out to previous activity , 2016-05-21,1,4,0
+344,App944, Remove unneeded parentActivtyName attributes , 2016-05-21,1,2,4
+345,App944, Add dependency on Guava , 2016-05-21,2,2,0
+346,App944, Change padding of card list on main screen , 2016-05-21,2,3,7
+347,App944, Scale barcodes to ImageView's size without filtering , 2016-05-21,1,17,0
+348,App944, Generate barcode after ImageView size is known , 2016-05-21,1,22,1
+349,App944, Generate barcode in an AsyncTask , 2016-05-21,2,98,49
+350,App944, Reduce min SDK version to 11 , 2016-05-17,1,1,1
+351,App944, Remove usage of emulator in Travis-CI , 2016-05-16,1,0,4
+352,App944, Update for release v0.5 , 2016-05-16,1,2,2
+353,App944, Add an About page , 2016-05-16,7,124,2
+354,App944, Update Gradle to 2.10 , 2016-05-16,1,2,2
+355,App944, Update Gradle Android plugin to 2.0.0 , 2016-05-16,1,1,1
+356,App944, Use gradle wrapper script on Travis-CI , 2016-05-16,1,1,1
+357,App944, Request external storage permission if necessary , 2016-05-16,2,75,6
+358,App944, Allow user to import/export cards to/from CSV on external storage , 2016-05-16,13,169,3
+359,App944, Add task for importing/exporting , 2016-05-16,3,193,0
+360,App944, Add ability to import/export cards to/from CSV , 2016-05-16,11,577,1
+361,App944, Add call for writing card entry to specific id , 2016-05-16,1,14,0
+362,App944, Add wrapper scripts and instructions for building , 2016-04-22,5,271,0
+363,App944, Update Italian translation for note , 2016-04-12,1,1,1
+364,App944, Update for release v0.4 , 2016-04-09,1,3,3
+365,App944, display store and note on card summary view , 2016-04-09,6,35,3
+366,App944, Use multi exception catch for idential exceptions , 2016-03-20,1,1,5
+367,App944, Do not overwrite store field when capturing barcode , 2016-03-20,1,4,1
+368,App944, Add ability to store a note with loyalty card , 2016-03-20,8,150,39
+369,App944, split parts of test into separate methods , 2016-03-20,1,35,16
+370,App944, Add Dutch translations , 2016-03-16,1,28,0
+371,App944, Allow store name to be editable after creation , 2016-03-11,2,62,32
+372,App944, Correct names of unit tests , 2016-03-11,1,3,3
+373,App944, cat unit test failure report if failures found , 2016-02-20,1,1,0
+374,App944, enable findbugs during travis-ci build , 2016-02-20,3,37,1
+375,App944, Change inner class to be static , 2016-02-20,1,1,1
+376,App944, update version for next release , 2016-02-11,1,2,2
+377,App944, mention barcode types in README.md , 2016-02-11,1,13,1
+378,App944, update zxing-android-embedded to latest release , 2016-02-11,1,1,1
+379,App944, Do not bring up keyboard in view activity , 2016-02-10,1,1,0
+380,App944, Support all barcodes zxing can generate , 2016-02-10,2,27,3
+381,App944, Update to using latest zxing library release _  3.2.1 , 2016-02-10,1,1,1
+382,App944, Update version information for release , 2016-02-07,1,2,2
+383,App944, declare usage of the auto focus feature for the camera , 2016-02-07,1,3,0
+384,App944, Add permission for using camera , 2016-02-07,1,2,0
+385,App944, Use multiple lines to declare features and permissions , 2016-02-07,1,7,2
+386,App944, Support scanning all types of 1D barcodes , 2016-02-03,1,1,1
+387,App944, Add F-Droid icon and fix grammer in README.md , 2016-02-02,1,4,1
+388,App944, Update strings.xml , 2016-01-31,1,1,1
+389,App944, Create strings.xml , 2016-01-31,1,28,0
+390,App944, Initial commit of application , 2016-01-30,51,1748,0
+391,App944, Enable building with Travis CI , 2016-01-30,1,25,0
+392,App944, Add README.md , 2016-01-30,1,12,0
+393,App944, Initial commit , 2016-01-24,1,674,0
