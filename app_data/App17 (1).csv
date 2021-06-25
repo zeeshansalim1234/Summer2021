@@ -1,0 +1,102 @@
+App17,io.github.benoitduffez.cupsprint,Not really working for me. I have setup my raspberry pi as print server with cups and it works on my Windows PC via samba _  but when using this app _  though the printer is discovered _  the file goes into infinite spooling. The printer I'm using is the Epson AL M2300 Edit: Yes _  everything should work correctly. If it works through Samba I don't see why it shouldn't work on Android _  unless I have to setup different drivers and I don't know that...,3,05/31/2020,1
+App17,io.github.benoitduffez.cupsprint,Really good developer support but it is still not working. I have supplied the CUPS server ip address but it still hasn't found any printers. The number of times I need to print from my phone is so small it'll be easier for me to email whatever I want to print to myself and print from a device where ipp and CUPS works. Clearly this app works for lots of people but from my point of view it is still 1 star.,1,04/08/2020,0
+App17,io.github.benoitduffez.cupsprint,It took a lot of work to configure my Ubuntu server to have CUPS listen on the local subnet. I had to create a self signed certificate because Android will only print to secure printers. I also enabled cups-browsed. After these things _  I could immediately print from my Note 9! No configuration was required on the phone itself. Wonderful app _  thank you.,5,12/08/2019,7
+App17,io.github.benoitduffez.cupsprint,added printer. no verification of success fail. no debug indication. see printer in list cant click on it. is that a button? thanks _  otherwiso great app,2,04/02/2020,1
+App17,io.github.benoitduffez.cupsprint,Finds shared CUPS printers and lets apps on the phone print. No configuration needed - just make sure your Linux or whatever computer is sharing on the network _  and it'll just work.,5,04/27/2020,0
+App17,io.github.benoitduffez.cupsprint,This app used to work very well but recently it says "socket timeout" whenever I try to print.,2,03/17/2020,0
+App17,io.github.benoitduffez.cupsprint,By far the best CUPS printing app from Android. Anyone reading this _  if you have a CUPS project use this app _  don't fall for the other rubboshly made apps. This developer is outstanding _  been looking for this a long time. Thank you very much for your solo effort _  you have made this beautiful app that is simply the best printing client! Kudos to you.,5,12/14/2018,21
+App17,io.github.benoitduffez.cupsprint,PDF print to "(Android) CUPS Printing (this app on phone)" -> WiFi -> Linux CUPS server -> HP JetDirect EX Plus3 (LPT port 1 of 3) -> HP LaserJet 6MP  Adobe PDF Reader printed to "HP LaserJet 6MP@[hostname]" looks exactly as the PDF displays on the screen.  <p>  CUPS Server Notes (Ubuntu 18.08.1): [x] "Publish shared printers connected to this system" (my JetDirect is connected to this server) for your local subnet. [_] "Allow printing from the internet" IP addresses outside your subnet to also print.  This is not commonly used.,5,09/20/2018,2
+App17,io.github.benoitduffez.cupsprint,It does work fine with Fedora Linux CUPS server for me. Although I had to add the printer by its explicit URL _  not even specifying CUPS server IP address helped. Although after adding the URL it then added the manually enter printer and also about 10 times the same printer with full description so it apparently found the printer then even somehow automatically. Still it works better than other Android app "Let's Print Droid" by BlackSpruce.,4,01/04/2019,1
+App17,io.github.benoitduffez.cupsprint,Not working. Server CentOS 7+SAMBA4+CAPS+AVAHI - usb connected hp Deskjet. Not discoverable _  unlike others,2,04/20/2020,0
+App17,io.github.benoitduffez.cupsprint,Just getting blanc pages. I am not able to get CUPS to work from android. I am able to print from other PCs in the network _  but from my phone I just get blanc pages. This is not just for this app _  I tried multiple but could not get anyone to work.,3,02/24/2019,4
+App17,io.github.benoitduffez.cupsprint,Hey dude put some ad and earn because never saw any ads with your cool apk I just used raspberry pi installed Samba server and cups and connected printer and made a hotspot WiFi network connected to router which made wireless printer without connecting to PC Great for your superb apk... Go And Code more Android studio is waiting for you ....wish you Happy days ahead with Android 10 as a developer,5,10/28/2019,6
+App17,io.github.benoitduffez.cupsprint,It works well but it doesn't trust my SSL certificate for some reason _  even though both the browser and curl on my phone consider it valid.,4,02/01/2019,0
+App17,io.github.benoitduffez.cupsprint,Works great for me.. open port 631 on your router to forward to your cups server ip. use a service like no ip for a domain name.. works from anywhere. best one right here. easy.,5,03/17/2019,2
+App17,io.github.benoitduffez.cupsprint,No printer display No setting menu display How to?,1,04/01/2020,0
+App17,io.github.benoitduffez.cupsprint,doesn't list the printer while on the same network itself,1,03/26/2019,1
+App17,io.github.benoitduffez.cupsprint,Broken. Can't go to settings via menu button nor is there any on-screen settings button so the app is completely useless.,1,03/18/2019,5
+App17,io.github.benoitduffez.cupsprint,work great with openwrt cups+canon ip2770 Series _  But erorr with openwrt Cups server + Epson L120 _  please fix that. great job btw,5,11/30/2018,1
+App17,io.github.benoitduffez.cupsprint,Not able to do ANYTHING (there are no visible buttons) in Android pi,1,05/05/2019,3
+App17,io.github.benoitduffez.cupsprint,Does not work _ just tells you to go to settings,1,10/12/2018,2
+App17,io.github.benoitduffez.cupsprint,works great via IPP,5,04/23/2019,0
+App17,io.github.benoitduffez.cupsprint,Opem Source is the way to go.,5,12/20/2019,1
+App17,io.github.benoitduffez.cupsprint,Works well for me,5,02/15/2020,0
+App17,io.github.benoitduffez.cupsprint,Doesn't work,1,12/13/2019,0
+App17,io.github.benoitduffez.cupsprint,Works as expected.,5,12/19/2018,0
+App17,io.github.benoitduffez.cupsprint,Excelente aplicacion funciona a la perfeccion con mi impresor L380,5,12/01/2018,1
+App17,io.github.benoitduffez.cupsprint,Works great!,5,04/04/2020,0
+App17,io.github.benoitduffez.cupsprint,amazing app,5,02/14/2019,1
+App17,io.github.benoitduffez.cupsprint,This app works great. Install _  activate and print. No more having to use the proprietary printer applications for wireless printing :)  I _  however _  encountered problems printing PDFs as the font would get substituted at the printer level. I fixed this by changing my PDFs to have embedded fonts and it's not an issue any more for newly created PDFs.,4,06/25/2017,23
+App17,io.github.benoitduffez.cupsprint,This is the best and the simplest printing app I have ever seen _  direct  ---- printing from any Android app _  just like the Android print service which  ---- was unable to discover my CUPS printer hosted on a Raspberry Pi 3. I had  ---- tried several apps such as PrinterShare _  StarPrint before but they were  ---- sooo clumsy and slow..... This is a must-have app for CUPS printers. I  ---- would surely recommend the CUPS Organising to make this as their official  ---- Android printing app. A great Thank-You to its creator. Loved  ---- it!!!👏👏👏👏✌️✌️✌️✌️,5,06/19/2018,4
+App17,io.github.benoitduffez.cupsprint,Great printing service! It's the only one I could find to work at NDSU. The only issues I found is that the documents appear at the printing stations under "anonymous" and sometimes the file name (ex. "Ftables.pdf") don't appear.,4,01/17/2018,7
+App17,io.github.benoitduffez.cupsprint,Totally not working...it finds my CUPS printers but fails to remember them and print anything...no error given whatsoever...    Bad development _  you can't test only with one device and one OS...,1,10/27/2017,13
+App17,io.github.benoitduffez.cupsprint,Found the settings under "Connections-&gt;More Connections. It prints fine but not all files. And when it fails _  the Cancel Printing never returns. The doc remains as "Cancelling " forever.,4,10/17/2017,5
+App17,io.github.benoitduffez.cupsprint,Works as expected. Connected without problem to local as well as remote CUPS server. Management and settings were easy _  even for non-technical users. Ability to print on-the-go and pick up paperwork while back to print server is exactly what I was looking for. Thank you!,5,05/06/2017,8
+App17,io.github.benoitduffez.cupsprint,Does what it says. Works great with my Brother laser attached to an Ubuntu 16.04 LTS server. The only issue was I had to manually add the printer as auto discovery didn't work in my setup.,5,04/13/2017,11
+App17,io.github.benoitduffez.cupsprint,Excellent cups client. Works fine on my >= android 5 devices to an Linux  ---- Mint 18 server. It does not work for me on an older android 4 device  ---- because it does not ask to trust the host but whatever _  that's may be a  ---- problem with that device ... Thank you for creating this very useful  ---- service for free!,5,07/31/2018,1
+App17,io.github.benoitduffez.cupsprint,Lovely! I added support for my HP laserjet using CUPS (debain) without any hassles. Thanks to the solo developer your work is greatly appreciated! - keep up the good work.,5,11/26/2017,4
+App17,io.github.benoitduffez.cupsprint,Finds my raspberry pi print server _  prints to it. Perfect _  just what I needed. Saved me a fair bit of messing around I suspect.,5,05/22/2017,10
+App17,io.github.benoitduffez.cupsprint,not work My HP printer connected to USB port on TP Link WDR-4300 Wifi gateway with Gargoyle System (OpenWRT based). All Windows PC on local network can print directly to router's IP (provided that HP JetDirct driver already been installed on that PC). raised stars since its claimed to be an opensource,3,08/08/2018,0
+App17,io.github.benoitduffez.cupsprint,Worked right out of the box! USB printer connected to a ubuntu 16.04 server. Many thanks for the great work!  By the way _  A4 paper is supported by this app.,5,12/19/2017,2
+App17,io.github.benoitduffez.cupsprint,Exactly what I wanted. I used a manual config though _  to get to my CUPS server using a static IP. My workplace can now print documents independent of user and device.,5,02/05/2018,1
+App17,io.github.benoitduffez.cupsprint,This app discovered and connected to my Samsung network printer within less  ---- than 1 second after I enabled it. The first printed page was out in less  ---- than a minute.,5,04/14/2018,1
+App17,io.github.benoitduffez.cupsprint,Works great. Have a USB printer connected to my desktop running Debian 8.7. Had no issues finding the printer and printing to it. Fantastic.,5,04/13/2017,5
+App17,io.github.benoitduffez.cupsprint,Does everything it needs to do without taking up to much space on my phone _  love it great work.,5,10/28/2017,2
+App17,io.github.benoitduffez.cupsprint,This is not a CUPS Server. It will not find your printers on the network. It is only another service that finds printers that are already running CUPS internally. THIS IS NOT A CUPS SERVER. (would have really liked it if it was),2,12/27/2017,1
+App17,io.github.benoitduffez.cupsprint,The developer is calling a user an ass (look at the comment responses).  ---- Euros? No wonder... More mental midgetry from Europe.,1,06/02/2018,0
+App17,io.github.benoitduffez.cupsprint,Did not work at all,1,02/18/2018,0
+App17,io.github.benoitduffez.cupsprint,It works great for me. I print to a Brother 2107W through CUPS on Ubuntu  ---- 14.something (LTS). Thanks.,5,04/26/2018,0
+App17,io.github.benoitduffez.cupsprint,Finally a decent  "does-what-it says-on-the-tin" app for printer integration on android that works with cups. Cant fault,5,06/13/2017,2
+App17,io.github.benoitduffez.cupsprint,There is nothing to print with,1,05/19/2018,0
+App17,io.github.benoitduffez.cupsprint,Works with my Kyocera FS-1040.,5,09/03/2017,2
+App17,io.github.benoitduffez.cupsprint,Amazing app. Works as expected. Thx for the project. Well done.,5,06/20/2017,1
+App17,io.github.benoitduffez.cupsprint,Works great! Especially with my openvpn to print stuff at home when I'm away,5,02/20/2018,0
+App17,io.github.benoitduffez.cupsprint,Ne marche pas chez moi... Dommage. 😢,4,06/08/2017,1
+App17,io.github.benoitduffez.cupsprint,Works well like it should! :-),5,06/02/2017,1
+App17,io.github.benoitduffez.cupsprint,Doesn't work,1,12/22/2017,1
+App17,io.github.benoitduffez.cupsprint,It works 👍,5,07/08/2017,1
+App17,io.github.benoitduffez.cupsprint,Works awesome. It was intuitive and easy to use,5,04/15/2018,0
+App17,io.github.benoitduffez.cupsprint,I liked it!,5,12/23/2017,1
+App17,io.github.benoitduffez.cupsprint,Works great.,5,05/07/2018,0
+App17,io.github.benoitduffez.cupsprint,Really helpful,5,04/01/2019,0
+App17,io.github.benoitduffez.cupsprint,Update fixed the error. It prints correctly. Tested against CUPS server running on ArchLinux with driver installed for Xerox WC 3025 from Xerox. It doesn't work for direct print to printer with ipp. But that is expected - Cups needs Xerox's driver for this printer. Thank you very much! One thing _  how do I remove printer from menu? And the SEARCH FOR PRINTERS seems not to work. no message no printer listed. Hard to tell if it does something.,5,11/19/2016,12
+App17,io.github.benoitduffez.cupsprint,The app was able to find the printers but when I try to print _  untrusted SLL certificate page comes up asking me to trust connection or abort.  After clicking trust connection _  still cannot print.,2,11/28/2016,3
+App17,io.github.benoitduffez.cupsprint,Doesn't do anything after entering my Windows Server IP and clicking 'SEARCH FOR PRINTERS' :(Server is running UNIX services) Also tried over my vpn against my workstation running linux and CUPS. Doesn't really tell you what's going on _  either - No feedback or error messages.,2,11/13/2016,7
+App17,io.github.benoitduffez.cupsprint,It works! I configured the print server on Ubuntu 16.04 LTS _  and the CUPS Printing service found it immediately. Exactly what I needed _  because I wasn't about to buy a new printer just so my family could print from Android! A big thank you to the developers!,5,03/17/2017,2
+App17,io.github.benoitduffez.cupsprint,I can only print on A4 _  no matter what paper size I select. I'm using the CUPS server on my Ubuntu laptop _  which sends the document to a USB  printer connected to my router.,3,12/09/2016,2
+App17,io.github.benoitduffez.cupsprint,From my tabled Z2 it worked excellent but from Samsung S7 I had partial success. Anyway thanks for great app,5,11/27/2016,2
+App17,io.github.benoitduffez.cupsprint,Set up cups on an Ubuntu 16 server _  last night _  can now print from my phone along with all other devices!,5,11/15/2016,2
+App17,io.github.benoitduffez.cupsprint,Appears to work with cups on my Pi3 running raspbian using a very old Hp printer. Wifi printing ftw lol :-),5,04/06/2017,0
+App17,io.github.benoitduffez.cupsprint,It looks like a great app _  and I see all my printers but cant print :(  I get this: Hostname XX.XX.XX.XX (cups server ip) was not verified _  although I selected (validated one popup) to trust SSL something... :( Please help!,2,04/04/2017,0
+App17,io.github.benoitduffez.cupsprint,Dose not print _  found all printers _  but failed to print _  due "null" hostname :-(,5,01/26/2017,1
+App17,io.github.benoitduffez.cupsprint,This app is really great. Making life and productivity a lot easier,5,03/17/2017,1
+App17,io.github.benoitduffez.cupsprint,Just works _  simple as that!,5,03/25/2017,1
+App17,io.github.benoitduffez.cupsprint,Working as expected...,5,11/14/2016,1
+App17,io.github.benoitduffez.cupsprint,When I go into the printing settings _  the CUPS server shows up fine _  but any time I try to print to it from an app _  it says the printer is unavailable. Confirmed it's accessible from other computers on network. Tried both F-Droid and Play Store versions _  same issue.,2,10/01/2016,8
+App17,io.github.benoitduffez.cupsprint,Doesn't work on my tab with Android 5.1.1. Works ok on my phone with Android 6.0. I wonder if I could scale the image before printing. Now it's 700% when I print from Google photos and too small when I print from Firefox.,5,06/08/2016,11
+App17,io.github.benoitduffez.cupsprint,I'm using this on my Epson L850 via raspberry pi as server this app found my printer instantly and does it's job fine.,5,03/22/2016,9
+App17,io.github.benoitduffez.cupsprint,Works great with my Linux cups server printing to brother mfc 240 with zero issues! Printing from 2 samsung android phones.,5,02/28/2016,3
+App17,io.github.benoitduffez.cupsprint,It just disappears. Doesn't even try to work.,1,02/03/2016,15
+App17,io.github.benoitduffez.cupsprint,easiest installation and woks great with my Unraid NAS CUPS plugin. Thanks how to donate?,5,09/22/2016,3
+App17,io.github.benoitduffez.cupsprint,No comments. OpenSUSE 13.2 _  CUPS _  Epson L210. Fine. Thank you for no-adds. Best regards.,5,10/03/2015,3
+App17,io.github.benoitduffez.cupsprint,I was struggle with other apps but this one made it so simple _  thanks,5,11/17/2015,6
+App17,io.github.benoitduffez.cupsprint,The printer that i manually added disappears when I try to print,2,03/27/2016,1
+App17,io.github.benoitduffez.cupsprint,Simple and effective _  a real solution to printing from Android devices.,5,09/03/2015,5
+App17,io.github.benoitduffez.cupsprint,Not appearing in system menu like your screenshoot. Use lollipop 5.02,2,05/15/2016,1
+App17,io.github.benoitduffez.cupsprint,Better than cloud print,5,08/30/2015,2
+App17,io.github.benoitduffez.cupsprint,عاشقش هستم,5,07/07/2016,1
+App17,io.github.benoitduffez.cupsprint,Perfect,5,04/28/2016,2
+App17,io.github.benoitduffez.cupsprint,Very interesting application _  unfortunately not all my Android devices are on the latest version. Does anyone know other app for those of them that are still running ICS? Thanks!,5,08/06/2015,4
+App17,io.github.benoitduffez.cupsprint,Worked perfectly over my home WiFi to a Linux CUPS served printer (Fedora 22 Workstation). Thanks!,5,08/26/2015,3
+App17,io.github.benoitduffez.cupsprint,It works fine! The first time I had to confirm the connection with my printer _  but it was easier than expected. Now the printer appears every time I want to print from my android phone. Kudos for being an open source project!,5,04/07/2018,0
+App17,io.github.benoitduffez.cupsprint,Automatically found my cups printers in the printer settings applet. But when going to print from an app printer shows as unavailable and deletes itself. Installed lets print droid and it worked perfectly out of the box first time.,2,07/31/2016,1
+App17,io.github.benoitduffez.cupsprint,Just what I needed. No trouble at all discovering and printing to a Samsung M2022W via a splix-based shared queue on my Fedora 25 server. Would be handy if there were a way to turn off mDNS discovery and just use hand-configured IPP URIs.,5,11/28/2016,1
+App17,io.github.benoitduffez.cupsprint,Doesn't work with Brother HL-4040CN over IPPS (port 443).  Printer works on Windows 10 and OSX just fine.,1,05/25/2017,1
+App17,io.github.benoitduffez.cupsprint,the network printer shows up but while printing it shows printer not available on both tablet nd mobiles,2,11/05/2016,1
+App17,io.github.benoitduffez.cupsprint,Never worked fine for me.,1,03/01/2018,0
+App17,io.github.benoitduffez.cupsprint,Does not have a method to add printers.  Also no localhost interface.,1,05/31/2017,1
+App17,io.github.benoitduffez.cupsprint,Doesn't work.,1,12/20/2015,1
+App17,io.github.benoitduffez.cupsprint,Unable to add printers.,1,01/20/2018,0
+App17,io.github.benoitduffez.cupsprint,خیلی خیلی خوب,2,01/19/2016,1
+App17,io.github.benoitduffez.cupsprint,Excellent app 👌👌,5,10/19/2019,0
+App17,io.github.benoitduffez.cupsprint,Gooooooood,5,03/28/2016,2

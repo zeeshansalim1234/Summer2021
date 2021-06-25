@@ -1,0 +1,238 @@
+1,App17, Spanish translation , 2020-05-29,1,54,0
+2,App17, created extra build flavor for playstore and fdroid , 2019-11-20,3,37,11
+3,App17, fix beta script vs git versions , 2019-11-03,1,1,1
+4,App17, Allow Clear Text Traffic , 2019-06-20,1,2,1
+5,App17, update icon to be adaptive , 2018-11-29,18,16,0
+6,App17, fix compilation issues , 2018-11-29,2,2,1
+7,App17, inform user when clear text traffic is disallowed , 2018-11-29,3,3,0
+8,App17, don't crash if server is null in mDNS response _  ignore instead , 2018-11-29,1,3,1
+9,App17, code reformat , 2018-11-29,1,14,7
+10,App17, printer name (and other fields) are single line , 2018-11-29,1,24,12
+11,App17, remove bogus import , 2018-11-29,1,0,1
+12,App17, allow printers with empty columns to be discovered in /printers/ , 2018-11-29,1,1,1
+13,App17, Stop the PrinterDiscovery and PrinterStateTracking , 2018-11-20,3,71,10
+14,App17, remove .idea from git , 2018-10-15,2,2,1
+15,App17, update dependencies , 2018-10-15,2,61,35
+16,App17, NullPointerException in updateJobStatus , 2018-09-30,1,15,4
+17,App17, MDNS-Filter for CupsPrinter , 2018-09-30,1,7,0
+18,App17, added german translation for newly added error messages , 2018-09-27,1,2,0
+19,App17, prohibit manual printers that don't pass the URI syntax , 2018-09-27,1,9,3
+20,App17, silence malformed mDNS datagram parse errors , 2018-09-27,1,5,1
+21,App17, export some error messages to XML resources , 2018-09-27,3,6,4
+22,App17, use the URL provided by the printer , 2018-09-27,2,8,3
+23,App17, fix broken build with bogus import , 2018-09-27,1,1,1
+24,App17, Filter for CUPS-Get-Printers Request , 2018-09-27,2,14,8
+25,App17, Filter for CUPS-Get-Printers Request , 2018-09-24,2,35,20
+26,App17, Close the FileDescriptor , 2018-09-23,1,8,0
+27,App17,  Change polling of printJob , 2018-09-23,1,21,8
+28,App17, convert to androidx and kotlinx , 2018-09-20,8,37,60
+29,App17, use ParcelFileDescriptor when printing to avoid errors when low memory , 2018-09-20,1,6,7
+30,App17, split scan/manual printers in two methods for clarity , 2018-09-20,1,17,7
+31,App17, add more logging for mDNS found printers , 2018-09-20,2,8,6
+32,App17, don't use lateinit for jobName _  fallback to Unknown if null , 2018-09-20,2,3,3
+33,App17, forgot the tag message for RC automatic releases , 2018-09-07,1,1,1
+34,App17, tag RC (beta) releases , 2018-09-07,1,2,0
+35,App17, fix some IDE/Kotlin warnings , 2018-09-07,1,5,9
+36,App17, improve auto-versioning and auto-releasing , 2018-09-07,4,119,3
+37,App17, allow text in server IP/hostname field , 2018-09-07,1,1,1
+38,App17, don't report malformed URL , 2018-09-07,2,6,10
+39,App17, don't report ETIMEDOUT on printer checks , 2018-09-07,1,3,2
+40,App17, don't report malformed mDNS replies , 2018-09-07,1,11,6
+41,App17, don't report malformed URLs , 2018-09-07,1,5,1
+42,App17, don't report socket timeout exceptions , 2018-09-07,1,5,6
+43,App17, if CUPS replies with empty media-default _  pick A4 instead of crashing , 2018-09-07,1,5,1
+44,App17, don't create bogus URLs with http:/server/printers , 2018-09-07,2,14,4
+45,App17, don't report this error anymore , 2018-09-07,1,7,1
+46,App17, avoid illegal number of printers researched , 2018-09-07,1,3,0
+47,App17, CUPS ipp operations don't use null URLs or ByteBuffer _  so don't ? them , 2018-09-07,9,16,63
+48,App17, add Koin DI to replace AsyncTask and the static app context , 2018-09-07,27,271,243
+49,App17, remove instance from app class; need to remove static context too , 2018-09-06,3,6,10
+50,App17, replace dumb logging class with Timber , 2018-09-06,12,127,220
+51,App17, convert the rest of the code to kotlin , 2018-09-06,68,3964,4961
+52,App17, convert code base to kotlin , 2018-09-06,47,2326,2586
+53,App17, update dependencies , 2018-09-06,5,34,35
+54,App17, Fix two typos , 2018-05-26,1,2,2
+55,App17, refresh build tools and dependencies , 2018-05-21,5,82,61
+56,App17, japanese translation , 2017-05-15,1,54,0
+57,App17, Try to parse media-size value if it doesn't match a known size , 2017-05-12,1,23,0
+58,App17, removed debug logging in build.gradle , 2017-04-21,1,0,1
+59,App17, fixed crash when handling discovery exceptions , 2017-04-18,1,1,1
+60,App17, better detection of release track , 2017-04-18,1,7,1
+61,App17, 1.4.0 final , 2017-04-13,1,2,2
+62,App17, set default mediaSize and resolution to avoid crash , 2017-04-01,1,15,0
+63,App17, allow builds to be made even if the signing/play store config files are not there , 2017-03-20,1,10,2
+64,App17, version 1.4.0 beta called 1.4.0b1 on the play store _  published to people subscribed to the beta channel , 2017-03-19,1,2,2
+65,App17, support for auto apk upload added signing configs and automated gradle script for play store upload fixed release builds being debuggable apks , 2017-03-19,17,85,2
+66,App17, added instrumented test stub , 2017-03-19,4,40,17
+67,App17, added unit test stub , 2017-03-19,3,19,0
+68,App17, enabled test coverage for jacoco to work , 2017-03-19,2,5,1
+69,App17, enabled test coverage for jacoco to work , 2017-03-19,1,1,0
+70,App17, fixed some potential NPEs _  lint checks and IDE warnings _  added some null/non null annotations , 2017-03-19,5,91,70
+71,App17, prevent NPE added null/non null annotations to IppOperation , 2017-03-19,2,27,10
+72,App17, dynamic URL path for printers , 2017-03-18,6,60,15
+73,App17, disable crashlytics for debug builds , 2017-03-18,1,3,1
+74,App17, added activity (launcher) that lists the manually entered printers a click on one item removes the printer , 2017-03-18,13,197,2
+75,App17, improved debugging when parsing the printer check result , 2017-03-18,1,6,3
+76,App17, Don't blow away the host/device dictionaries with each packet. , 2017-03-18,1,5,2
+77,App17, actually report errors seen in mDNS , 2017-03-18,1,6,3
+78,App17, updated tools _  gradle and lib versions to latest from API 25 , 2017-03-18,4,22,49
+79,App17, added jacoco gradle task , 2017-03-18,1,19,0
+80,App17, Don't blow away the host/device dictionaries with each packet. , 2017-03-11,1,5,2
+81,App17," Corrected grammar and switched from ""Sie"" to ""du"" ", 2017-02-28,1,11,11
+82,App17, added comments whether methods are called on the UI thread (for Toast safety) , 2016-11-22,1,2,0
+83,App17, added missing translations (Germans _  please check _  this was done with Google Translate) , 2016-11-21,2,20,0
+84,App17, reset README.md from what we have in master , 2016-11-21,1,24,14
+85,App17, converted several methods / fields to package local to remove accessors and reduce apk method count , 2016-11-13,5,17,17
+86,App17, refs #21 removed references to Uri.parse as it doesn't support IPv6 (see: https://code.google.com/p/android/issues/detail?id=192855) , 2016-11-13,2,47,25
+87,App17, code reformat , 2016-11-13,3,8,8
+88,App17, added some @NonNul annotations , 2016-11-13,1,2,2
+89,App17, fixed misplaced comment position , 2016-11-13,1,1,1
+90,App17, log HTTP response code as verbose _  all the time don't send all errors to crashlytics _  it's already taken care of later , 2016-11-13,1,1,2
+91,App17, ensure HTTP response code is logged before the exception is sent to crashlytics , 2016-11-13,1,1,1
+92,App17, updated license info to LGPL v3 (see #11) , 2016-11-13,11,18,184
+93,App17, updated path to AddPrintersActivity , 2016-11-13,1,1,1
+94,App17, updated build tools gradle version to 2.2.2 , 2016-11-13,2,9,9
+95,App17, various minor fixes related to a full lint check , 2016-11-13,11,32,30
+96,App17, moved UI classes to a .app dedicated package , 2016-11-13,8,25,15
+97,App17, ensure default color mode is set , 2016-11-13,1,5,0
+98,App17, better catch hostname not verified exceptions , 2016-11-11,1,3,1
+99,App17, silence unknown host / network unreachable from crashlytics + inform user with toast , 2016-11-11,2,8,0
+100,App17, silence SocketTimeoutException from crashlytics when discovering printers , 2016-11-11,2,5,2
+101,App17, better exception management in print job handling , 2016-11-11,2,49,26
+102,App17, silence FileNotFoundException from crashlytics when querying job status + inform user with a Toast , 2016-11-11,2,5,1
+103,App17, centralized all logging into a dedicated class that will print logs and send them to crashlytics , 2016-11-11,7,109,73
+104,App17, silence job-related ECONNRESET errors from crashlytics + show toast to user , 2016-11-11,2,8,1
+105,App17, better handle exceptions in job related queries , 2016-11-11,1,33,24
+106,App17, added HTTP 400 , 2016-11-11,2,5,0
+107,App17, better handling of which exception should be reported to crashlytics , 2016-11-11,1,13,17
+108,App17, handle HTTP 404 , 2016-11-11,2,5,0
+109,App17, update IDE project file , 2016-11-11,1,8,8
+110,App17, code reformat , 2016-11-11,1,22,17
+111,App17, splitted the exception handling from the HTTP error handling , 2016-11-11,1,30,17
+112,App17, handle the printer check exception in a dedicated method , 2016-11-11,1,41,28
+113,App17, version bump for 1.3.0 final , 2016-11-07,1,2,2
+114,App17, fixed a bug where the printer check would fail if a user-entered printer URL didn't end with a slash , 2016-11-04,1,11,6
+115,App17, fix NPE crash (caught _  but notify user when it happens) , 2016-11-04,4,24,7
+116,App17, added minor clarifications to the README file , 2016-11-04,1,5,2
+117,App17, added line break , 2016-11-04,1,1,1
+118,App17, added link to f-droid as an alternate store listing , 2016-11-04,1,1,0
+119,App17, fix a non-fatal crash where the color mode would not be set. fallback to monochrome by default if it's not set , 2016-11-01,1,6,0
+120,App17, minor code reformat , 2016-11-01,1,1,2
+121,App17, don't try to display a Toast from the background thread , 2016-11-01,1,1,1
+122,App17, silence HTTP 426 from crashlytics + log HTTP response code before sending other HTTP errors to crashlytics , 2016-10-31,1,5,1
+123,App17, force port to be defined (handles MalformedURLException java.lang.IllegalArgumentException: invalid port: -1) , 2016-10-31,1,10,0
+124,App17, update of IDE project file , 2016-10-31,1,8,8
+125,App17, avoid a crash when trying to unbox a null Integer , 2016-10-31,1,7,1
+126,App17, removed old code related to misuse of the android print API , 2016-10-31,1,1,42
+127,App17, Improve DE translation. , 2016-10-30,1,13,13
+128,App17, silence SSLPeerUniverifiedException from crashlytics , 2016-10-30,1,1,0
+129,App17, version bump , 2016-10-29,1,2,2
+130,App17, fix crash on android <7: missing FLAG_ACTIVITY_NEW_TASK on pseudo dialog activity intents , 2016-10-29,1,2,0
+131,App17, fix crash on android <7: missing FLAG_ACTIVITY_NEW_TASK on pseudo dialog activity intents , 2016-10-29,1,1,0
+132,App17, code reformat , 2016-10-28,1,10,10
+133,App17, ensure we pass correct parameters to the SSL context , 2016-10-28,1,24,2
+134,App17, silence SSL exceptions (it's up to the user to handle them) , 2016-10-28,1,9,1
+135,App17, better filtering of which IOException we want to silence , 2016-10-28,1,5,4
+136,App17, silence IOException when local keystore file isn't created yet , 2016-10-28,1,16,11
+137,App17, updated translations German contributors: please fix translations _  this comes from Google Translate and I have zero clue whether this means garbage or if it's actual German. Thanks :) , 2016-10-26,4,44,12
+138,App17, added link to beta in README , 2016-10-26,1,4,0
+139,App17, version bump , 2016-10-26,1,2,2
+140,App17, cosmetic changes to the security dialogs , 2016-10-26,4,11,9
+141,App17, made HTTP 426 Upgrade Required error more explicit to the user , 2016-10-26,2,9,1
+142,App17, fixed whole SSL/Basic auth behavior: * mDNS scan only fetches the list of available hosts (preferring HTTPS when a host offers both HTTP and HTTPS) (it used to scan + check HTTPS hosts) * checking a printer will raise all sorts of exception * catching an SSLPeerUnverifiedException will ask the user to explicitly trust the hostname * catching another SSLException will ask the user to explicitly trust the certificate * catching a FileNotFoundException (meaning HTTP >= 4xx) with an HTTP response code of 401 will ask the user its Basic Auth credentials All of these checks are done at printer check time _  not mDNS scan time. , 2016-10-26,6,58,87
+143,App17, misc useless IDE changes , 2016-10-26,4,4,7
+144,App17, added a hostname verifier with explicit user agreement dialog , 2016-10-26,8,229,39
+145,App17, updated IDE project file , 2016-10-25,1,3,0
+146,App17, remove login/password being logged clearly to logcat... , 2016-10-25,1,0,1
+147,App17, looks like legacy HTTP client dependency is no longer required :) , 2016-10-25,2,8,16
+148,App17, renamed/moved class that handles SSL and HTTP Basic Auth to a more explicit package and name , 2016-10-25,5,12,14
+149,App17, merged legacy com.jonbanjo package with app's package , 2016-10-25,11,14,14
+150,App17, reformatted com.jonbanjo legacy code with more modern code style , 2016-10-25,7,326,328
+151,App17, renamed JfSSLScheme to a more explicit (but too long) name , 2016-10-25,3,6,6
+152,App17, removed an old check made by Jon that automatically removed the failed SSL connections while doing mDNS scans this has been disabled for now because at Jon's time _  SSL management wasn't done as we do it today now _  SSL management is done at printer check time _  so don't exclude failed SSL hosts at mDNS time , 2016-10-25,1,14,9
+153,App17, added support for HTTP basic auth fixes #5 , 2016-10-24,8,186,2
+154,App17, * replaced old HttpClient-related code to HttpUrlConnection * added a storage of the server certificate in case of SSL * said stored certificate is presented to the user if it's not trusted; the user can choose to add it to an internal key store to trust this CUPS server * the app will check the system-wide key store when validating the server certificate , 2016-10-24,12,596,134
+155,App17, moved Toast outside of background thread , 2016-10-23,1,1,1
+156,App17, moved Toast outside of background thread , 2016-10-23,1,6,1
+157,App17, refactored cups4j code (removed blank spaces _  added/removed null checks _  added some annotations _  javadoc _  etc) , 2016-10-23,18,282,283
+158,App17, reformatted cups4j code , 2016-10-23,20,1601,1570
+159,App17, slightly better project description , 2016-10-22,1,2,2
+160,App17, clarified README regarding f-droid , 2016-10-22,1,2,4
+161,App17, fixed a bug where the printer check would fail if a user-entered printer URL didn't end with a slash , 2016-10-22,1,4,2
+162,App17, aligned build tools version with API level , 2016-10-21,2,9,9
+163,App17, added printer URL/name empty check before trying to manually add it Contributors: the German strings were added using Google translate. I have no idea if these are correct or not. , 2016-10-21,4,17,0
+164,App17, added missing translations Contributors: the German string was added using Google translate. I have now idea if this is correct or not. , 2016-10-21,2,2,0
+165,App17, added null checks in the print service added some crashlytics logging when something fails , 2016-10-21,3,55,5
+166,App17, force import legacy Apache HTTP client library , 2016-10-21,2,4,0
+167,App17, code reformat / fixed NonNull/Nullable annotations , 2016-10-21,5,847,852
+168,App17, added crashlytics , 2016-10-21,5,55,21
+169,App17, switched to API 25 , 2016-10-21,1,3,3
+170,App17, updated build tools _  sdk and compiler versions , 2016-10-21,4,52,18
+171,App17, added printer URL/name empty check before trying to manually add it , 2016-10-21,3,16,0
+172,App17, added french translation , 2016-10-21,1,9,0
+173,App17, added null checks in the print service added some crashlytics logging when something fails , 2016-10-21,3,54,5
+174,App17, force import legacy Apache HTTP client library , 2016-10-21,2,13,8
+175,App17, code reformat / fixed NonNull/Nullable annotations , 2016-10-21,4,665,666
+176,App17, added crashlytics , 2016-10-21,5,44,10
+177,App17, switched to API 25 , 2016-10-21,2,32,31
+178,App17, updated build tools _  sdk and compiler versions , 2016-10-21,4,47,22
+179,App17, Fix margin parsing. , 2016-07-16,1,18,20
+180,App17, Update to latest version of Android Studio. , 2016-07-16,2,3,3
+181,App17, Tell the CUPS server about the properties we're interested in. , 2016-07-16,1,18,1
+182,App17, fdroid freindly version , 2016-06-02,40,4975,20
+183,App17, made 1.2 fdroid compilable , 2016-05-27,2,5,33
+184,App17, added French translation , 2016-03-02,1,17,0
+185,App17, #10: reformatted all code using the same rules , 2016-03-02,9,390,387
+186,App17, German translation for commit aca9b4f and l10n adaptions for plurals. , 2016-03-01,3,16,3
+187,App17, added a feature that allows to search for printers just based off the server IP/hostname , 2016-03-01,3,106,1
+188,App17, fixes #4 proper usage of the Android print service API: don't try to use the print session when adding the printer; use the shared preferences to store user input and retrieve them back when the session is activated by the system made the printer URI edit text use the textUri inputType added some annotations , 2016-03-01,4,75,40
+189,App17, added another toast when the printer couldn't be checked , 2016-03-01,1,1,0
+190,App17, added toast message at the end of the mDNS discovery session , 2016-03-01,1,3,0
+191,App17, removed unused class + unused Apache HTTP dependency , 2016-03-01,3,0,73
+192,App17, #6: added the error message as a toast when the printer couldn't be checked , 2016-02-29,1,2,0
+193,App17, updated SDK/gradle/tools versions added dependency of legacy Apache HTTP lib (for now) , 2016-02-29,3,21,19
+194,App17," 1) Fixes the setting default color pinting mode ""colorDefault"" (PrintAttributes.COLOR_MODE_COLOR or PrintAttributes.COLOR_MODE_MONOCHROME) 2) Workaround for KitKat when a B&W only printer is used: Without workaround no printer will be enumerated on KitKat. ", 2016-02-26,1,19,4
+195,App17, German translation , 2016-02-26,1,10,0
+196,App17, version bump , 2015-08-29,1,2,2
+197,App17, updated IDE project file , 2015-08-29,1,3,3
+198,App17, forgot to uncomment line commented for debugging purposes , 2015-08-27,1,1,1
+199,App17, added a label to the add printers activity , 2015-08-27,2,3,1
+200,App17, first implementation of manual printer add , 2015-08-27,7,144,3
+201,App17, updated IDE files and appcompat lib version , 2015-08-27,3,7,5
+202,App17, Remove mentions of unused libraries , 2015-06-11,1,1,10
+203,App17, Added play store link , 2015-06-11,1,2,0
+204,App17, version bump , 2015-06-11,1,1,1
+205,App17, fixed stupid bug , 2015-06-11,1,2,1
+206,App17, version bump , 2015-06-11,1,2,2
+207,App17, removed unused libs from IDE's project file , 2015-06-11,1,0,4
+208,App17, updated README with more information , 2015-06-10,1,15,5
+209,App17, removed useless libs , 2015-06-10,5,1,4
+210,App17, removed debug logging use of either Log.i or Log.e depending on logged message moved log tag to a global constant in CupsPrintApp , 2015-06-10,3,15,17
+211,App17, changed job status polling interval from 1s to 5s , 2015-06-10,1,4,1
+212,App17, removed all legacy code _  now everything goes through the Android Print Service framework , 2015-06-10,69,21,4989
+213,App17, replaced launcher icon , 2015-06-10,11,1,1
+214,App17, moved util class to its own file , 2015-06-10,2,207,201
+215,App17, moved print service related stuff to own subpackage , 2015-06-10,3,3,3
+216,App17, modified gradle build script so that it can automatically sign APKs for play store publishing , 2015-06-07,1,33,0
+217,App17, reformated code so that it better matches Android coding standards , 2015-06-07,14,1067,1043
+218,App17, renamed app package so that it can be published to the play store renamed the app name in order to be clearer , 2015-06-07,26,70,72
+219,App17, resized image to improve visibility , 2015-06-06,1,3,1
+220,App17, added more information about what was modified + link to wiki , 2015-06-06,1,18,3
+221,App17, add a polling of job status query to see if job is complete or cancelled _  in which case the framework is informed , 2015-06-06,1,105,0
+222,App17, remove the job from the list of saved jobs when it's cancelled , 2015-06-06,1,1,0
+223,App17, allow print jobs to be cancelled , 2015-06-06,1,60,5
+224,App17, cosmetic changes to README , 2015-06-06,1,11,1
+225,App17, updated README with more details , 2015-06-06,1,34,8
+226,App17, queued jobs are now sent to the printer , 2015-06-06,1,67,1
+227,App17, proper XML syntax , 2015-06-06,1,1,2
+228,App17, added copyright notice , 2015-06-06,3,63,0
+229,App17, README cosmetic change , 2015-06-05,1,1,1
+230,App17, added link to SE question that led to the original source , 2015-06-05,1,1,0
+231,App17, first working version , 2015-06-05,5,521,25
+232,App17, removed NOTICE.txt from apk packaging so that gradle can compile the project , 2015-06-05,1,1,0
+233,App17, removed LICENSE.txt from apk packaging so that gradle can compile the project , 2015-06-05,2,10,0
+234,App17, removed android support jar as it is added by gradle automatically , 2015-06-05,1,0,0
+235,App17, converted project to gradle structure , 2015-06-05,249,449,1302
+236,App17, added initial code from zip file from original author , 2015-06-05,237,7130,0
+237,App17, added basic info to readme , 2015-06-05,1,23,0
+238,App17, Initial commit , 2015-06-05,1,2,0
