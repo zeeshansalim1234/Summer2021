@@ -1,0 +1,133 @@
+App638,com.ubergeek42.WeechatAndroid,Broken. Opening and reopening the app shows me theres a hamburger menu in the top right. Probably can set my host in there. But unfortunately _  it disappears immediately. Update: fixed by unpinning my nav bar. Update2: managed to get connected. Selected "weechat ssl" when what I should've selected was "websocket ssl" (I'm connecting to a reverse proxy over ssl/https). Casued a horrible crash loop. Reinstall fixed it. App is actually pretty good despite first impressions _  nice UI.,4,08/29/2019,7
+App638,com.ubergeek42.WeechatAndroid,Um why would you force us to use a signed certificate suddenly? Seriously? I used this app for years but it looks like it's time to uninstall now.,3,10/09/2018,18
+App638,com.ubergeek42.WeechatAndroid,Crash on connect everytime. Requiers a password even when none is needed.,1,05/01/2019,3
+App638,com.ubergeek42.WeechatAndroid,Crashes. Totally useless. Won't connect to the server.,2,12/05/2018,3
+App638,com.ubergeek42.WeechatAndroid,Does not work on s10+ crashes and closes straight away no idea why please fix ty,1,11/17/2019,3
+App638,com.ubergeek42.WeechatAndroid,i'm missing the point of this app... its not a client! ?? trying irccloud... bye,1,03/18/2019,2
+App638,com.ubergeek42.WeechatAndroid,Relay host not set...,1,07/21/2019,0
+App638,com.ubergeek42.WeechatAndroid,Im new to the application,5,09/11/2019,0
+App638,com.ubergeek42.WeechatAndroid,Does not work.,1,03/08/2019,0
+App638,com.ubergeek42.WeechatAndroid,Easiest way to connect relay to my weechat IRC client on my linux/bsd server. Working great so far on Android Pie. It still lacks of 'input insert' commands. So _  I cannot use 'input colors' there too! Apart from that _  it's working great - better than any paid/free Android standalone IRC client!,5,01/23/2019,4
+App638,com.ubergeek42.WeechatAndroid,It works.,5,02/09/2020,0
+App638,com.ubergeek42.WeechatAndroid,good,3,07/13/2019,0
+App638,com.ubergeek42.WeechatAndroid,fantastic app when it does work _  but clearly doesn't like nougat - has not been successfully connecting since then. dev _  hit me up for details - no bug report option in the app as far as I can tell. forced to use glowing bear at the moment and this app is definitely superior to it.,2,10/06/2016,20
+App638,com.ubergeek42.WeechatAndroid,Had some crashing issues at first but now it works like a charm. The only thing missing is loading earlier messages _  like in Glowing Bear. Also _  it loses the scroll position when focus is lost.,5,02/04/2016,19
+App638,com.ubergeek42.WeechatAndroid,Installed Weechat into an ArchLinuxARM chroot _  rsync'd my config files from my desktop _  ran it in a term and connected to localhost in the app.  10\10 My only gripe is that it doesn't like my physical tab key.,5,03/21/2016,16
+App638,com.ubergeek42.WeechatAndroid,Nothing changed in the serverside config _  and I reentered everything in the client. It fails with "wrong password" even though there's no password on the server.,1,12/23/2015,11
+App638,com.ubergeek42.WeechatAndroid,Broke with Nougat _  can't connect at all. No configuration changes in app nor on my server. Reach out of you need more information!,2,03/13/2017,3
+App638,com.ubergeek42.WeechatAndroid,Does everything you would expect and more...if you already know what to expect from a WeeChat relay client.  Don't forget to dig in the options for settings like Connect on launch and Tab button for nick competition.,5,01/02/2016,6
+App638,com.ubergeek42.WeechatAndroid,Can't change buffers without minimising the keyboard.,2,11/20/2015,5
+App638,com.ubergeek42.WeechatAndroid,I re installed the app _  after having my phone reset to factory settings _  I loaded the current version _  but a problem won't let me get past the settings page.,1,04/22/2016,12
+App638,com.ubergeek42.WeechatAndroid,Very nice to use on both tablets and phones. Nice amount of customization and the SSH tunnel feature is a cool extra. And it's completely free and open source _  with no in-app purchases or ads _  which is hard to come by these days.,5,01/18/2016,1
+App638,com.ubergeek42.WeechatAndroid,I've gone through all _  and I mean all of them _  and this definitely the best. I know this is basically not a real IRC client _  but it is still the best.,5,10/16/2017,11
+App638,com.ubergeek42.WeechatAndroid,Still doesn't work on nougat when you use ssh tunnel. It's been almost a year now.,1,04/30/2017,3
+App638,com.ubergeek42.WeechatAndroid,A great relay for weechat. Updates only make it better _  no serious bugs I've found.,5,11/20/2015,10
+App638,com.ubergeek42.WeechatAndroid,Works fantastic! Opens native apps for websites more reliably than other softwares.  Would donate if I could.,5,02/25/2016,9
+App638,com.ubergeek42.WeechatAndroid,I have Weechat running on a server + this app on the phone. It's the perfect combination. I used a ssh Client + screen before which was ok but this works much better. Thx!,5,07/10/2016,1
+App638,com.ubergeek42.WeechatAndroid,I used this app every day _  and I've been doing that for quite some time and it served me well. But the latest update just made it so much better!,5,11/19/2015,0
+App638,com.ubergeek42.WeechatAndroid,Is this app. Seriously. You don't get this kind of thing on iOS.,5,07/07/2016,1
+App638,com.ubergeek42.WeechatAndroid,I wish more IRC clients had this kind of interface and user experience!,5,12/04/2015,1
+App638,com.ubergeek42.WeechatAndroid,Will drain battery from nfull to 15 in an hour or 2,5,09/20/2016,0
+App638,com.ubergeek42.WeechatAndroid,Help me to use and setting this app. Thx,3,02/19/2016,0
+App638,com.ubergeek42.WeechatAndroid,Requires Weechat relay to be available externally. Regardless _  best IRC client for Android hands down.,5,04/15/2016,0
+App638,com.ubergeek42.WeechatAndroid,Very simple an does it's thing!,5,11/09/2016,1
+App638,com.ubergeek42.WeechatAndroid,Broken after last update,5,01/08/2018,0
+App638,com.ubergeek42.WeechatAndroid,This app finally tied it all together,5,05/11/2016,1
+App638,com.ubergeek42.WeechatAndroid,This app is really missing one feature: a donate link.,5,04/26/2018,0
+App638,com.ubergeek42.WeechatAndroid,Doesn't work,1,12/20/2017,0
+App638,com.ubergeek42.WeechatAndroid,Update this aap for the newer version of android please,4,07/08/2017,0
+App638,com.ubergeek42.WeechatAndroid,Works very well.  I particularly like the ability to tunnel through ssh.,5,11/06/2016,0
+App638,com.ubergeek42.WeechatAndroid,Am using,5,03/06/2016,0
+App638,com.ubergeek42.WeechatAndroid,I love this app. Very customizable and reliable.,5,05/23/2016,0
+App638,com.ubergeek42.WeechatAndroid,Great app _  very handy for IRC on-the-go.,5,11/18/2015,0
+App638,com.ubergeek42.WeechatAndroid,Friends,5,01/31/2016,0
+App638,com.ubergeek42.WeechatAndroid,update is looking nice!,5,03/04/2016,0
+App638,com.ubergeek42.WeechatAndroid,Rubish,2,05/28/2016,0
+App638,com.ubergeek42.WeechatAndroid,Great to have!!,5,01/20/2016,0
+App638,com.ubergeek42.WeechatAndroid,Great n fantastic,5,03/15/2016,0
+App638,com.ubergeek42.WeechatAndroid,uma,4,07/06/2016,1
+App638,com.ubergeek42.WeechatAndroid,Great update,5,11/23/2015,0
+App638,com.ubergeek42.WeechatAndroid,Love it,5,02/23/2016,0
+App638,com.ubergeek42.WeechatAndroid,Long time weechat user _  and I just discovered its relay capabilities. Previously I had used yaiic with ZNC on my server _  in addition to weechat on my server _  but this removes the need for ZNC entirely. Such a great app. edit: year and a half later _  still in development and very much improved. The interface is absolutely wonderful _  and beats any standalone client on the Play Store.,5,11/05/2014,5
+App638,com.ubergeek42.WeechatAndroid,This app is absolutely fantastic! I was worried it might chew up a lot of battery being in the background all of the time _  but that is absolutely not the case. Very _  very light on battery usage.  There are a few small quirks like a limited buffer size (I think it might only be 500 lines and is a fixed number).,5,10/13/2015,0
+App638,com.ubergeek42.WeechatAndroid,But it is true! It really works! Not sure if joining a channel is not yet supported or if I've been looking in the wrong places _  but that's no big deal.,5,11/15/2014,0
+App638,com.ubergeek42.WeechatAndroid,Love the app _ and its efficiency. Only issue I have is the limited scroll back. The web app has links to load further history  _ which I used rather frequently. Addition of that feature would render this app rather perfect.,5,03/22/2015,0
+App638,com.ubergeek42.WeechatAndroid,The Menu button doesn't work on Android 5.1 so the app cannot be used in it's present state. When you click the button _  nothing happens. The menu doesn't open or anything at all. This is on my Nexus 7 (2012) running stock Android  5.1.,1,04/02/2015,3
+App638,com.ubergeek42.WeechatAndroid,The previous version was incredibly unstable and the UI was a bit clunky _  but this new version is stable and slick. Nice work _  devs!,5,11/14/2014,7
+App638,com.ubergeek42.WeechatAndroid,Crashes whenever someone highlights me though _  it appears to be caused by highlight alert (sound).,4,10/27/2014,0
+App638,com.ubergeek42.WeechatAndroid,This is a great app for connecting to Weechat.  It has all the features i could ask for.  The developer is more than willing to work with you to resolve bugs and add features (if appropriate).,5,11/01/2014,2
+App638,com.ubergeek42.WeechatAndroid,It was already great _  now it is even better! If we only could show/hide timestamps without leaving conversation window _  it would make this program a perfect,5,10/26/2014,0
+App638,com.ubergeek42.WeechatAndroid,The major overhaul is the cherry on top of the already amazing functionality this app brings.,5,10/26/2014,2
+App638,com.ubergeek42.WeechatAndroid,Simple set up _  weechat relay was a breeze. App runs flawlessly _  fluid _  and looks good to boot. Suggest adding a link on here to your quick start page.,5,02/23/2015,0
+App638,com.ubergeek42.WeechatAndroid,The hotlist _  notifications _   and the UI changes have been amazing. Thank you. I use this app everyday.,5,11/14/2014,0
+App638,com.ubergeek42.WeechatAndroid,I couldn't try it yet because I need socks5 proxy support. Feature request.,5,01/06/2015,0
+App638,com.ubergeek42.WeechatAndroid,It's a very nice app. I love using weechat and this app makes it better to use on my android devices.,5,02/19/2015,0
+App638,com.ubergeek42.WeechatAndroid,Clean _  easy interface and really easy to set up _  even with SSL. Nice work :D,5,04/22/2015,0
+App638,com.ubergeek42.WeechatAndroid,The update was a huge improvement,5,10/27/2014,0
+App638,com.ubergeek42.WeechatAndroid,Network connectivity doesn't crash anymore _  yay!,5,10/27/2014,0
+App638,com.ubergeek42.WeechatAndroid,Finally.,5,04/22/2015,0
+App638,com.ubergeek42.WeechatAndroid,It works,5,10/27/2014,0
+App638,com.ubergeek42.WeechatAndroid,Ten oudda ten,5,01/06/2015,0
+App638,com.ubergeek42.WeechatAndroid,App is really great _  nuff said,5,03/25/2015,0
+App638,com.ubergeek42.WeechatAndroid,Looking good.,4,10/27/2014,1
+App638,com.ubergeek42.WeechatAndroid,Purely wow amazing,5,10/26/2014,0
+App638,com.ubergeek42.WeechatAndroid,Amazing,5,04/03/2015,0
+App638,com.ubergeek42.WeechatAndroid,This is exactly to my taste _  a lot of good design choices here and it's very comfortable to use. It's also free as in freedom which is a huge bonus. I disagree with other commenters stating it's not much better than using an ssh client _  I think the Android client is a much nicer experience myself.  But good things aside _  as it's still in beta with a few prominent bugs it would be silly to give it 5 stars. (Then what would I give it when/if it reaches a more robust state?)  Two of the bugs I've noticed so far is that is seems to randomly crash a lot and that colors in prefixes do not match my weechat.conf while the text does.  I really hope this great app will get further development.,4,05/25/2013,14
+App638,com.ubergeek42.WeechatAndroid,I just recently starting using Weechat in general _  but this Android app is pure icing on the cake. It's got all of the essentially features down pat _  and in a very smooth way. Sure _  there are extras I wouldn't mind having that would be cool to have in the future _  but it's already got everything I actually need.,5,11/30/2013,7
+App638,com.ubergeek42.WeechatAndroid,This application is fantastic. It makes using IRC on your phone a great experience. I  would highly recommend using it. It does have issues with crashing _  but the great interface more than makes up for that.,4,11/17/2013,1
+App638,com.ubergeek42.WeechatAndroid,There are probably things to improve but for me this is already perfect. Let's see how much it will drain battery :-),5,08/04/2013,3
+App638,com.ubergeek42.WeechatAndroid,Great app to use _  I am just missing the option to get notified when I recieve a highlight or PM. (There is a play sound option but it is not working) would love a traditional notification text-message style,4,08/31/2013,2
+App638,com.ubergeek42.WeechatAndroid,I opened the app and did not see any preferences option in the menu. Just settings. Thinking I was missing something I also went through the readme at the project's Github page _  but couldn't fund anything. I am on HTC one. Maybe this app doesn't work on HTC phones.,1,09/18/2014,0
+App638,com.ubergeek42.WeechatAndroid,Bad. Dont work at all. The worst apps ever,1,05/26/2013,2
+App638,com.ubergeek42.WeechatAndroid,Pure awesome. Combines the best features of ssh and a bouncer!,5,02/26/2013,1
+App638,com.ubergeek42.WeechatAndroid,Nice application but perhaps an update would be nice after 1 year especially since progress has been made in the Repo.,5,05/12/2014,0
+App638,com.ubergeek42.WeechatAndroid,This works great for checking IRC on the go. It'd be nice to remove some of the Gingerbread era UI elements _  though.,4,02/13/2014,0
+App638,com.ubergeek42.WeechatAndroid,Didnt work at all,1,07/02/2014,0
+App638,com.ubergeek42.WeechatAndroid,Server and android app are great _  highly configurable server great plugins ..perfect,5,01/07/2014,0
+App638,com.ubergeek42.WeechatAndroid,Still new,2,04/21/2013,2
+App638,com.ubergeek42.WeechatAndroid,Baik,3,05/25/2013,0
+App638,com.ubergeek42.WeechatAndroid,...if it didn't crash every single time I used it,3,08/26/2014,0
+App638,com.ubergeek42.WeechatAndroid,Hii......,4,12/22/2013,0
+App638,com.ubergeek42.WeechatAndroid,I just think that it is good to b,3,08/03/2014,0
+App638,com.ubergeek42.WeechatAndroid,Android,5,10/08/2014,0
+App638,com.ubergeek42.WeechatAndroid,using it on a dayli basis,5,02/26/2014,0
+App638,com.ubergeek42.WeechatAndroid,Weechat,4,05/25/2013,1
+App638,com.ubergeek42.WeechatAndroid,Good,5,02/27/2014,0
+App638,com.ubergeek42.WeechatAndroid,Suprrb,5,09/05/2014,0
+App638,com.ubergeek42.WeechatAndroid,Super,5,06/23/2014,0
+App638,com.ubergeek42.WeechatAndroid,Terbaik,5,08/12/2013,0
+App638,com.ubergeek42.WeechatAndroid,Crash,1,04/12/2013,2
+App638,com.ubergeek42.WeechatAndroid,Good app,5,06/24/2014,0
+App638,com.ubergeek42.WeechatAndroid,Awesome,5,12/17/2013,0
+App638,com.ubergeek42.WeechatAndroid,Veru good,4,08/13/2014,0
+App638,com.ubergeek42.WeechatAndroid,Thr best,5,06/28/2014,0
+App638,com.ubergeek42.WeechatAndroid,Nice....,5,04/12/2013,0
+App638,com.ubergeek42.WeechatAndroid,Good,4,08/08/2014,0
+App638,com.ubergeek42.WeechatAndroid,-,5,03/19/2014,0
+App638,com.ubergeek42.WeechatAndroid,Parfait pour tablette _  PARFAIT.  Est même navigable au clavier.,5,01/18/2013,0
+App638,com.ubergeek42.WeechatAndroid,I normally ssh in and reattach the screen that weechat runs in _  but this app + SSL relay has essentially replaced that.,5,01/03/2013,3
+App638,com.ubergeek42.WeechatAndroid,Limbang,4,12/19/2012,0
+App638,com.ubergeek42.WeechatAndroid,I couldn't get the app to work. I couldn't figure out where to add servers.  ---- Touching the hamburger menu at the top left did nothing. No errors popped  ---- up. Just didn't work. It looked like it had a lot of promise. I liked the  ---- design a lot.,2,06/23/2018,0
+App638,com.ubergeek42.WeechatAndroid,App works perfectly _  but my weechat relay is being used by suspicious foreign ip adresses. Uninstalling _  changing passwords.,1,10/28/2016,0
+App638,com.ubergeek42.WeechatAndroid,lacks sone of the features that weechat and other android irc clients provides _  other than that a very useful app for checking and replying to irc messages whenbeing afk,4,01/04/2018,0
+App638,com.ubergeek42.WeechatAndroid,Doesn't work on Android 4.4.4 starts but no menu for servers,1,04/08/2016,0
+App638,com.ubergeek42.WeechatAndroid,My mobile phone is experiencing difficulties in installing a playstore application,5,12/21/2015,0
+App638,com.ubergeek42.WeechatAndroid,Nice,1,06/01/2016,0
+App638,com.ubergeek42.WeechatAndroid,Doesn't work,1,08/02/2017,0
+App638,com.ubergeek42.WeechatAndroid,Buggy but in active development.works fairly well _  easy interface,5,07/15/2014,0
+App638,com.ubergeek42.WeechatAndroid,Definitely development version _  but a good app all around.,5,05/01/2013,0
+App638,com.ubergeek42.WeechatAndroid,Baik pnyaa,5,09/26/2014,0
+App638,com.ubergeek42.WeechatAndroid,ilike coz like KFC chiken,5,11/04/2015,0
+App638,com.ubergeek42.WeechatAndroid,I like it,5,10/04/2015,0
+App638,com.ubergeek42.WeechatAndroid,Does this app even work?,1,01/12/2015,0
+App638,com.ubergeek42.WeechatAndroid,best app ever.  thanks for it.,5,10/26/2014,0
+App638,com.ubergeek42.WeechatAndroid,five star  xxxxx,5,10/12/2014,0
+App638,com.ubergeek42.WeechatAndroid,Having fun,1,10/16/2015,0
+App638,com.ubergeek42.WeechatAndroid,Wechat,4,07/29/2015,0
+App638,com.ubergeek42.WeechatAndroid,weechat,5,02/25/2016,0
+App638,com.ubergeek42.WeechatAndroid,Terbaik,5,09/02/2016,0
+App638,com.ubergeek42.WeechatAndroid,Excellent,5,12/31/2016,0
+App638,com.ubergeek42.WeechatAndroid,Good,5,07/02/2016,0
+App638,com.ubergeek42.WeechatAndroid,Good,1,12/18/2012,1
+App638,com.ubergeek42.WeechatAndroid,Good,5,11/03/2013,0
+App638,com.ubergeek42.WeechatAndroid,Good,5,11/29/2014,0
