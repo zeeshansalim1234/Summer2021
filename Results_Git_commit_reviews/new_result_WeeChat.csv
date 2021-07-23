@@ -1,0 +1,45 @@
+Release-note,Review1,Review2,Review3,Review4,Review5,Review6,Review7,Review8,Review9,Review10
+Release Note : Added search functionality,,,,,,,,,,
+Release Note : Added a floating “go to bottom” button,"weechat                          
+ (0.79)","weechat                          
+ (0.86)",,,,,,,,
+Release Note : Added a connectivity indicator,"network connectivity doesnt crash anymore yay   
+ (0.74)",,,,,,,,,
+Release Note : Copy dialog can now select text and copy several messages at once,,,,,,,,,,
+Release Note : Interface is no longer locked up while disconnected,,,,,,,,,,
+Release Note : Chat lines are no longer thrown away when not synchronizing,,,,,,,,,,
+Release Note : Chat scroll position is now remembered on rotation,,,,,,,,,,
+Release Note : App is now drawn behind system bars on supported devices,"bad dont work at all the worst apps ever   
+ (0.81)","broke with nougat cant connect at all no configuration changes in app nor on my server reach out of you need more information   
+ (0.86)","is this app seriously you dont get this kind of thing on ios   
+ (0.86)",,,,,,,
+Release Note : Added new chat line change animations,,,,,,,,,,
+Release Note : Fixed a crash when the password has never been set,"had some crashing issues at first but now it works like a charm the only thing missing is loading earlier messages like in glowing bear also it loses the scroll position when focus is lost   
+ (0.79)","crashes totally useless wont connect to the server   
+ (0.88)",,,,,,,,
+Release Note : Fixed a crash when using Modern handshake on Android 7-,"requires weechat relay to be available externally regardless best irc client for android hands down   
+ (0.78)",,,,,,,,,
+Release Note : Added support for the handshake relay command,,,,,,,,,,
+Release Note : Improved the way URLs are recognized,,,,,,,,,,
+Release Note : Black background is no longer shown when switching buffers,,,,,,,,,,
+Release Note : Fixed a couple of rare crashes,"if it didnt crash every single time i used it   
+ (0.82)","does not work on s10 crashes and closes straight away no idea why please fix ty   
+ (0.89)","crashes totally useless wont connect to the server   
+ (0.89)","broken after last update         
+ (0.88)","a great relay for weechat updates only make it better no serious bugs ive found   
+ (0.87)","had some crashing issues at first but now it works like a charm the only thing missing is loading earlier messages like in glowing bear also it loses the scroll position when focus is lost   
+ (0.86)",,,,
+Release Note : Fixed freeform window mode,,,,,,,,,,
+Release Note : Fixed a few rare crashes,"does not work on s10 crashes and closes straight away no idea why please fix ty   
+ (0.81)","if it didnt crash every single time i used it   
+ (0.92)","crashes totally useless wont connect to the server   
+ (0.91)","a great relay for weechat updates only make it better no serious bugs ive found   
+ (0.87)","broken after last update         
+ (0.86)",,,,,
+Release Note : ixed a few bugs,"a great relay for weechat updates only make it better no serious bugs ive found   
+ (0.84)","broken after last update         
+ (0.89)","am using                         
+ (0.89)","thr best                         
+ (0.86)","does not work                    
+ (0.86)",,,,,
+Release Note : Command and channel name completion,,,,,,,,,,

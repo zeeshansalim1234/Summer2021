@@ -1,0 +1,302 @@
+Release-note,Review1,Review2,Review3,Review4,Review5,Review6,Review7,Review8,Review9,Review10
+Release Note : Android Auto new navigation,"android auto does not work       
+ (0.85)","it keeps rewinding itself on android tablet   
+ (0.88)","not working on android auto      
+ (0.88)","not available from android auto   
+ (0.87)","video files not showing in android auto   
+ (0.87)","good app except the navigation while using an hdmi adapter is bad   
+ (0.86)","app will not show up on android auto   
+ (0.86)","control buttons in potrait mode overlaps with android system navigation buttons which auto hides when not in use its super annoying   
+ (0.86)",,
+Release Note : Android Auto new navigation,"android auto does not work       
+ (0.85)","it keeps rewinding itself on android tablet   
+ (0.88)","not working on android auto      
+ (0.88)","not available from android auto   
+ (0.87)","video files not showing in android auto   
+ (0.87)","good app except the navigation while using an hdmi adapter is bad   
+ (0.86)","app will not show up on android auto   
+ (0.86)","control buttons in potrait mode overlaps with android system navigation buttons which auto hides when not in use its super annoying   
+ (0.86)",,
+Release Note : Fix Chromecast disconnection,,,,,,,,,,
+Release Note : Remove sliders haptic feedback,,,,,,,,,,
+Release Note : Improve DVD/BD menu support,"get rid of hamburger menu thanks   
+ (0.84)","cant play ripped dvds or even handle dvd menus   
+ (0.87)","did not have a dropbox download menu   
+ (0.87)","main menu for videos is not so good   
+ (0.86)","the menu is esay to oparete      
+ (0.86)",,,,,
+Release Note : Improve DVD/BD menu support,"get rid of hamburger menu thanks   
+ (0.84)","cant play ripped dvds or even handle dvd menus   
+ (0.87)","did not have a dropbox download menu   
+ (0.87)","main menu for videos is not so good   
+ (0.86)","the menu is esay to oparete      
+ (0.86)",,,,,
+Release Note : Improve DVD/BD menu support,"get rid of hamburger menu thanks   
+ (0.84)","cant play ripped dvds or even handle dvd menus   
+ (0.87)","did not have a dropbox download menu   
+ (0.87)","main menu for videos is not so good   
+ (0.86)","the menu is esay to oparete      
+ (0.86)",,,,,
+Release Note : AV1 decoding performances improvement,,,,,,,,,,
+Release Note : AV1 decoding performances improvement,,,,,,,,,,
+Release Note : Do not show controls overlay on seek gestures,"terrible interface controls      
+ (0.85)","pauseplay gesture is missing     
+ (0.88)","problem with gestures and vlc options   
+ (0.87)","gestures they mentioned such as double tap to seek only making play and pause in addition to this brightness and volume gestures also not working its too bad   
+ (0.87)","no gesture to increasedecrease speed   
+ (0.87)","no subtitle support on chromecast   
+ (0.86)","can you make volume gesture precise like brightness gesture also making it fast when you swipe too quick   
+ (0.85)","chromecast function does not work   
+ (0.85)",,
+Release Note : Do not show controls overlay on seek gestures,"terrible interface controls      
+ (0.85)","pauseplay gesture is missing     
+ (0.88)","problem with gestures and vlc options   
+ (0.87)","gestures they mentioned such as double tap to seek only making play and pause in addition to this brightness and volume gestures also not working its too bad   
+ (0.87)","no gesture to increasedecrease speed   
+ (0.87)","no subtitle support on chromecast   
+ (0.86)","can you make volume gesture precise like brightness gesture also making it fast when you swipe too quick   
+ (0.85)","chromecast function does not work   
+ (0.85)",,
+Release Note : Improve browser performances,,,,,,,,,,
+Release Note : Improve browser performances,,,,,,,,,,
+Release Note : Support PictureinPicture on Chrome OS,"doesnt chromecast on chrome os    
+ (0.85)","its just missing chromecast support   
+ (0.89)","very bad not usable for chrome os pip doesnt work still very glitchy and horrible vlc used to work just fine a year ago stop messing with it   
+ (0.87)","subtitle in chromecast doesnt show up   
+ (0.86)","doesnt cast subtitles on chromecast   
+ (0.86)","no subtitle support on chromecast   
+ (0.86)","unable to cast to chrome cast    
+ (0.85)","got chromecast icon and no video   
+ (0.85)",,
+Release Note : Support PictureinPicture on Chrome OS,"doesnt chromecast on chrome os    
+ (0.85)","its just missing chromecast support   
+ (0.89)","very bad not usable for chrome os pip doesnt work still very glitchy and horrible vlc used to work just fine a year ago stop messing with it   
+ (0.87)","subtitle in chromecast doesnt show up   
+ (0.86)","doesnt cast subtitles on chromecast   
+ (0.86)","no subtitle support on chromecast   
+ (0.86)","unable to cast to chrome cast    
+ (0.85)","got chromecast icon and no video   
+ (0.85)",,
+Release Note : Fix PiP aspect ratio,"fix your auto scan plz           
+ (0.83)","manual rotation required         
+ (0.87)",,,,,,,,
+Release Note : Fix album view thumbnail size,"best overall viewer available hands down   
+ (0.85)","it does not have thumbnail preview seek bar   
+ (0.89)","thumbnail not working            
+ (0.88)","need grid thumbnails             
+ (0.87)","v good however my screen controls for brightness seek and volume are no longer working on my new tab s4   
+ (0.87)","no video display just thumbnails   
+ (0.86)","not a nice lay out cant grab album art   
+ (0.85)","better than old version but you need to improve on album art cover size   
+ (0.85)",,
+Release Note : Fix double tap timing issue,"great pls also add settings for double tap seek as 10sec is just too much tia   
+ (0.84)","its tap forward is not working properly make it fixed   
+ (0.90)","subtitles delay timing not available   
+ (0.86)","ill give 5 if you fix subtitle delay not working properly   
+ (0.86)","the audio delay and subtitle delay dont even work properly   
+ (0.86)","where is the double tap to skip 10 seconds why remove that   
+ (0.85)","subtitle delay adjustment doesnt work please fix it   
+ (0.85)",,,
+Release Note : Fix flickering in browsers,"cant even open a folder in video browser after update   
+ (0.84)","no select all option in directory browser   
+ (0.87)","not good at all in design of front page    
+ (0.86)","needs widgets to launch playlist quickly   
+ (0.85)",,,,,,
+Release Note : Fix subs dl focus for DPAD navigation,,,,,,,,,,
+Release Note : Fix PiP aspect ratio,"fix your auto scan plz           
+ (0.83)","manual rotation required         
+ (0.87)",,,,,,,,
+Release Note : Fix album view thumbnail size,"best overall viewer available hands down   
+ (0.85)","it does not have thumbnail preview seek bar   
+ (0.89)","thumbnail not working            
+ (0.88)","need grid thumbnails             
+ (0.87)","v good however my screen controls for brightness seek and volume are no longer working on my new tab s4   
+ (0.87)","no video display just thumbnails   
+ (0.86)","not a nice lay out cant grab album art   
+ (0.85)","better than old version but you need to improve on album art cover size   
+ (0.85)",,
+Release Note : Fix double tap timing issue,"great pls also add settings for double tap seek as 10sec is just too much tia   
+ (0.84)","its tap forward is not working properly make it fixed   
+ (0.90)","subtitles delay timing not available   
+ (0.86)","ill give 5 if you fix subtitle delay not working properly   
+ (0.86)","the audio delay and subtitle delay dont even work properly   
+ (0.86)","where is the double tap to skip 10 seconds why remove that   
+ (0.85)","subtitle delay adjustment doesnt work please fix it   
+ (0.85)",,,
+Release Note : Fix flickering in browsers,"cant even open a folder in video browser after update   
+ (0.84)","no select all option in directory browser   
+ (0.87)","not good at all in design of front page    
+ (0.86)","needs widgets to launch playlist quickly   
+ (0.85)",,,,,,
+Release Note : Fix subs dl focus for DPAD navigation,,,,,,,,,,
+"Release Note : Fix media loading & page refresh, it could sometimes fail","failing to load media files      
+ (0.85)","not much smooth working subtitles not downloading poor video refreshing   
+ (0.88)","have to reinstall ever so often as refresh does not always work and it does not recognize the new media added   
+ (0.87)","refresh never works              
+ (0.86)","media library wont refresh when you deleted a file zzz please fix it   
+ (0.86)","refreshing not so easy couldnt refresh when media is deleted adding is simple   
+ (0.86)","good untill refresh or app restart doesnt load new media files mp4 here dunno about other file types have to reinstall after that happens   
+ (0.85)","its a good media player but in refresh the video is no auto plz fix this problem   
+ (0.85)",,
+"Release Note : Fix media loading & page refresh, it could sometimes fail","failing to load media files      
+ (0.85)","not much smooth working subtitles not downloading poor video refreshing   
+ (0.88)","have to reinstall ever so often as refresh does not always work and it does not recognize the new media added   
+ (0.87)","refresh never works              
+ (0.86)","media library wont refresh when you deleted a file zzz please fix it   
+ (0.86)","refreshing not so easy couldnt refresh when media is deleted adding is simple   
+ (0.86)","good untill refresh or app restart doesnt load new media files mp4 here dunno about other file types have to reinstall after that happens   
+ (0.85)","its a good media player but in refresh the video is no auto plz fix this problem   
+ (0.85)",,
+"Release Note : Fix media loading & page refresh, it could sometimes fail","failing to load media files      
+ (0.85)","not much smooth working subtitles not downloading poor video refreshing   
+ (0.88)","have to reinstall ever so often as refresh does not always work and it does not recognize the new media added   
+ (0.87)","refresh never works              
+ (0.86)","media library wont refresh when you deleted a file zzz please fix it   
+ (0.86)","refreshing not so easy couldnt refresh when media is deleted adding is simple   
+ (0.86)","good untill refresh or app restart doesnt load new media files mp4 here dunno about other file types have to reinstall after that happens   
+ (0.85)","its a good media player but in refresh the video is no auto plz fix this problem   
+ (0.85)",,
+Release Note : Add a 'refresh' card,"refresh never works              
+ (0.85)","not that much good refresh doesnt work properly   
+ (0.88)","allways lag when i delete and refresh   
+ (0.87)","disappointed slow and laggy refresh time sucked each nd every time   
+ (0.86)","new update messed everything up   
+ (0.86)","when i refresh it it doesnt work sometimes especially when the app last for a month   
+ (0.86)",,,,
+Release Note : External storages support on Chromebooks (ChromeOS v72+),"excellent but dont move to external storage or you will break it completely   
+ (0.82)","unable to sinc on internal storage   
+ (0.85)",,,,,,,,
+Release Note : Sorting preferences are now saved,"why doesnt it have sorting options only through name its quite useless without it   
+ (0.82)","sorting by date not available any more please re enable   
+ (0.87)",,,,,,,,
+Release Note : Improve support of very large media libraries,"forever stuck searching for media library   
+ (0.82)",,,,,,,,,
+Release Note : Homescreen channels,"out standing app                 
+ (0.84)","5 stars and more very accesible and on top of that its free can also play different files no ads very happy with this   
+ (0.86)","dont online variation            
+ (0.86)",,,,,,,
+Release Note : Manual network share setting,"sharing option is not available    
+ (0.84)","local network isnt working       
+ (0.86)","its good but it takes a while for it to connect to a social network   
+ (0.86)","local network does not work anymore   
+ (0.86)","cant play m3u8 network stream    
+ (0.86)","couldnt download subtitles since last update   
+ (0.85)",,,,
+Release Note : External storages support on Chromebooks (ChromeOS v72+),"excellent but dont move to external storage or you will break it completely   
+ (0.82)","unable to sinc on internal storage   
+ (0.85)",,,,,,,,
+Release Note : Sorting preferences are now saved,"why doesnt it have sorting options only through name its quite useless without it   
+ (0.82)","sorting by date not available any more please re enable   
+ (0.87)",,,,,,,,
+Release Note : Improve support of very large media libraries,"forever stuck searching for media library   
+ (0.82)",,,,,,,,,
+Release Note : Homescreen channels,"out standing app                 
+ (0.84)","5 stars and more very accesible and on top of that its free can also play different files no ads very happy with this   
+ (0.86)","dont online variation            
+ (0.86)",,,,,,,
+Release Note : Manual network share setting,"sharing option is not available    
+ (0.84)","local network isnt working       
+ (0.86)","its good but it takes a while for it to connect to a social network   
+ (0.86)","local network does not work anymore   
+ (0.86)","cant play m3u8 network stream    
+ (0.86)","couldnt download subtitles since last update   
+ (0.85)",,,,
+Release Note : External storages support on Chromebooks (ChromeOS v72+),"excellent but dont move to external storage or you will break it completely   
+ (0.82)","unable to sinc on internal storage   
+ (0.85)",,,,,,,,
+Release Note : Sorting preferences are now saved,"why doesnt it have sorting options only through name its quite useless without it   
+ (0.82)","sorting by date not available any more please re enable   
+ (0.87)",,,,,,,,
+Release Note : Improve support of very large media libraries,"forever stuck searching for media library   
+ (0.82)",,,,,,,,,
+Release Note : Homescreen channels,"out standing app                 
+ (0.84)","5 stars and more very accesible and on top of that its free can also play different files no ads very happy with this   
+ (0.86)","dont online variation            
+ (0.86)",,,,,,,
+Release Note : Manual network share setting,"sharing option is not available    
+ (0.84)","local network isnt working       
+ (0.86)","its good but it takes a while for it to connect to a social network   
+ (0.86)","local network does not work anymore   
+ (0.86)","cant play m3u8 network stream    
+ (0.86)","couldnt download subtitles since last update   
+ (0.85)",,,,
+Release Note : External storages support on Chromebooks (ChromeOS v72+),"excellent but dont move to external storage or you will break it completely   
+ (0.82)","unable to sinc on internal storage   
+ (0.85)",,,,,,,,
+Release Note : Sorting preferences are now saved,"why doesnt it have sorting options only through name its quite useless without it   
+ (0.82)","sorting by date not available any more please re enable   
+ (0.87)",,,,,,,,
+Release Note : Improve support of very large media libraries,"forever stuck searching for media library   
+ (0.82)",,,,,,,,,
+Release Note : Homescreen channels,"out standing app                 
+ (0.84)","5 stars and more very accesible and on top of that its free can also play different files no ads very happy with this   
+ (0.86)","dont online variation            
+ (0.86)",,,,,,,
+Release Note : Manual network share setting,"sharing option is not available    
+ (0.84)","local network isnt working       
+ (0.86)","its good but it takes a while for it to connect to a social network   
+ (0.86)","local network does not work anymore   
+ (0.86)","cant play m3u8 network stream    
+ (0.86)","couldnt download subtitles since last update   
+ (0.85)",,,,
+Release Note : Fix forward/rewind actions with Assistant,"no skip forward or rewind x seconds button   
+ (0.84)",,,,,,,,,
+Release Note : Stability improvements,"performance is still unstable    
+ (0.82)","lot of improvements needed very unstable    
+ (0.88)","god damn fix your subtitle downloader been waiting for its stability from such a long time just make it work smoothly   
+ (0.88)",,,,,,,
+Release Note : Fix forward/rewind actions with Assistant,"no skip forward or rewind x seconds button   
+ (0.84)",,,,,,,,,
+Release Note : Stability improvements,"performance is still unstable    
+ (0.82)","lot of improvements needed very unstable    
+ (0.88)","god damn fix your subtitle downloader been waiting for its stability from such a long time just make it work smoothly   
+ (0.88)",,,,,,,
+Release Note : Fix forward/rewind actions with Assistant,"no skip forward or rewind x seconds button   
+ (0.84)",,,,,,,,,
+Release Note : Stability improvements,"performance is still unstable    
+ (0.82)","lot of improvements needed very unstable    
+ (0.88)","god damn fix your subtitle downloader been waiting for its stability from such a long time just make it work smoothly   
+ (0.88)",,,,,,,
+Release Note : Fix forward/rewind actions with Assistant,"no skip forward or rewind x seconds button   
+ (0.84)",,,,,,,,,
+Release Note : Stability improvements,"performance is still unstable    
+ (0.82)","lot of improvements needed very unstable    
+ (0.88)","god damn fix your subtitle downloader been waiting for its stability from such a long time just make it work smoothly   
+ (0.88)",,,,,,,
+Release Note : Fix forward/rewind actions with Assistant,"no skip forward or rewind x seconds button   
+ (0.84)",,,,,,,,,
+Release Note : Stability improvements,"performance is still unstable    
+ (0.82)","lot of improvements needed very unstable    
+ (0.88)","god damn fix your subtitle downloader been waiting for its stability from such a long time just make it work smoothly   
+ (0.88)",,,,,,,
+Release Note : Improve Oreo compliance for playback service,,,,,,,,,,
+Release Note : Improve Oreo compliance for playback service,,,,,,,,,,
+Release Note : Fix renderer staying 'connected' when wifi is turned off,,,,,,,,,,
+Release Note : Fix renderer staying 'connected' when wifi is turned off,,,,,,,,,,
+Release Note : Fix renderer staying 'connected' when wifi is turned off,,,,,,,,,,
+Release Note : Options to disable subs autoloading,,,,,,,,,,
+Release Note : Options to disable subs autoloading,,,,,,,,,,
+Release Note : Options to disable subs autoloading,,,,,,,,,,
+Release Note : Options to disable subs autoloading,,,,,,,,,,
+Release Note : Options to disable subs autoloading,,,,,,,,,,
+Release Note : Options to disable subs autoloading,,,,,,,,,,
+Release Note : Fix widget updates on Oreo,"widget doesnt work               
+ (0.85)","widget load fails when vlc moved to external sdcard   
+ (0.89)","start today its keeping eror screen eror but sound still working first i think after update will getting better but idk still not working then uninstall it since no response from developer   
+ (0.87)","great app just refuses to update   
+ (0.86)","new update messed everything up   
+ (0.85)",,,,,
+Release Note : Implement rightclick support on media items,"its not automatically updates my media list   
+ (0.85)","cant find media servers          
+ (0.89)","forever stuck searching for media library   
+ (0.89)","unable to update media library   
+ (0.88)","doesnt have a share option so cant upload to social media    
+ (0.87)","good app but parsing mediasucks   
+ (0.85)","not finding media files          
+ (0.85)",,,
+Release Note : More dynamic and Materialcompliant UI,"very slow loading                
+ (0.82)",,,,,,,,,
+Release Note : DayNight mode integration,,,,,,,,,,
+Release Note : More dynamic and Materialcompliant UI,"very slow loading                
+ (0.82)",,,,,,,,,
+Release Note : DayNight mode integration,,,,,,,,,,

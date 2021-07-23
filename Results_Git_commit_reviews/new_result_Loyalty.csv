@@ -1,0 +1,169 @@
+Release-note,Review1,Review2,Review3,Review4,Review5,Review6,Review7,Review8,Review9,Review10
+Release Note : Allow backup export location to be selected,,,,,,,,,,
+Release Note : Fix barcode centering issue when exiting full screen,"the barcode scanner st cbs wouldnt recognize or was unable to scan the barcode displayed by this app therefore its useless   
+ (0.80)","barcode scanner is not working   
+ (0.86)","good job just a tiny detail card note font size doesnt seem to work and note looks halfhidden until you tap it but its irrelevant great app   
+ (0.85)",,,,,,,
+Release Note : Update translations,,,,,,,,,,
+Release Note : Tapping the barcode now moves it to the top of the screen. This is to help scan a barcode on a scanner which is only able to scan the very top of the phone.,"the barcode scanner st cbs wouldnt recognize or was unable to scan the barcode displayed by this app therefore its useless   
+ (0.78)",,,,,,,,,
+Release Note : Improves scanning in dark mode by adding white space around barcodes.,"the barcode scanner st cbs wouldnt recognize or was unable to scan the barcode displayed by this app therefore its useless   
+ (0.76)",,,,,,,,,
+"Release Note : The import buttons on the import/export dialog were swapped, and are now fixed.",,,,,,,,,,
+Release Note : Add ability to search for a card,"it works would be nice to keep scan of cards like beep n go and backup to google drivebut otherwise good   
+ (0.82)","need sorting amd search          
+ (0.86)","good job just a tiny detail card note font size doesnt seem to work and note looks halfhidden until you tap it but its irrelevant great app   
+ (0.86)","simple and quick to use stored all my cards in 10 mins   
+ (0.85)","difficult to use                 
+ (0.85)","brilliant app no need to create an account no hastle just name optional note then scan or enter number manually love it small suggestion would be to allow us to select a card logo or colour maybe a colour selector when creating a card that changes a highlight colour in the list andor the background colour when displaying the barcode also my ikea family card is 20odd digits long but the barcode image ends up quite crushed from the sides and rotating it to landscape does not stretch it meaning its hard to get the reader to read it   
+ (0.85)",,,,
+Release Note : Add ability to share and receive loyalty cards,,,,,,,,,,
+Release Note : Dark mode support,,,,,,,,,,
+Release Note : Loyalty cards can now be barcodeless (e.g. not have a barcode),"unable to change the card number and unable to remove a store   
+ (0.77)","brilliant app no need to create an account no hastle just name optional note then scan or enter number manually love it small suggestion would be to allow us to select a card logo or colour maybe a colour selector when creating a card that changes a highlight colour in the list andor the background colour when displaying the barcode also my ikea family card is 20odd digits long but the barcode image ends up quite crushed from the sides and rotating it to landscape does not stretch it meaning its hard to get the reader to read it   
+ (0.86)",,,,,,,,
+Release Note : Notes can span multiple lines,,,,,,,,,,
+Release Note : Improvements with the sizing of notes,,,,,,,,,,
+Release Note : Improve notification and app icon visibility,,,,,,,,,,
+Release Note : Update French and Slovenian translations.,,,,,,,,,,
+Release Note : Allow app backups.,"i had to get a new app after my previous one wouldnt work after my phone upgrade downloaded three different apps of this type and this was the easy winner simple interface easy to upload all my cards and nothing fancy a few cards added a number or letter at the end easily edited and it was weird having to select the style of scanning code makes me nervous if i did it right so well see how it works in practice   
+ (0.82)","this app does what it says with no frills it replaced similar app that took a long time to open and had features i didnt use   
+ (0.88)","does exactly what it needs to i make heavy use of it feature you could add the widget icons dont conform to my icon pack and cant be changed ummm i cant think of anything else how refreshing would that be an app that does everything you need and then its done   
+ (0.86)","i was able to scan this at one store but it didnt work at the next store i visited where a previous app had no problem   
+ (0.85)","i see nothing what happen can you help me out here i missed something the barcode doesnt show up when i click on the app its asking me to start again   
+ (0.85)",,,,,
+Release Note : Updated Russian translations,,,,,,,,,,
+Release Note : Update and add translations,,,,,,,,,,
+Release Note : Fix creating new card by manually entering barcode,"barcode scanner is not working   
+ (0.81)","the barcode scanner st cbs wouldnt recognize or was unable to scan the barcode displayed by this app therefore its useless   
+ (0.89)","simple and quick to use stored all my cards in 10 mins   
+ (0.87)","unable to change the card number and unable to remove a store   
+ (0.87)",,,,,,
+Release Note : Sort card list case insensitive,"need sorting amd search          
+ (0.80)",,,,,,,,,
+Release Note : Add setting to lock orientation for all cards,"simple and quick to use stored all my cards in 10 mins   
+ (0.81)","can i delete previosly saved cards   
+ (0.88)",,,,,,,,
+Release Note : Add a setting to control screen brightness when displaying a barcode,,,,,,,,,,
+Release Note : Add Greek translations,"need sorting amd search          
+ (0.82)","difficult to use                 
+ (0.87)",,,,,,,,
+Release Note : Add Slovenian translations,,,,,,,,,,
+Release Note : Update translations,,,,,,,,,,
+Release Note : Fixed Spanish translations.,,,,,,,,,,
+Release Note : Updated other translations.,"so far so good thank you so much and keep up with the good work i really love this app please dont change this app please    
+ (0.81)","great app so far just a question whats that lock icon on the top right   
+ (0.85)",,,,,,,,
+Release Note : Added translations for the following,"so far so good thank you so much and keep up with the good work i really love this app please dont change this app please    
+ (0.83)","this doesnt work at self serve checkouts you need to fix this problem   
+ (0.89)","great app so far just a question whats that lock icon on the top right   
+ (0.87)","difficult to use                 
+ (0.86)",,,,,,
+Release Note : Polish,,,,,,,,,,
+Release Note : Spanish,"so far so good thank you so much and keep up with the good work i really love this app please dont change this app please    
+ (0.82)","difficult to use                 
+ (0.86)","this doesnt work at self serve checkouts you need to fix this problem   
+ (0.85)",,,,,,,
+Release Note : Slovak,,,,,,,,,,
+Release Note : Updated translations,"difficult to use                 
+ (0.79)",,,,,,,,,
+Release Note : Added translations for the following,"so far so good thank you so much and keep up with the good work i really love this app please dont change this app please    
+ (0.83)","this doesnt work at self serve checkouts you need to fix this problem   
+ (0.89)","great app so far just a question whats that lock icon on the top right   
+ (0.87)","difficult to use                 
+ (0.86)",,,,,,
+Release Note : Polish,,,,,,,,,,
+Release Note : Spanish,"so far so good thank you so much and keep up with the good work i really love this app please dont change this app please    
+ (0.82)","difficult to use                 
+ (0.86)","this doesnt work at self serve checkouts you need to fix this problem   
+ (0.85)",,,,,,,
+Release Note : Slovak,,,,,,,,,,
+Release Note : Updated translations,"difficult to use                 
+ (0.79)",,,,,,,,,
+Release Note : Reduce min SDK support from 17 (Android 4.2) to 15 (Android 4.0.3).,,,,,,,,,,
+Release Note : Reduce min SDK support from 17 (Android 4.2) to 15 (Android 4.0.3).,,,,,,,,,,
+Release Note : Prevent crash when rendering a barcode exhausts the application's memory.,,,,,,,,,,
+Release Note : Prevent crash when rendering a barcode exhausts the application's memory.,,,,,,,,,,
+"Release Note : Reduce space in header when viewing a card, to make 1D barcodes more usable in landscape view.",,,,,,,,,,
+Release Note : Disable beep when scanning a barcode.,"the barcode scanner st cbs wouldnt recognize or was unable to scan the barcode displayed by this app therefore its useless   
+ (0.79)","barcode scanner is not working   
+ (0.91)",,,,,,,,
+"Release Note : Reduce space in header when viewing a card, to make 1D barcodes more usable in landscape view.",,,,,,,,,,
+Release Note : Disable beep when scanning a barcode.,"the barcode scanner st cbs wouldnt recognize or was unable to scan the barcode displayed by this app therefore its useless   
+ (0.79)","barcode scanner is not working   
+ (0.91)",,,,,,,,
+Release Note : Update translations.,"so far so good thank you so much and keep up with the good work i really love this app please dont change this app please    
+ (0.81)","great app so far just a question whats that lock icon on the top right   
+ (0.86)",,,,,,,,
+Release Note : Barcode rendering updates:,,,,,,,,,,
+"Release Note : Reload card view activity when screen is rotated, so barcode image is correct size.",,,,,,,,,,
+"Release Note : Render 1D barcodes in a larger space, allowing them to better fill the screen.",,,,,,,,,,
+Release Note : Add quiet space at the start/end of barcodes.,"the barcode scanner st cbs wouldnt recognize or was unable to scan the barcode displayed by this app therefore its useless   
+ (0.80)",,,,,,,,,
+Release Note : Add options to configure the colors used for the store name font and background.,,,,,,,,,,
+Release Note : Add options to adjust font sizes on the card listing page and single card page.,"brilliant app no need to create an account no hastle just name optional note then scan or enter number manually love it small suggestion would be to allow us to select a card logo or colour maybe a colour selector when creating a card that changes a highlight colour in the list andor the background colour when displaying the barcode also my ikea family card is 20odd digits long but the barcode image ends up quite crushed from the sides and rotating it to landscape does not stretch it meaning its hard to get the reader to read it   
+ (0.81)","good job just a tiny detail card note font size doesnt seem to work and note looks halfhidden until you tap it but its irrelevant great app   
+ (0.87)",,,,,,,,
+Release Note : Add quiet space at the start/end of barcodes.,"the barcode scanner st cbs wouldnt recognize or was unable to scan the barcode displayed by this app therefore its useless   
+ (0.80)",,,,,,,,,
+Release Note : Add options to configure the colors used for the store name font and background.,,,,,,,,,,
+Release Note : Add options to adjust font sizes on the card listing page and single card page.,"brilliant app no need to create an account no hastle just name optional note then scan or enter number manually love it small suggestion would be to allow us to select a card logo or colour maybe a colour selector when creating a card that changes a highlight colour in the list andor the background colour when displaying the barcode also my ikea family card is 20odd digits long but the barcode image ends up quite crushed from the sides and rotating it to landscape does not stretch it meaning its hard to get the reader to read it   
+ (0.81)","good job just a tiny detail card note font size doesnt seem to work and note looks halfhidden until you tap it but its irrelevant great app   
+ (0.87)",,,,,,,,
+"Release Note : Changes to Card view to display the note, allow the card ID to take multiple lines, and show the store name.","unable to change the card number and unable to remove a store   
+ (0.80)","installed and having a problem with a scanned card i tried today to use my phone instead of the card and it wouldnt scan properly we proceeded entering the numbers manually and realized that a one was added to the card number needs to be fixed update it seems it was only the air miles card as all the other cards are okay manually corrected the air miles card with me bar code thanks devs for a good app with no ads and respect for privacy   
+ (0.88)",,,,,,,,
+Release Note : Improved layout for card list.,,,,,,,,,,
+Release Note : Improved layout when viewing a card.,,,,,,,,,,
+Release Note : Workaround crash during install on some Android versions (likely Android 5 and below).,"i had to get a new app after my previous one wouldnt work after my phone upgrade downloaded three different apps of this type and this was the easy winner simple interface easy to upload all my cards and nothing fancy a few cards added a number or letter at the end easily edited and it was weird having to select the style of scanning code makes me nervous if i did it right so well see how it works in practice   
+ (0.80)",,,,,,,,,
+Release Note : Fix crash when importing certain types of corrupted CSV files.,,,,,,,,,,
+Release Note : Fix importing backups directly from the file system.,,,,,,,,,,
+Release Note : Fix importing backups from certain types of content providers.,,,,,,,,,,
+Release Note : Fix issue on Android 7.0+ where using the file chooser import option would cause a crash.,"i had to get a new app after my previous one wouldnt work after my phone upgrade downloaded three different apps of this type and this was the easy winner simple interface easy to upload all my cards and nothing fancy a few cards added a number or letter at the end easily edited and it was weird having to select the style of scanning code makes me nervous if i did it right so well see how it works in practice   
+ (0.80)","this app does what it says with no frills it replaced similar app that took a long time to open and had features i didnt use   
+ (0.87)",,,,,,,,
+Release Note : New icon and color scheme.,,,,,,,,,,
+Release Note : Add support for adding loyalty card shortcuts from the launcher/homescreen.,,,,,,,,,,
+Release Note : Remove support for adding loyalty card shortcuts from the app itself. This removes the need for the shortcut permission.,"brilliant app no need to create an account no hastle just name optional note then scan or enter number manually love it small suggestion would be to allow us to select a card logo or colour maybe a colour selector when creating a card that changes a highlight colour in the list andor the background colour when displaying the barcode also my ikea family card is 20odd digits long but the barcode image ends up quite crushed from the sides and rotating it to landscape does not stretch it meaning its hard to get the reader to read it   
+ (0.79)",,,,,,,,,
+Release Note : Add support for adding shortcuts to home screen when adding or editing a card. (Note: requires Add Shortcut permission).,"widget text color is wrong nice simple app otherwise but the widget doesnt stick to the standard android font of white text with a black outline the text is all black so barely readable to be able to tell which card is which   
+ (0.79)",,,,,,,,,
+"Release Note : Remove widget, as it was a poor substitute for shortcuts.",,,,,,,,,,
+Release Note : Fix exporting backups on Android 7+.,"i had to get a new app after my previous one wouldnt work after my phone upgrade downloaded three different apps of this type and this was the easy winner simple interface easy to upload all my cards and nothing fancy a few cards added a number or letter at the end easily edited and it was weird having to select the style of scanning code makes me nervous if i did it right so well see how it works in practice   
+ (0.80)",,,,,,,,,
+Release Note : Report more accurate mime type when exporting backup data.,,,,,,,,,,
+Release Note : Fix bug where a card could not be edited.,,,,,,,,,,
+"Release Note : Added support for app shortcuts (Android 7.1+), where the most recently used cards will appear as shortcuts.","i had to get a new app after my previous one wouldnt work after my phone upgrade downloaded three different apps of this type and this was the easy winner simple interface easy to upload all my cards and nothing fancy a few cards added a number or letter at the end easily edited and it was weird having to select the style of scanning code makes me nervous if i did it right so well see how it works in practice   
+ (0.84)","widget text color is wrong nice simple app otherwise but the widget doesnt stick to the standard android font of white text with a black outline the text is all black so barely readable to be able to tell which card is which   
+ (0.91)","this app does what it says with no frills it replaced similar app that took a long time to open and had features i didnt use   
+ (0.90)","i see nothing what happen can you help me out here i missed something the barcode doesnt show up when i click on the app its asking me to start again   
+ (0.89)","simple and small app so great in those regards one question when adding a widget the text is black which is hard to see against my dark wallpaper text on all my other apps is white can that be fixed   
+ (0.87)","app not able to save the cards that are photographed hence app uninstalled pronto   
+ (0.86)","never had any issues with this appi dont use it much because i prefer the feel of real cards but its saved me a few times when ive forgotten my wallet update i also use it to access websitesbusinesses that use qr codes   
+ (0.85)",,,
+"Release Note : Added a widget which works like a pinned app shortcut, to support devices which run below Android 7.1.","simple and small app so great in those regards one question when adding a widget the text is black which is hard to see against my dark wallpaper text on all my other apps is white can that be fixed   
+ (0.81)","widget text color is wrong nice simple app otherwise but the widget doesnt stick to the standard android font of white text with a black outline the text is all black so barely readable to be able to tell which card is which   
+ (0.91)","i had to get a new app after my previous one wouldnt work after my phone upgrade downloaded three different apps of this type and this was the easy winner simple interface easy to upload all my cards and nothing fancy a few cards added a number or letter at the end easily edited and it was weird having to select the style of scanning code makes me nervous if i did it right so well see how it works in practice   
+ (0.90)","this app does what it says with no frills it replaced similar app that took a long time to open and had features i didnt use   
+ (0.90)","does exactly what it needs to i make heavy use of it feature you could add the widget icons dont conform to my icon pack and cant be changed ummm i cant think of anything else how refreshing would that be an app that does everything you need and then its done   
+ (0.88)","very useful app unfortunately the fixed product scanners with the glass window on the table cant seem to read barcodes on oled displays but thats not the apps fault hand scanners do work but not all stores have them in my case thats edeka   
+ (0.86)",,,,
+"Release Note : Add screen rotation lock menu option when displaying a card. If locked, the screen will transition to its ""natural"" orientation and further screen rotation will be blocked until unlocked again.",,,,,,,,,,
+"Release Note : If a card is selected from the main screen but cannot be loaded, the application fails gracefully and posts a message.","installed and having a problem with a scanned card i tried today to use my phone instead of the card and it wouldnt scan properly we proceeded entering the numbers manually and realized that a one was added to the card number needs to be fixed update it seems it was only the air miles card as all the other cards are okay manually corrected the air miles card with me bar code thanks devs for a good app with no ads and respect for privacy   
+ (0.82)",,,,,,,,,
+Release Note : Fix case where layout IDs for intro wizard could not be found.,,,,,,,,,,
+"Release Note : A change in v0.11 reduced the memory usage of barcode drawing, but affected the barcode dimensions. 1D barcodes could be squished, making them difficult to scan. This is now changed to maintain the barcode dimensions while reducing memory usage.","the barcode scanner st cbs wouldnt recognize or was unable to scan the barcode displayed by this app therefore its useless   
+ (0.81)",,,,,,,,,
+Release Note : Update German and French translations.,,,,,,,,,,
+Release Note : Prevent a crash when rotation the screen in the intro wizard.,,,,,,,,,,
+Release Note : Add an intro wizard which launches on the app's first launch.,"this app does what it says with no frills it replaced similar app that took a long time to open and had features i didnt use   
+ (0.80)","i had to get a new app after my previous one wouldnt work after my phone upgrade downloaded three different apps of this type and this was the easy winner simple interface easy to upload all my cards and nothing fancy a few cards added a number or letter at the end easily edited and it was weird having to select the style of scanning code makes me nervous if i did it right so well see how it works in practice   
+ (0.88)",,,,,,,,
+"Release Note : Change the color scheme to be softer and compatible with the app icon, and change the layout when viewing a card to be cleaner.","widget text color is wrong nice simple app otherwise but the widget doesnt stick to the standard android font of white text with a black outline the text is all black so barely readable to be able to tell which card is which   
+ (0.81)","app not able to save the cards that are photographed hence app uninstalled pronto   
+ (0.89)",,,,,,,,
+Release Note : Limit the width of generated barcodes to reduce memory usage and out of memory errors.,,,,,,,,,,
+"Release Note : When editing a card, change the ""Enter Card"" button to say ""Edit Card"" if a card ID already exists.","brilliant app no need to create an account no hastle just name optional note then scan or enter number manually love it small suggestion would be to allow us to select a card logo or colour maybe a colour selector when creating a card that changes a highlight colour in the list andor the background colour when displaying the barcode also my ikea family card is 20odd digits long but the barcode image ends up quite crushed from the sides and rotating it to landscape does not stretch it meaning its hard to get the reader to read it   
+ (0.80)",,,,,,,,,
+"Release Note : When editing a card ID, pre-populate the existing ID to start.",,,,,,,,,,
